@@ -1,0 +1,22 @@
+node_modules/
+dist/
+test-results/
+playwright-report/
+
+data/
+.env
+.env.*
+!.env.example
+*.sqlite
+*.sqlite-*
+*.db
+
+# Local design exploration and verification evidence
+qa/
+design-qa.md
+
+# Temporary files
+work/
+*.log
+.DS_Store
+Thumbs.db

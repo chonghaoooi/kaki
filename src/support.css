@@ -1,0 +1,214 @@
+.kaki-app .support-directory,.kaki-app .support-detail,.kaki-app .support-listener,.kaki-app .support-chat{max-width:920px;margin:0 auto;min-width:0;}
+.kaki-app .support-care-welcome{display:grid;grid-template-columns:minmax(0,1fr) 150px;gap:10px 22px;padding:25px 27px;background:linear-gradient(115deg,#faf5ec,#f3eefb);border:1px solid #eee6eb;border-radius:26px;margin-bottom:14px;}
+.kaki-app .support-care-copy{min-width:0;align-self:end;}
+.kaki-app .support-welcome-top{grid-column:1 / -1;display:flex;align-items:center;justify-content:space-between;gap:8px;margin-bottom:-3px;}
+.kaki-app .support-welcome-top .support-care-eyebrow{margin:0;}
+.kaki-app .support-welcome-top button{display:flex;align-items:center;gap:4px;padding:6px 0;min-height:32px;border:0;background:none;color:#715287;font-size:12px;white-space:nowrap;}
+.kaki-app .support-care-eyebrow{font-size:10px;line-height:1.5;font-weight:650;letter-spacing:1.2px;color:#79648b;margin-bottom:10px;}
+.kaki-app .support-care-welcome h1{font-size:35px;line-height:1.13;letter-spacing:-1.15px;font-weight:750;color:#342b40;}
+.kaki-app .support-company-art{grid-column:2;grid-row:1 / 3;align-self:center;width:150px;height:150px;object-fit:contain;border-radius:20px;mix-blend-mode:multiply;}
+.kaki-app .support-care-welcome:not(.support-care-listener) .support-company-art{grid-row:2 / 4;}
+.kaki-app .support-care-intro{grid-column:1;font-size:14px;line-height:1.65;color:#6a6075;max-width:470px;}
+.kaki-app .support-care-shortcuts{display:flex;align-items:center;gap:10px;margin:0 0 20px;}
+.kaki-app .support-care-shortcuts button{display:flex;align-items:center;justify-content:center;gap:7px;flex:1;min-height:44px;font-size:12px;font-weight:600;color:#6b5389;border:1px solid #e5ddea;border-radius:13px;background:#fff;}
+.kaki-app .support-care-shortcuts button[aria-pressed=true]{background:#ebe3f8;border-color:#cbb9e4;}
+.kaki-app .support-facilitator{display:flex;align-items:center;gap:11px;padding:15px 0 0;}
+.kaki-app .support-facilitator-avatar{display:grid;place-items:center;width:40px;height:40px;border:3px solid #fff;border-radius:50%;background:var(--support-soft,#eee7f9);color:var(--support-accent,#735696);font-size:12px;font-weight:700;box-shadow:0 0 0 1px #ede6f0;flex:none;}
+.kaki-app .support-facilitator>div{min-width:0;}
+.kaki-app .support-facilitator strong{display:block;font-size:13px;line-height:1.5;font-weight:650;color:#4a4057;}
+.kaki-app .support-facilitator>div>span{display:flex;align-items:center;gap:4px;flex-wrap:wrap;font-size:12px;line-height:1.6;color:#73677e;margin-top:2px;}
+.kaki-app .support-facilitator-detailed{padding-top:0;}
+.kaki-app .support-facilitator-detailed .support-facilitator-avatar{width:54px;height:54px;font-size:16px;}
+.kaki-app .support-facilitator-detailed strong{font-size:18px;}
+.kaki-app .support-listener-steps{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:10px;list-style:none;padding:0;margin:24px 0 26px;}
+.kaki-app .support-listener-steps li{position:relative;display:flex;align-items:flex-start;flex-direction:column;gap:4px;min-width:0;}
+.kaki-app .support-listener-steps li:not(:last-child)::after{content:"";position:absolute;height:1px;left:38px;right:0;top:15px;background:#ded5e8;}
+.kaki-app .support-listener-steps li>span{display:grid;place-items:center;width:31px;height:31px;font-size:12px;font-weight:650;border-radius:50%;background:#ede8f1;color:#766880;margin-bottom:5px;}
+.kaki-app .support-listener-steps .is-current>span{background:#8060a4;color:#fff;}
+.kaki-app .support-listener-steps strong{font-size:13px;line-height:1.5;font-weight:650;color:#574663;}
+.kaki-app .support-listener-steps small{font-size:12px;line-height:1.5;color:#74667e;}
+.kaki-app .support-report-link{display:block;font-size:11px;min-height:42px;margin:0 auto;color:#685870;background:none;border:0;padding:10px;text-decoration:underline;text-underline-offset:3px;}
+.kaki-app .support-view-switch{display:flex;background:#eaedf5;border-radius:14px;padding:4px;max-width:390px;margin:0 0 18px;gap:4px;}
+.kaki-app .support-view-switch button{display:flex;justify-content:center;align-items:center;gap:8px;flex:1;min-height:43px;background:none;border:0;border-radius:11px;color:#677088;font-weight:700;font-size:13px;}
+.kaki-app .support-view-switch button[aria-pressed=true]{background:#fff;color:#493ecd;box-shadow:0 2px 8px #38426d0d;}
+.kaki-app .support-view-switch button span{background:#eae6fc;border-radius:7px;min-width:20px;padding:1px 5px;font-size:11px;}
+.kaki-app .support-search-row{display:flex;align-items:center;gap:9px;margin-bottom:12px;}
+.kaki-app .support-search{flex:1;margin:0;min-width:0;}
+.kaki-app .support-search .input{min-width:0;font-size:14px;}
+.kaki-app .support-filter-trigger{width:48px;height:48px;border-radius:15px;background:#fff;border:1px solid #e3e6ef;position:relative;flex:none;}
+.kaki-app .support-filter-trigger.has-filters{background:#eeebff;color:#5042d3;border-color:#ddd6fc;}
+.kaki-app .support-filter-trigger small{position:absolute;top:-5px;right:-3px;background:#5146ec;color:#fff;border:2px solid #f7f8fa;border-radius:50%;font-size:9px;width:18px;height:18px;line-height:14px;}
+.kaki-app .support-leader-filters{margin-bottom:5px;}
+.kaki-app .support-leader-filters .mobile-carousel-content{display:flex;gap:7px;width:max-content;min-width:100%;}
+.kaki-app .support-leader-filters .chip{min-height:38px;font-size:12px;padding:8px 14px;white-space:nowrap;}
+.kaki-app .support-applied-filters{display:flex;flex-wrap:wrap;gap:6px;margin-top:9px;}
+.kaki-app .support-applied-filters button{display:flex;align-items:center;gap:5px;background:#ede9fb;border:0;color:#5b478f;border-radius:8px;padding:7px 10px;min-height:34px;font-size:11px;}
+.kaki-app .support-results-heading{display:flex;align-items:center;justify-content:space-between;gap:10px;margin:12px 0;color:#606a81;font-size:11px;}
+.kaki-app .support-results-heading p{font-size:12px;}
+.kaki-app .support-groups-grid{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:16px;}
+.kaki-app .support-group-card{padding:22px;border-radius:24px;border-color:#e9e5ee;box-shadow:0 4px 20px #473c6010;min-width:0;display:flex;flex-direction:column;}
+.support-tone-settling-in{--support-soft:#e9f0ff;--support-accent:#4268cc;}
+.support-tone-study-pressure{--support-soft:#e7f4ed;--support-accent:#39735b;}
+.support-tone-friendships{--support-soft:#fff0e4;--support-accent:#b26c35;}
+.support-tone-confidence{--support-soft:#efeaff;--support-accent:#7355ba;}
+.support-tone-life-changes{--support-soft:#fceaf1;--support-accent:#aa5479;}
+.kaki-app .support-card-top{display:flex;align-items:center;justify-content:space-between;gap:10px;margin-bottom:13px;}
+.kaki-app .support-need-icon{width:48px;height:48px;border-radius:16px;background:var(--support-soft,#eeebff);color:var(--support-accent,#6953d7);display:flex;align-items:center;justify-content:center;flex:none;}
+.kaki-app .support-demo-tag{font-size:11px;color:#696272;background:#f4f1f5;padding:4px 7px;border-radius:6px;white-space:nowrap;line-height:1.3;}
+.kaki-app .support-need-name{display:flex;align-items:center;gap:6px;font-size:12px;font-weight:650;color:var(--support-accent,#6953d7);}
+.kaki-app .support-card-title h2{font-size:23px;line-height:1.2;letter-spacing:-.7px;color:#302a3d;}
+.kaki-app .support-card-title p{font-size:14px;line-height:1.6;color:#656170;margin-top:9px;}
+.kaki-app .support-card-specs{display:flex;flex-wrap:wrap;gap:9px 14px;margin:16px 0 10px;}
+.kaki-app .support-card-specs span{display:flex;align-items:center;gap:5px;font-size:12px;color:#666073;}
+.kaki-app .support-card-schedule{display:flex;align-items:center;gap:7px;font-size:12px;color:#70687c;padding:12px 0;border-top:1px solid #eeeaf1;}
+.kaki-app .support-card-bottom{display:flex;align-items:center;gap:8px;justify-content:space-between;margin-top:auto;padding-top:5px;}
+.kaki-app .support-card-bottom>span{font-size:12px;display:flex;align-items:center;gap:4px;line-height:1.5;}
+.kaki-app .support-card-bottom .btn{min-height:44px;padding:10px 14px;font-size:12px;gap:6px;border-radius:13px;white-space:nowrap;background:#ede8f9;color:#5d4587;}
+.kaki-app .support-open-status{color:#3d7b63;}
+.kaki-app .support-full-status{color:#817461;}
+.kaki-app .support-member-status{color:#6650b8;font-weight:650;}
+.kaki-app .support-listener-icon{background:#e5dffc;border-radius:18px;width:53px;height:53px;display:flex;align-items:center;justify-content:center;flex:none;color:#7656c2;}
+.kaki-app .support-demo-note{font-size:12px;color:#656b7d;line-height:1.65;margin:18px 5px;}
+.kaki-app .support-footnote{margin:24px 0 5px;padding-top:18px;border-top:1px solid #e4e7f0;text-align:center;}
+.kaki-app .support-footnote p{font-size:12px;line-height:1.65;color:#606a7d;}
+.kaki-app .support-footnote .text-link{display:inline-flex;align-items:center;gap:5px;padding:10px;min-height:40px;font-size:11px;}
+.kaki-app .support-back{display:inline-flex;align-items:center;gap:6px;background:none;border:0;padding:4px 0 16px;color:#746d96;font-size:12px;min-height:42px;}
+.kaki-app .support-detail{max-width:760px;display:flex;flex-direction:column;gap:16px;}
+.kaki-app .support-detail .support-back{align-self:flex-start;margin-bottom:-8px;}
+.kaki-app .support-detail-hero{padding:25px;background:linear-gradient(140deg,var(--support-soft),#fff 75%);border-radius:24px;}
+.kaki-app .support-detail-top{display:flex;align-items:center;gap:14px;margin-bottom:18px;}
+.kaki-app .support-detail-top .support-need-icon{width:62px;height:62px;border-radius:20px;background:#ffffffb0;}
+.kaki-app .support-detail-top>div{display:flex;align-items:center;gap:7px;flex-wrap:wrap;}
+.kaki-app .support-detail-hero h1{font-size:32px;line-height:1.15;max-width:570px;}
+.kaki-app .support-detail-hero>p{font-size:14px;line-height:1.65;color:#646174;margin:12px 0 20px;}
+.kaki-app .support-detail-tags{display:flex;flex-wrap:wrap;gap:8px 18px;}
+.kaki-app .support-detail-tags span{display:flex;align-items:center;gap:6px;font-size:12px;color:#676079;}
+.kaki-app .support-membership-panel{display:flex;align-items:flex-start;gap:12px;padding:20px;border:1px solid #dbece0;background:#edf7f0;border-radius:20px;color:#3a7658;}
+.kaki-app .support-membership-panel>svg{margin-top:1px;}
+.kaki-app .support-membership-panel h2{font-size:17px;line-height:1.35;}
+.kaki-app .support-membership-panel p{font-size:14px;line-height:1.65;margin-top:8px;color:#486b52;}
+.kaki-app .support-membership-panel .btn{margin-top:14px;min-height:43px;font-size:12px;}
+.kaki-app .support-schedule,.kaki-app .support-host,.kaki-app .support-about,.kaki-app .support-guidelines{padding:22px;border-radius:22px;}
+.kaki-app .support-schedule h2,.kaki-app .support-host h2,.kaki-app .support-about h2,.kaki-app .support-guidelines h2{font-size:18px;}
+.kaki-app .support-schedule>div{display:flex;align-items:flex-start;gap:12px;margin-top:19px;color:#85859c;}
+.kaki-app .support-schedule>div>svg{margin-top:3px;}
+.kaki-app .support-schedule strong{display:block;font-size:13px;font-weight:650;color:#4b5269;}
+.kaki-app .support-schedule small{display:block;font-size:12px;line-height:1.6;color:#606a7d;margin-top:3px;}
+.kaki-app .support-schedule a{display:inline-flex;align-items:center;gap:6px;font-size:11px;min-height:34px;font-weight:650;}
+.kaki-app .support-inline-demo{font-size:12px;line-height:1.6;color:#6b6b7c;background:#f7f5fa;border-radius:12px;padding:12px;margin-top:18px;}
+.kaki-app .support-section-label{display:flex;align-items:center;gap:9px;color:#70639f;margin-bottom:17px;}
+.kaki-app .support-section-label h2{color:#262942;}
+.kaki-app .support-host h3{font-size:17px;margin-bottom:3px;}
+.kaki-app .support-host p{font-size:14px;color:#676170;line-height:1.65;margin-top:12px;}
+.kaki-app .support-host .support-host-role{color:#655989;font-size:12px;font-weight:650;margin-top:12px;}
+.kaki-app .support-host .support-host-credentials{font-size:12px;color:#675a7a;padding-left:10px;border-left:2px solid #e1dbf1;}
+.kaki-app .support-host-demo{display:inline-flex;align-items:center;gap:4px;font-size:12px;line-height:1.5;color:#666073;background:#f5f3f8;padding:8px 10px;border-radius:8px;margin-top:13px;}
+.kaki-app .support-about>p,.kaki-app .support-guidelines>p{font-size:14px;color:#656575;line-height:1.7;margin-top:13px;white-space:pre-line;}
+.kaki-app .support-topic-tags{display:flex;gap:6px;flex-wrap:wrap;margin:17px 0 23px;}
+.kaki-app .support-topic-tags .badge{font-size:10px;}
+.kaki-app .support-about h3{font-size:14px;margin-bottom:14px;}
+.kaki-app .support-about ul{list-style:none;padding:0;margin:0;display:flex;flex-direction:column;gap:13px;}
+.kaki-app .support-about li{display:flex;align-items:flex-start;gap:9px;font-size:14px;line-height:1.65;color:#656575;}
+.kaki-app .support-about li svg{color:#7f75b5;margin-top:2px;}
+.kaki-app .support-guidelines{background:#f5f3fd;box-shadow:none;border-color:#ede9fa;}
+.kaki-app .support-guidelines .support-section-label{margin-bottom:8px;}
+.kaki-app .support-join-panel{padding:3px 2px;}
+.kaki-app .support-waitlist-opening{padding:20px;background:#edf8f1;border:1px solid #d9eddf;border-radius:18px;}
+.kaki-app .support-waitlist-opening h2{font-size:17px;color:#4b7d61;}
+.kaki-app .support-waitlist-opening>p{font-size:12px;color:#496d58;line-height:1.6;margin:8px 0;}
+.kaki-app .support-pending-status{font-size:12px;line-height:1.65;text-align:center;color:#68557b;background:#f0ebf9;border-radius:12px;padding:13px;}
+.kaki-app .support-consent{display:flex;align-items:flex-start;gap:11px;font-size:13px;line-height:1.65;color:#645d73;padding:7px 0 18px;cursor:pointer;}
+.kaki-app .support-consent input{accent-color:#6955ce;width:20px;height:20px;margin:1px 0 0;flex:none;}
+.kaki-app .support-join-panel>p{font-size:10px;color:#626376;line-height:1.6;margin-top:12px;text-align:center;}
+.kaki-app .support-cancel-link{background:none;border:0;color:#6b566d;min-height:44px;padding:10px;font-size:12px;text-decoration:underline;text-underline-offset:3px;display:block;margin:0 auto;}
+.kaki-app .support-leave-confirm{background:#fff5f6;border:1px solid #f2e4e8;border-radius:18px;padding:20px;margin:5px 0 20px;}
+.kaki-app .support-leave-confirm h3{font-size:16px;}
+.kaki-app .support-leave-confirm p{color:#705761;font-size:12px;line-height:1.65;margin-top:8px;}
+.kaki-app .support-leave-confirm>div{display:flex;gap:8px;margin-top:16px;}
+.kaki-app .support-leave-confirm .btn{flex:1;min-width:0;font-size:11px;padding:10px;}
+.kaki-app .support-error{font-size:12px!important;line-height:1.6;color:#aa4462!important;background:#fff0f4;border-radius:11px;padding:12px;margin:14px 0!important;text-align:left!important;}
+.kaki-app .support-chat{max-width:720px;}
+.kaki-app .support-chat-heading{display:flex;gap:12px;align-items:center;margin:5px 0 19px;}
+.kaki-app .support-chat-heading h1{font-size:23px;line-height:1.2;letter-spacing:-.7px;}
+.kaki-app .support-chat-heading p{font-size:11px;color:#646174;margin-top:5px;}
+.kaki-app .support-chat-privacy{display:flex;gap:8px;align-items:flex-start;background:#eeebf9;color:#665780;font-size:11px;line-height:1.65;border-radius:14px;padding:13px;}
+.kaki-app .support-chat-privacy svg{margin-top:2px;}
+.kaki-app .support-chat-toolbar{display:flex;justify-content:space-between;align-items:center;margin:18px 0 12px;color:#635c74;font-size:11px;}
+.kaki-app .support-chat-toolbar button{min-height:35px;}
+.kaki-app .support-messages{display:flex;flex-direction:column;gap:15px;}
+.kaki-app .support-message{background:#fff;border:1px solid #eae9f0;border-radius:18px 18px 18px 5px;padding:14px;max-width:91%;align-self:flex-start;min-width:0;}
+.kaki-app .support-message.is-mine{background:#ece8ff;border-color:#e1dafb;align-self:flex-end;border-radius:18px 18px 5px 18px;}
+.kaki-app .support-message>div{display:flex;align-items:center;flex-wrap:wrap;gap:5px 12px;justify-content:space-between;}
+.kaki-app .support-message strong{font-size:11px;color:#6a5b86;}
+.kaki-app .support-message time{font-size:9px;color:#645b70;}
+.kaki-app .support-message p{font-size:13px;line-height:1.65;color:#5b5870;white-space:pre-wrap;overflow-wrap:anywhere;margin-top:7px;}
+.kaki-app .support-chat-empty{text-align:center;padding:36px 20px;color:#8778b3;}
+.kaki-app .support-chat-empty h2{font-size:19px;margin:12px 0 8px;}
+.kaki-app .support-chat-empty p{font-size:12px;line-height:1.7;color:#645b70;}
+.kaki-app .support-composer{background:#fff;border:1px solid #eae6f1;border-radius:20px;padding:16px;margin-top:22px;}
+.kaki-app .support-composer label{display:block;font-size:11px;font-weight:650;color:#716481;margin-bottom:9px;}
+.kaki-app .support-composer .textarea{display:block;resize:vertical;min-height:80px;font-size:13px;border-color:#eeeaf4;background:#faf9fd;border-radius:12px;}
+.kaki-app .support-composer>div{display:flex;align-items:center;justify-content:space-between;margin-top:9px;}
+.kaki-app .support-composer>div>span{font-size:10px;color:#6b6278;}
+.kaki-app .support-composer .btn{font-size:12px;min-height:40px;padding:9px 15px;}
+.kaki-app .support-listener{max-width:650px;}
+.kaki-app .support-listener-boundaries{display:flex;align-items:flex-start;gap:12px;background:#f1edf8;border:1px solid #e8e0f3;border-radius:20px;padding:20px;color:#755390;margin-bottom:27px;}
+.kaki-app .support-listener-boundaries h2{font-size:16px;line-height:1.35;}
+.kaki-app .support-listener-boundaries p{font-size:14px;line-height:1.65;color:#665777;margin-top:8px;}
+.kaki-app .support-listener-form{display:flex;flex-direction:column;gap:22px;}
+.kaki-app .support-listener-form fieldset{padding:0;border:0;margin:0;min-width:0;}
+.kaki-app .support-listener-form legend{font-size:16px;line-height:1.4;font-weight:700;color:#42364f;margin-bottom:8px;}
+.kaki-app .support-listener-form fieldset>p{font-size:13px;line-height:1.6;color:#665b73;margin-bottom:14px;}
+.kaki-app .support-choice-buttons{display:flex;gap:7px;flex-wrap:wrap;}
+.kaki-app .support-choice-buttons button{display:flex;align-items:center;gap:6px;min-height:45px;background:#fff;border:1px solid #e4ddea;border-radius:13px;padding:10px 14px;font-size:13px;color:#665876;}
+.kaki-app .support-choice-buttons button[aria-pressed=true]{background:#eae3fb;color:#7255a6;border-color:#cfbdec;}
+.kaki-app .support-listener-form .field{gap:9px;margin:0;}
+.kaki-app .support-listener-form .field>span{font-size:16px;line-height:1.4;font-weight:700;color:#42364f;}
+.kaki-app .support-listener-form .input{font-size:14px;line-height:1.6;background:#fff;border-color:#e4ddea;border-radius:14px;}
+.kaki-app .support-listener-form .field>small{font-size:12px;color:#665b73;line-height:1.65;}
+.kaki-app .support-listener-guidelines{padding:20px;border:1px solid #e8e1f3;border-radius:18px;background:#fbfaff;}
+.kaki-app .support-listener-guidelines h3{font-size:16px;}
+.kaki-app .support-listener-guidelines ul{padding-left:18px;margin:14px 0 0;color:#665b73;font-size:14px;line-height:1.65;}
+.kaki-app .support-listener-guidelines li+li{margin-top:10px;}
+.kaki-app .support-listener-form .support-consent{padding:0;}
+.kaki-app .support-form-private{font-size:12px;line-height:1.6;color:#665b73;text-align:center;margin-top:-8px;display:flex;justify-content:center;align-items:flex-start;gap:6px;}
+.kaki-app .support-listener-form .support-demo-note{margin:-8px 0 0;text-align:center;}
+.kaki-app .support-application-summary{padding:24px;}
+.kaki-app .support-application-summary h2{font-size:21px;margin-top:13px;}
+.kaki-app .support-application-summary dl{margin:22px 0;}
+.kaki-app .support-application-summary dl>div+div{margin-top:20px;}
+.kaki-app .support-application-summary dt{font-size:12px;color:#6c5a79;margin-bottom:6px;}
+.kaki-app .support-application-summary dd{margin:0;font-size:14px;line-height:1.65;color:#63556e;overflow-wrap:anywhere;white-space:pre-wrap;}
+.kaki-app .support-application-status{font-size:13px;line-height:1.65;padding:15px;background:#f6f2fc;color:#685579;border-radius:13px;}
+.support-dialog-overlay{position:fixed;inset:0;background:#19152a65;z-index:1500;backdrop-filter:blur(3px);}
+.support-dialog{position:fixed;left:50%;top:50%;transform:translate(-50%,-50%);width:min(480px,calc(100vw - 32px));max-height:calc(100dvh - 40px);overflow-y:auto;background:#fff;border-radius:24px;padding:28px;z-index:1501;box-shadow:0 22px 80px #14142d33;color:#242039;font-family:"Inter Variable",Inter,Arial,sans-serif;box-sizing:border-box;}
+.support-dialog h2{font-size:23px;letter-spacing:-.7px;margin:0 30px 8px 0;}
+.support-dialog>p{font-size:12px;line-height:1.6;color:#665b73;margin:0 20px 0 0;}
+.support-dialog-close{position:absolute;top:16px;right:16px;width:36px;height:36px;border:0;background:#f3f0f8;border-radius:50%;display:grid;place-items:center;color:#867898;cursor:pointer;}
+.support-filter-content{font-family:"Inter Variable",Inter,Arial,sans-serif;color:#443a58;text-align:left;padding-top:3px;}
+.support-filter-content h3{font-size:13px;line-height:1.4;margin:21px 0 11px;font-weight:700;}
+.support-filter-options{display:flex;flex-wrap:wrap;gap:7px;}
+.support-filter-options button{font:inherit;font-size:12px;min-height:42px;border:1px solid #e6e0ef;background:#fff;border-radius:11px;padding:10px 12px;color:#665870;cursor:pointer;}
+.support-filter-options button[aria-pressed=true]{border-color:#beabed;background:#ece5fb;color:#7252a7;}
+.support-filter-options button:focus-visible,.support-filter-actions button:focus-visible,.support-dialog-close:focus-visible{outline:3px solid #b3a1ef;outline-offset:3px;}
+.support-filter-actions{display:flex;justify-content:space-between;gap:12px;align-items:center;margin-top:25px;}
+.support-filter-actions .btn{font-family:inherit;min-height:46px;border:0;border-radius:13px;display:flex;gap:9px;align-items:center;justify-content:center;padding:12px 18px;font-size:12px;font-weight:650;cursor:pointer;}
+.support-filter-actions .btn-primary{background:linear-gradient(115deg,#4c75ec,#7658d4);color:#fff;}
+.support-filter-actions .btn-ghost{background:#f3f0f8;color:#665674;}
+.kaki-app.mobile-app .support-groups-grid{grid-template-columns:minmax(0,1fr);gap:14px;}
+.kaki-app.mobile-app .support-care-welcome{grid-template-columns:minmax(0,1fr) 115px;gap:9px 4px;padding:20px 18px;border-radius:23px;}
+.kaki-app.mobile-app .support-care-welcome h1{font-size:27px;line-height:1.15;letter-spacing:-.9px;}
+.kaki-app.mobile-app .support-care-eyebrow{font-size:9px;letter-spacing:.8px;margin-bottom:9px;}
+.kaki-app.mobile-app .support-company-art{grid-row:1;grid-column:2;width:115px;height:125px;border-radius:17px;}
+.kaki-app.mobile-app .support-care-welcome:not(.support-care-listener) .support-company-art{grid-row:2;}
+.kaki-app.mobile-app .support-care-intro{grid-column:1 / -1;font-size:14px;line-height:1.6;}
+.kaki-app.mobile-app .support-care-shortcuts{gap:8px;margin-bottom:18px;}
+.kaki-app.mobile-app .support-care-shortcuts button{font-size:12px;gap:5px;padding:9px 6px;}
+.kaki-app.mobile-app .support-group-card{padding:20px;}
+.kaki-app.mobile-app .support-card-title h2{font-size:23px;}
+.kaki-app.mobile-app .support-card-specs{margin-top:13px;}
+.kaki-app.mobile-app .support-detail-hero{padding:22px;}
+.kaki-app.mobile-app .support-detail-hero h1{font-size:29px;}
+.kaki-app.mobile-app .support-schedule,.kaki-app.mobile-app .support-host,.kaki-app.mobile-app .support-about,.kaki-app.mobile-app .support-guidelines{padding:20px;}
+.kaki-app.mobile-app .support-chat-heading h1{font-size:22px;}
+@media(max-width:700px){.kaki-app .support-care-welcome{grid-template-columns:minmax(0,1fr) 90px;gap:9px 5px;padding:17px;}.kaki-app .support-care-welcome h1{font-size:25px;letter-spacing:-.8px;}.kaki-app .support-care-eyebrow{font-size:9px;letter-spacing:.6px;}.kaki-app .support-company-art{grid-row:1;width:90px;height:110px;}.kaki-app .support-care-welcome:not(.support-care-listener) .support-company-art{grid-row:2;}.kaki-app .support-care-intro{grid-column:1 / -1;font-size:14px;}.kaki-app .support-welcome-top{flex-wrap:wrap;gap:2px 8px;}.kaki-app .support-welcome-top button{font-size:12px;}.kaki-app .support-care-shortcuts{gap:8px;}.kaki-app .support-care-shortcuts button{font-size:12px;flex-wrap:wrap;padding:9px 6px;}.kaki-app .support-listener-steps{gap:7px;}.kaki-app .support-listener-steps strong,.kaki-app .support-listener-steps small{font-size:12px;}.kaki-app .support-groups-grid{grid-template-columns:minmax(0,1fr);}.kaki-app .support-detail-hero h1{font-size:28px;}.kaki-app .support-group-card{padding:18px;}.kaki-app .support-card-bottom{flex-wrap:wrap;}.kaki-app .support-card-bottom .btn{margin-left:auto;}.kaki-app .support-detail-hero{padding:20px;}.kaki-app .support-detail-top{gap:10px;}.kaki-app .support-detail-top>div{gap:5px;}.support-dialog{padding:22px;}}

@@ -1,0 +1,48 @@
+.kaki-app .mentor-badges{display:inline-flex;align-items:center;flex-wrap:wrap;gap:5px;vertical-align:middle}
+.kaki-app .mentor-badge,.kaki-app .mentor-new{display:inline-flex;align-items:center;gap:4px;line-height:1.2;padding:5px 8px;border-radius:20px;font-size:11px;font-weight:750;white-space:nowrap}
+.kaki-app .mentor-badge{color:#4256b8;background:#edf0ff}
+.kaki-app .mentor-new{color:#715510;background:#fff1c9}
+.kaki-app .mentor-stats{padding:21px;text-align:left}
+.kaki-app .mentor-stats-heading{display:flex;align-items:center;justify-content:space-between;gap:12px;margin-bottom:19px}
+.kaki-app .mentor-stats-heading>span:first-child{display:inline-flex;align-items:center;gap:8px;font-size:16px;font-weight:750;color:#273960}
+.kaki-app .mentor-stats-heading>span:first-child>svg{color:#506be4}
+.kaki-app .mentor-metrics{display:grid;grid-template-columns:1.1fr .85fr 1.1fr;margin:0;gap:12px}
+.kaki-app .mentor-metrics>div{display:flex;flex-direction:column;gap:6px;min-width:0}
+.kaki-app .mentor-metrics>div+div{padding-left:15px;border-left:1px solid #e5eaf3}
+.kaki-app .mentor-metrics dd{margin:0;font-size:28px;line-height:1;font-weight:760;letter-spacing:-1px;color:#26365d;font-variant-numeric:tabular-nums}
+.kaki-app .mentor-metrics dt{font-size:11px;line-height:1.45;color:#57647c;max-width:110px}
+.kaki-app .mentor-stats-help{font-size:11px;line-height:1.6;color:#667085;margin:16px 0 0}
+.kaki-app .mentor-appreciation{display:flex;align-items:center;gap:12px;margin-top:17px;padding-top:16px;border-top:1px solid #e5eaf3}
+.kaki-app .mentor-appreciation>p{font-size:11px;line-height:1.5;color:#59677d;margin:0;flex:1;min-width:0}
+.kaki-app .mentor-like{display:inline-flex;align-items:center;justify-content:center;gap:7px;border:1px solid #f0c3d6;background:#fff1f6;border-radius:14px;color:#a53463;font-size:12px;font-weight:750;padding:11px 13px;min-height:44px;flex-shrink:0;cursor:pointer;transition:background .15s ease,transform .15s ease}
+.kaki-app .mentor-like.is-liked{background:#fff0f5;border-color:#f4cddd;color:#a83e63}
+.kaki-app .mentor-like:disabled{color:#6c7585;border-color:#e0e5ed;background:#f5f6f8;cursor:default}
+.kaki-app .mentor-like:focus-visible{outline:3px solid #839ffb;outline-offset:3px}
+.kaki-app .mentor-stats-error{font-size:12px;line-height:1.5;color:#a12d47;margin:12px 0 0}
+.kaki-app .mentor-stats-compact{border:1px solid #e4e9f5;border-radius:17px;background:#f7f9ff;padding:14px;margin:14px 0}
+.kaki-app .mentor-stats-compact .mentor-stats-heading{margin-bottom:13px}
+.kaki-app .mentor-stats-compact .mentor-stats-heading>span:first-child{font-size:13px}
+.kaki-app .mentor-stats-compact .mentor-metrics{gap:9px}
+.kaki-app .mentor-stats-compact .mentor-metrics>div+div{padding-left:11px}
+.kaki-app .mentor-stats-compact .mentor-metrics dd{font-size:22px}
+.kaki-app .mentor-stats-compact .mentor-metrics dt{font-size:10px}
+.kaki-app .mentor-stats-compact .mentor-stats-help{font-size:10px;margin-top:11px}
+.kaki-app .mentor-stats-compact .mentor-appreciation{align-items:flex-start;flex-direction:column;gap:7px;margin-top:12px;padding-top:12px}
+.kaki-app .mentor-heart-metric dd{display:flex;align-items:center;gap:6px;color:#a53463}
+.kaki-app .mentor-heart-metric svg{flex:none;color:#d85b87}
+.kaki-app .mentor-heart-metric dt{color:#96506b}
+.kaki-app .mentor-like:not(:disabled):hover{background:#fbe1eb}
+.kaki-app .mentor-like:not(:disabled):active{transform:scale(.97)}
+.kaki-app .mentor-stats-explainer{margin-top:17px;font-size:11px;color:#667085;line-height:1.65}
+.kaki-app .mentor-stats-explainer summary{display:flex;align-items:center;gap:6px;cursor:pointer;min-height:32px;width:fit-content;color:#58627b}
+.kaki-app .mentor-stats-explainer summary:focus-visible{outline:2px solid #7764dd;outline-offset:3px;border-radius:5px}
+.kaki-app .mentor-stats-explainer p{margin:8px 0}
+@media(prefers-reduced-motion:reduce){.kaki-app .mentor-like{transition:none}}
+.kaki-app .cm-person-row-copy .mentor-badges{display:flex;margin-top:5px}
+.kaki-app .cm-profile-hero>.mentor-badges{margin:8px auto 0}
+.kaki-app .club-chat-promo{display:flex;align-items:center;gap:12px;background:#edf3ff;border:1px solid #dce7ff;border-radius:21px;padding:17px;text-align:left;color:#294884;cursor:pointer;min-height:86px}
+.kaki-app .club-chat-promo>svg:first-child{padding:10px;box-sizing:content-box;background:white;border-radius:16px;color:#5375e3;flex-shrink:0}
+.kaki-app .club-chat-promo>span{flex:1;min-width:0}
+.kaki-app .club-chat-promo strong{display:block;font-size:14px;line-height:1.4}
+.kaki-app .club-chat-promo small{display:block;font-size:12px;line-height:1.45;margin-top:4px;color:#526588}
+.kaki-app .club-chat-promo:focus-visible{outline:3px solid #839ffb;outline-offset:3px}

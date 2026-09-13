@@ -1,0 +1,108 @@
+.kaki-app:has(.discover-v2){--page:#fafafe;}
+.kaki-app .discover-v2{max-width:850px;margin:0 auto;min-width:0;color:#111431;}
+.kaki-app .discover-topbar{display:flex;align-items:center;gap:16px;min-height:40px;margin:0 0 21px;}
+.kaki-app .discover-brand{font-size:39px;font-weight:850;letter-spacing:-2px;line-height:1;color:#4e43ec;flex:none;}
+.kaki-app .discover-topbar>.community-scope-trigger{min-width:0;flex:1;}
+.kaki-app .discover-topbar>.icon-button{position:relative;width:36px;height:36px;min-width:36px;padding:3px;margin-left:auto;}
+.kaki-app .discover-topbar .community-scope-trigger strong{font-size:12px;line-height:1.4;letter-spacing:-.2px;color:#626290;font-weight:650;}
+.kaki-app .discover-topbar .community-scope-trigger>.community-scope-caret{width:12px;height:12px;}
+.kaki-app .discover-welcome-copy{margin-bottom:19px;}
+.kaki-app .discover-welcome-copy>p{font-size:16px;line-height:1.5;color:#626d88;margin-bottom:5px;}
+.kaki-app .discover-welcome-copy h1{font-size:36px;line-height:1.1;letter-spacing:-1.3px;color:#10132f;font-weight:800;}
+.kaki-app .discover-welcome-copy em{color:#5146ee;}
+.kaki-app .discover-find-row{display:flex;align-items:stretch;gap:10px;margin-bottom:17px;}
+.kaki-app .discover-search-field{display:flex;align-items:center;gap:10px;flex:1;min-width:0;min-height:48px;background:#fff;border-radius:17px;padding:0 15px;box-shadow:0 4px 20px #35335b08;color:#828aa3;}
+.kaki-app .discover-search-field .input{min-width:0;flex:1;min-height:48px;font-size:15px;background:none;border:0;border-radius:0;box-shadow:none;padding:11px 0;}
+.kaki-app .discover-search-field .input::placeholder{color:#6e778b;}
+.kaki-app .discover-search-field>.icon-button{width:30px;height:34px;min-width:30px;padding:5px;}
+.kaki-app .discover-map-link{display:flex;align-items:center;justify-content:center;gap:7px;min-height:48px;padding:11px 15px;border:0;border-radius:16px;background:#eeebfd;color:#5147d4;font-size:15px;font-weight:650;}
+.kaki-app .discover-search-summary{display:flex;align-items:center;justify-content:space-between;gap:8px;margin:0 0 15px;font-size:12px;color:#69718a;}
+.kaki-app .discover-search-summary button{background:none;border:0;font-size:12px;color:#6354ad;padding:5px;min-height:32px;}
+.kaki-app .discover-plan-card{background:#fff;box-shadow:0 7px 28px #44496a09;border-radius:21px;overflow:hidden;min-width:0;}
+.kaki-app .discover-plan-image{display:block;position:relative;padding:0;width:100%;border:0;background:#eaeef4;text-align:left;}
+.kaki-app .discover-plan-image img{display:block;width:100%;height:260px;object-fit:cover;object-position:center 38%;}
+.kaki-app .discover-plan-badge{position:absolute;bottom:12px;left:13px;display:inline-flex;align-items:center;gap:5px;padding:7px 10px;background:#f3fff8f2;color:#2f7950;font-size:12px;font-weight:650;line-height:1.3;border-radius:20px;}
+.kaki-app .discover-plan-content{padding:15px 17px 17px;min-width:0;}
+.kaki-app .discover-plan-title{display:block;background:none;border:0;text-align:left;padding:0;color:inherit;max-width:100%;}
+.kaki-app .discover-plan-title h2{font-size:25px;line-height:1.2;letter-spacing:-.8px;font-weight:760;color:#11142f;overflow-wrap:break-word;}
+.kaki-app .discover-plan-metadata{display:flex;gap:10px 17px;flex-wrap:wrap;align-items:center;margin-top:10px;color:#626c85;font-size:13px;}
+.kaki-app .discover-plan-metadata>span,.kaki-app .discover-plan-metadata>button{display:flex;align-items:center;gap:8px;min-width:0;line-height:1.45;}
+.kaki-app .discover-plan-metadata>button{background:none;border:0;padding:2px 0;color:inherit;font-size:inherit;text-align:left;}
+.kaki-app .discover-plan-metadata>button>span{min-width:0;overflow-wrap:anywhere;}
+.kaki-app .discover-plan-status{display:flex;align-items:center;flex-wrap:wrap;gap:10px;margin:10px 0 13px;font-size:13px;}
+.kaki-app .discover-plan-status>span{display:flex;align-items:center;gap:8px;line-height:1.5;}
+.kaki-app .discover-spots{font-weight:650;color:#6553ed;}
+.kaki-app .discover-welcome{border-left:1px solid #dfe2ed;padding-left:14px;color:#858aa0;font-size:12px;}
+.kaki-app .discover-plan-hero .discover-join{width:100%;min-height:46px;border-radius:13px;background:#5347ef;color:#fff;box-shadow:none;font-size:15px;font-weight:650;gap:9px;}
+.kaki-app .discover-plan-hero .discover-join.btn-secondary{background:#ede9fb;color:#6250c1;}
+.kaki-app .discover-category-section{margin:20px 0 0;}
+.kaki-app .discover-category-section>h2,.kaki-app .discover-section-title h2{font-size:21px;line-height:1.3;font-weight:750;letter-spacing:-.6px;margin-bottom:10px;}
+.kaki-app .discover-category-rail{width:100%;}
+.kaki-app .discover-category-track{display:flex;gap:8px;min-width:100%;width:max-content;}
+.kaki-app .discover-category{display:flex;flex-direction:column;align-items:center;justify-content:center;gap:6px;flex:1 0 65px;min-width:65px;min-height:65px;padding:8px 6px;border:0;border-radius:15px;color:#151631;font-size:12px;font-weight:650;}
+.kaki-app .discover-category svg{color:#6255ed;}
+.kaki-app .discover-category-lilac{background:#edeafa;}
+.kaki-app .discover-category-mint{background:#e4f6f7;}
+.kaki-app .discover-category-mint svg{color:#3ea5b3;}
+.kaki-app .discover-category-cream{background:#fff5e4;}
+.kaki-app .discover-category-cream svg{color:#c79227;}
+.kaki-app .discover-category-cyan{background:#e0f5fb;}
+.kaki-app .discover-category-cyan svg{color:#388eda;}
+.kaki-app .discover-coming-up{margin-top:20px;}
+.kaki-app .discover-section-title{display:flex;align-items:center;justify-content:space-between;gap:12px;}
+.kaki-app .discover-section-title>button{display:flex;align-items:center;gap:5px;min-height:33px;align-self:flex-start;font-size:12px;color:#626d88;background:none;border:0;padding:3px 0;}
+.kaki-app .discover-coming-list{display:flex;flex-direction:column;gap:11px;}
+.kaki-app .discover-plan-row{display:grid;grid-template-columns:116px minmax(0,1fr);gap:12px;padding:8px;border-radius:18px;}
+.kaki-app .discover-plan-row .discover-plan-image{height:100%;min-height:126px;border-radius:12px;overflow:hidden;}
+.kaki-app .discover-plan-row .discover-plan-image img{height:100%;min-height:126px;position:absolute;inset:0;}
+.kaki-app .discover-plan-row .discover-plan-content{position:relative;padding:6px 5px 3px 0;}
+.kaki-app .discover-plan-row .discover-plan-title h2{font-size:17px;line-height:1.2;letter-spacing:-.45px;}
+.kaki-app .discover-plan-row .discover-plan-metadata{display:flex;flex-direction:column;align-items:flex-start;gap:5px;margin-top:8px;font-size:12px;}
+.kaki-app .discover-plan-row .discover-plan-metadata>button{max-width:100%;padding:0;}
+.kaki-app .discover-plan-row .discover-plan-metadata svg{width:15px;height:15px;}
+.kaki-app .discover-plan-row .discover-plan-status{font-size:12px;margin:7px 67px 0 0;}
+.kaki-app .discover-plan-row .discover-plan-status>span{gap:5px;}
+.kaki-app .discover-plan-row .discover-join{position:absolute;bottom:3px;right:3px;min-height:37px;max-width:100px;min-width:62px;padding:8px 11px;background:#ede9fc;color:#6150df;border-radius:12px;font-size:13px;box-shadow:none;}
+.kaki-app .discover-gentle-links{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:0;margin:21px 0 0;padding:11px 0 0;border-top:1px solid #e5e7ef;}
+.kaki-app .discover-gentle-links button{display:flex;align-items:center;justify-content:center;gap:7px;min-height:40px;padding:4px 5px;border:0;background:none;font-size:12px;color:#626d88;white-space:nowrap;}
+.kaki-app .discover-gentle-links button+button{border-left:1px solid #e0e3ed;}
+.kaki-app.mobile-app .discover-topbar{gap:10px;margin-bottom:8px;min-height:44px;}
+.kaki-app.mobile-app .discover-brand{font-size:32px;letter-spacing:-1.5px;}
+.kaki-app.mobile-app .discover-topbar .community-scope-trigger strong{font-size:11px;}
+.kaki-app.mobile-app .discover-topbar>.icon-button{width:44px;min-width:44px;height:44px;padding:8px;}
+.kaki-app.mobile-app .discover-welcome-copy{margin-bottom:12px;}
+.kaki-app.mobile-app .discover-welcome-copy>p{font-size:13px;margin-bottom:5px;}
+.kaki-app.mobile-app .discover-welcome-copy h1{font-size:28px;line-height:1.1;letter-spacing:-1.15px;}
+.kaki-app.mobile-app .discover-find-row{gap:9px;margin-bottom:12px;}
+.kaki-app.mobile-app .discover-search-field{padding:0 13px;gap:9px;min-height:44px;border-radius:16px;}
+.kaki-app.mobile-app .discover-search-field .input{font-size:13px;min-height:44px;}
+.kaki-app.mobile-app .discover-map-link{font-size:13px;padding:9px 12px;min-height:44px;border-radius:15px;}
+.kaki-app.mobile-app .discover-plan-hero .discover-plan-image img{height:170px;object-position:center 38%;}
+.kaki-app.mobile-app .discover-plan-content{padding:12px 13px 13px;}
+.kaki-app.mobile-app .discover-plan-title h2{font-size:22px;line-height:1.17;letter-spacing:-.65px;}
+.kaki-app.mobile-app .discover-plan-metadata{gap:6px 11px;margin-top:8px;font-size:12px;}
+.kaki-app.mobile-app .discover-plan-metadata>span,.kaki-app.mobile-app .discover-plan-metadata>button{gap:6px;}
+.kaki-app.mobile-app .discover-plan-hero .discover-plan-metadata>span{flex:0 1 auto;}
+.kaki-app.mobile-app .discover-plan-hero .discover-plan-metadata>button{flex:1 1 auto;min-height:28px;}
+.kaki-app.mobile-app .discover-plan-status{margin:9px 0 11px;gap:10px;font-size:12px;}
+.kaki-app.mobile-app .discover-welcome{font-size:11px;padding-left:10px;gap:7px;}
+.kaki-app.mobile-app .discover-plan-hero .discover-join{min-height:44px;font-size:14px;}
+.kaki-app.mobile-app .discover-plan-badge{font-size:11px;padding:5px 8px;bottom:10px;left:11px;}
+.kaki-app.mobile-app .discover-category-section{margin-top:17px;}
+.kaki-app.mobile-app .discover-category-section>h2,.kaki-app.mobile-app .discover-section-title h2{font-size:18px;margin-bottom:9px;}
+.kaki-app.mobile-app .discover-category{min-height:57px;min-width:61px;flex-basis:61px;font-size:11px;padding:7px 5px;gap:4px;border-radius:12px;}
+.kaki-app.mobile-app .discover-category svg{width:23px;height:23px;}
+.kaki-app.mobile-app .discover-coming-up{margin-top:17px;}
+.kaki-app.mobile-app .discover-plan-row{grid-template-columns:106px minmax(0,1fr);gap:10px;padding:7px;}
+.kaki-app.mobile-app .discover-plan-row .discover-plan-content{padding:5px 3px 3px 0;}
+.kaki-app.mobile-app .discover-plan-row .discover-plan-title h2{font-size:15px;line-height:1.22;letter-spacing:-.3px;}
+.kaki-app.mobile-app .discover-plan-row .discover-plan-metadata{font-size:12px;margin-top:7px;gap:4px;}
+.kaki-app.mobile-app .discover-plan-row .discover-plan-status{font-size:12px;margin:7px 64px 0 0;}
+.kaki-app.mobile-app .discover-plan-row .discover-plan-image,.kaki-app.mobile-app .discover-plan-row .discover-plan-image img{min-height:115px;}
+.kaki-app.mobile-app .discover-plan-row .discover-join{font-size:12px;min-height:44px;min-width:58px;padding:7px 10px;}
+.kaki-app.mobile-app .discover-gentle-links{margin-top:18px;}
+.kaki-app.mobile-app .discover-gentle-links button{font-size:12px;min-height:44px;gap:5px;padding-inline:3px;}
+@media(max-width:700px){.kaki-app .discover-topbar{gap:8px;margin-bottom:17px;}.kaki-app .discover-brand{font-size:32px;}.kaki-app .discover-topbar .community-scope-trigger strong{font-size:10px;}.kaki-app .discover-topbar>.icon-button{width:30px;min-width:30px;}.kaki-app .discover-welcome-copy h1{font-size:30px;}.kaki-app .discover-welcome-copy>p{font-size:13px;}.kaki-app .discover-find-row{gap:8px;}.kaki-app .discover-search-field{padding:0 11px;gap:7px;}.kaki-app .discover-search-field .input{font-size:13px;min-height:44px;}.kaki-app .discover-map-link{padding:9px 11px;font-size:13px;}.kaki-app .discover-plan-image img{height:180px;}.kaki-app .discover-plan-title h2{font-size:23px;}.kaki-app .discover-plan-metadata{font-size:12px;}.kaki-app .discover-plan-row{grid-template-columns:90px minmax(0,1fr);gap:9px;}.kaki-app .discover-plan-row .discover-plan-title h2{font-size:15px;}.kaki-app .discover-plan-row .discover-plan-metadata{font-size:12px;}.kaki-app .discover-plan-row .discover-plan-status{font-size:12px;margin-right:0;margin-bottom:42px;}.kaki-app .discover-plan-row .discover-join{left:0;right:auto;}.kaki-app .discover-gentle-links button{font-size:12px;min-height:44px;gap:5px;}.kaki-app .discover-gentle-links svg{width:19px;height:19px;}}
+
+.kaki-app.desktop-app .discover-topbar>.discover-brand,.kaki-app.desktop-app .discover-topbar>.icon-button{display:none;}
+.kaki-app.desktop-app .discover-topbar>.community-scope-trigger{flex:0 1 auto;}

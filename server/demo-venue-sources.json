@@ -1,0 +1,62 @@
+[
+  {
+    "id": "public-bishan-ang-mo-kio-park",
+    "name": "Bishan-Ang Mo Kio Park",
+    "address": "Along Bishan Road and Ang Mo Kio Avenue 1, Singapore",
+    "postalCode": null,
+    "lat": 1.3614559999993214,
+    "lng": 103.84729499999581,
+    "sourceUrl": "https://www.nparks.gov.sg/visit/parks/park-detail/bishan-ang-mo-kio-park",
+    "venueSourceUrl": "https://www.nparks.gov.sg/visit/parks/park-detail/bishan-ang-mo-kio-park",
+    "precision": "venue",
+    "checkedAt": "2026-09-13"
+  },
+  {
+    "id": "public-punggol-waterway-park",
+    "name": "Punggol Waterway Park",
+    "address": "Along Sentul Crescent Road, Singapore",
+    "postalCode": null,
+    "lat": 1.410996999996513,
+    "lng": 103.90481500000091,
+    "sourceUrl": "https://www.nparks.gov.sg/visit/parks/park-detail/punggol-waterway-park",
+    "venueSourceUrl": "https://www.nparks.gov.sg/visit/parks/park-detail/punggol-waterway-park",
+    "precision": "venue",
+    "checkedAt": "2026-09-13"
+  },
+  {
+    "id": "public-marina-barrage",
+    "name": "Marina Barrage",
+    "address": "8 Marina Gardens Drive, Singapore 018951",
+    "postalCode": "018951",
+    "lat": 1.2799057348975,
+    "lng": 103.8704696159287,
+    "sourceUrl": "https://www.pub.gov.sg/contact-us",
+    "venueSourceUrl": "https://www.pub.gov.sg/Public/Places-of-Interest/Marina-Barrage/Visitors-Information",
+    "precision": "venue",
+    "checkedAt": "2026-09-13"
+  },
+  {
+    "id": "public-esplanade-park",
+    "name": "Esplanade Park",
+    "address": "Along Connaught Drive, opposite Padang and National Gallery Singapore",
+    "postalCode": null,
+    "lat": 1.289417000001069,
+    "lng": 103.85359699999877,
+    "sourceUrl": "https://www.nparks.gov.sg/visit/parks/park-detail/esplanade-park",
+    "venueSourceUrl": "https://www.nparks.gov.sg/visit/parks/park-detail/esplanade-park",
+    "precision": "venue",
+    "checkedAt": "2026-09-13"
+  },
+  {
+    "id": "public-east-coast-park",
+    "name": "East Coast Park",
+    "address": "Along East Coast Parkway and East Coast Park Service Road, Singapore",
+    "postalCode": null,
+    "lat": 1.3031689999960565,
+    "lng": 103.92060499999668,
+    "sourceUrl": "https://www.nparks.gov.sg/visit/parks/park-detail/east-coast-park",
+    "venueSourceUrl": "https://www.nparks.gov.sg/visit/parks/park-detail/east-coast-park",
+    "precision": "venue",
+    "checkedAt": "2026-09-13"
+  }
+]

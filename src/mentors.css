@@ -1,0 +1,120 @@
+.kaki-app .mentor-directory,.kaki-app .public-mentor-profile{max-width:930px;margin:auto}
+.kaki-app .mentor-directory-note{display:flex;align-items:center;gap:12px;padding:15px 17px;background:#edeaff;color:#655496;border-radius:17px;font-size:12px;line-height:1.6;margin:21px 0}
+.kaki-app .mentor-search{margin-bottom:12px}
+.kaki-app .mentor-demo-label{display:block;color:#7b7890;font-size:10px;line-height:1.6}
+.kaki-app .mentor-directory-grid{display:grid;gap:18px}
+.kaki-app .mentor-directory-card{padding:21px}
+.kaki-app .mentor-person-heading{display:flex;align-items:center;gap:14px}
+.kaki-app .mentor-person-heading>div{min-width:0}
+.kaki-app .mentor-person-heading h2{font-size:21px;letter-spacing:-.5px;margin:0 0 7px}
+.kaki-app .mentor-person-heading p{font-size:11px;color:var(--muted);margin:8px 0 0}
+.kaki-app .mentor-subjects{margin-top:18px;gap:6px}
+.kaki-app .mentor-directory-card .mentor-stats{margin:16px 0}
+.kaki-app .public-mentor-profile{max-width:700px}
+.kaki-app .public-mentor-profile>.eyebrow{margin:7px 0 16px}
+.kaki-app .mentor-profile-hero{padding:25px;background:linear-gradient(135deg,#fff 30%,#efecff);margin-bottom:18px}
+.kaki-app .mentor-profile-hero h1{font-size:29px;line-height:1.2;letter-spacing:-.9px;margin:0 0 12px}
+.kaki-app .mentor-school{display:flex;gap:7px;align-items:center;color:#4e5976;font-size:13px;margin-top:21px}
+.kaki-app .mentor-course{font-size:12px;color:var(--muted);margin:5px 0 12px}
+.kaki-app .mentor-preview-note{font-size:12px;line-height:1.6;color:#6c6487;margin:0 3px 16px}
+.kaki-app .mentor-profile-about{padding:23px;margin:20px 0}
+.kaki-app .mentor-profile-about h2,.kaki-app .mentor-upcoming h2{font-size:20px;margin:0 0 13px;letter-spacing:-.5px}
+.kaki-app .mentor-profile-about p{font-size:13px;color:var(--muted);line-height:1.7}
+.kaki-app .mentor-profile-about h3{display:flex;align-items:center;gap:8px;font-size:13px;margin:23px 0 10px;color:#575778}
+.kaki-app .mentor-upcoming{margin:26px 0}
+.kaki-app .mentor-session-link{padding:16px;border:1px solid var(--line);display:flex;align-items:center;gap:12px;width:100%;text-align:left;margin:12px 0}
+.kaki-app .mentor-session-link>span:nth-child(2){flex:1;min-width:0}
+.kaki-app .mentor-session-link strong{display:block;font-size:13px;line-height:1.4}
+.kaki-app .mentor-session-link small{display:block;font-size:11px;margin-top:6px;color:var(--muted)}
+.kaki-app .mentor-session-icon{display:grid;place-items:center;flex:none;width:40px;height:44px;background:#efeaff;color:#8063c0;border-radius:12px}
+.kaki-app.desktop-app .mentor-directory-grid{grid-template-columns:repeat(2,minmax(0,1fr))}
+.kaki-app.desktop-app .mentor-directory-card{padding:26px}
+@media(max-width:760px){.kaki-app.desktop-app .mentor-directory-grid{grid-template-columns:1fr}}
+.kaki-app .mentor-directory .page-heading h1{font-size:32px;letter-spacing:-1px}
+.kaki-app .mentor-directory .page-heading .muted{font-size:13px;line-height:1.6}
+.kaki-app .mentor-paths{display:flex;align-items:center;gap:6px;margin:17px 0 14px;padding:5px;background:#eaeaf4;border-radius:15px}
+.kaki-app .mentor-paths>span,.kaki-app .mentor-paths>button{display:flex;align-items:center;justify-content:center;gap:7px;flex:1;min-height:36px;font-size:12px;font-weight:650;border:0;background:transparent;color:#626c86;border-radius:11px}
+.kaki-app .mentor-paths>span{background:white;color:#5142b0;box-shadow:0 2px 6px #25245008}
+.kaki-app .mentor-search-row{display:flex;align-items:stretch;gap:8px;margin-bottom:12px}
+.kaki-app .mentor-search-row .search-bar{flex:1;min-width:0;margin:0}
+.kaki-app .mentor-filter-trigger{position:relative;flex:none;width:48px;height:48px;border-radius:15px;border:1px solid #e2dff5;background:#efedfc;color:#6551bb}
+.kaki-app .mentor-filter-trigger small{position:absolute;right:1px;top:-4px;background:#6250bf;color:white;border:2px solid white;border-radius:20px;min-width:19px;height:19px;font-size:10px;display:grid;place-items:center}
+.kaki-app .mentor-views .mobile-carousel-content{display:flex;gap:7px;width:max-content;min-width:100%}
+.kaki-app .mentor-views .chip{padding:8px 13px;min-height:37px;border:1px solid #e0e3ed;background:white;color:#626c84;font-size:11px;white-space:nowrap}
+.kaki-app .mentor-views .chip.active{background:#2b2a49;border-color:#2b2a49;color:white}
+.kaki-app .mentor-results-heading{display:flex;align-items:center;justify-content:space-between;gap:10px;margin:16px 1px 13px}
+.kaki-app .mentor-results-heading .results-count{font-size:11px;color:#68728b;margin:0}
+.kaki-app .mentor-results-heading .text-link{font-size:11px;min-height:32px}
+.kaki-app .mentor-applied-filters{display:flex;flex-wrap:wrap;gap:6px;margin-top:10px}
+.kaki-app .mentor-applied-filters button{display:flex;align-items:center;gap:6px;font-size:11px;padding:7px 9px;border:0;border-radius:10px;color:#6251aa;background:#efecfb}
+.kaki-app .mentor-directory-card{padding:18px;border:1px solid #e8e9f1;box-shadow:0 3px 14px #302f5703}
+.kaki-app .mentor-directory-card .mentor-person-heading{gap:11px;flex-wrap:wrap}
+.kaki-app .mentor-directory-card .mentor-person-heading>div:nth-child(2){flex:1;min-width:140px}
+.kaki-app .mentor-directory-card .mentor-person-heading h2{font-size:21px;margin:0}
+.kaki-app .mentor-directory-card .mentor-person-heading p{font-size:11px;margin-top:5px;line-height:1.4}
+.kaki-app .mentor-directory-card .mentor-badges{width:100%;margin-top:0}
+.kaki-app .mentor-directory-card .mentor-badge{display:none}
+.kaki-app .mentor-directory-card .mentor-badges:empty{display:none}
+.kaki-app .mentor-directory-card .mentor-badges:not(:has(.mentor-new)){display:none}
+.kaki-app .mentor-directory-card .mentor-subjects{margin-top:12px;gap:5px}
+.kaki-app .mentor-card-bio{font-size:12px;line-height:1.6;color:#687189;display:-webkit-box;-webkit-box-orient:vertical;-webkit-line-clamp:2;overflow:hidden;margin:12px 0 0}
+.kaki-app .mentor-directory-card .mentor-stats{background:#f8f8fd;margin:14px 0 12px;padding:13px;border:0;border-radius:14px}
+.kaki-app .mentor-next-session{display:flex;gap:9px;align-items:center;color:#7363b0;margin:0 0 13px}
+.kaki-app .mentor-next-session>svg{flex:none}
+.kaki-app .mentor-next-session strong{display:block;font-size:11px;line-height:1.5;color:#565d77;font-weight:600}
+.kaki-app .mentor-next-session small{display:block;font-size:10px;color:#7c8195;margin-top:2px}
+.kaki-app .mentor-directory-card>.btn{min-height:43px;font-size:12px;border-radius:13px}
+.kaki-app .mentor-heart-explainer{display:flex;align-items:center;gap:9px;color:#be577d;margin:22px 3px 10px}
+.kaki-app .mentor-heart-explainer svg{flex:none}
+.kaki-app .mentor-heart-explainer p{margin:0;color:#757a8c;font-size:11px;line-height:1.6}
+.mentor-filter-sheet{padding:8px 20px 22px;font-family:Inter,system-ui,sans-serif}
+.mentor-filter-sheet h3{font-size:13px;margin:18px 0 12px;color:#454963}
+.mentor-filter-options{display:flex;flex-wrap:wrap;gap:8px}
+.mentor-filter-options button{font-family:inherit;cursor:pointer;min-height:42px;padding:10px 13px;border:1px solid #dedfee;border-radius:12px;background:white;color:#656c82;font-size:12px}
+.mentor-filter-options button[aria-pressed=true]{background:#efecff;border-color:#8f7be1;color:#5541a5}
+.mentor-filter-actions{display:flex;gap:10px;justify-content:space-between;margin-top:27px}
+.mentor-filter-actions>.btn{display:flex;align-items:center;justify-content:center;gap:8px;min-height:46px;padding:12px 18px;border:0;border-radius:14px;background:#f2effb;color:#605383;font:600 13px Inter,system-ui,sans-serif;cursor:pointer}
+.mentor-filter-actions>.btn:last-child{flex:1;background:linear-gradient(115deg,#2695f9,#784afb);color:white}
+.mentor-filter-sheet button:focus-visible{outline:3px solid #9684de;outline-offset:3px}
+.mentor-filter-overlay{position:fixed;inset:0;z-index:100;background:#23213a70}
+.mentor-filter-dialog{position:fixed;z-index:101;left:50%;top:50%;transform:translate(-50%,-50%);box-sizing:border-box;width:min(480px,calc(100vw - 24px));max-height:calc(100dvh - 32px);overflow:auto;border:1px solid #e8e5f3;border-radius:24px;background:#fff;box-shadow:0 24px 80px #25204030;font-family:Inter,system-ui,sans-serif;padding-top:24px}
+.mentor-filter-dialog>h2{margin:0 56px 8px 24px;color:#30324e;font-size:21px;letter-spacing:-.5px}
+.mentor-filter-dialog>p{margin:0 24px;color:#747b91;font-size:12px;line-height:1.6}
+.mentor-filter-close{position:absolute;top:14px;right:14px;display:grid;place-items:center;cursor:pointer;width:38px;height:38px;background:#f3f1fa;color:#696080;border:0;border-radius:12px}
+.mentor-filter-close:focus-visible{outline:3px solid #9684de;outline-offset:3px}
+.kaki-app .mentor-profile-hero{padding:23px;background:linear-gradient(145deg,#fff 25%,#f1eeff)}
+.kaki-app .mentor-profile-hero>.eyebrow{font-size:9px;letter-spacing:1.3px;margin:0 0 20px;line-height:1.6}
+.kaki-app .mentor-profile-hero .mentor-school{margin-top:18px;line-height:1.5}
+.kaki-app .mentor-profile-hero .mentor-course{line-height:1.6;margin-bottom:0}
+.kaki-app .mentor-profile-hero .mentor-subjects{margin-top:14px}
+.kaki-app .mentor-availability{display:flex;gap:7px;align-items:center;font-size:11px;line-height:1.5;color:#6e708b;margin:14px 0 0}
+.kaki-app .mentor-profile-actions{margin-top:19px;text-align:center}
+.kaki-app .mentor-profile-actions>.btn{min-height:46px;font-size:13px}
+.kaki-app .mentor-profile-actions>small{display:block;color:#736c94;font-size:10px;margin-top:9px}
+.kaki-app .mentor-request-link{display:inline-flex;align-items:center;justify-content:center;gap:6px;border:0;background:transparent;color:#62558d;font-size:11px;min-height:38px;margin-top:5px;padding:4px 0}
+.kaki-app .mentor-about-detail{display:grid;gap:6px;font-size:12px;padding-top:17px;margin-top:17px;border-top:1px solid #edeef4;color:#657089}
+.kaki-app .mentor-about-detail>span{font-size:10px;color:#82879c}
+.kaki-app .mentor-upcoming-heading{display:flex;gap:9px;justify-content:space-between;align-items:center}
+.kaki-app .mentor-upcoming-heading h2{margin:0}
+.kaki-app .mentor-upcoming-heading>span{font-size:11px;color:#788199}
+.kaki-app .mentor-session-link b{font-weight:600;color:#6e5cc0;font-size:10px;display:block;margin-top:7px}
+.kaki-app .mentor-no-sessions{display:flex;align-items:center;gap:11px;padding:18px 0;color:#8585a8}
+.kaki-app .mentor-no-sessions svg{flex:none}
+.kaki-app .mentor-no-sessions p{font-size:12px;line-height:1.6;margin:0}
+.kaki-app .mentor-profile-demo{text-align:center;margin:17px 0 0}
+.kaki-app .mentor-directory button:focus-visible,.kaki-app .public-mentor-profile button:focus-visible{outline:3px solid #9b8ee7;outline-offset:3px}
+.kaki-app.desktop-app .mentor-directory{max-width:960px}
+.kaki-app.desktop-app .mentor-paths{max-width:430px}
+.kaki-app.desktop-app .mentor-search-row{max-width:680px;margin-top:20px}
+.kaki-app.desktop-app .mentor-views{position:relative;overflow-x:auto;overflow-y:hidden;scrollbar-width:none}
+.kaki-app.desktop-app .mentor-directory-card{padding:24px}
+.kaki-app.desktop-app .mentor-directory-card .mentor-person-heading>div:nth-child(2){min-width:160px}
+@media(max-width:760px){.kaki-app .mentor-card-bio{display:none}.kaki-app .mentor-directory-card .mentor-person-heading{position:relative}.kaki-app .mentor-directory-card .mentor-badges:has(.mentor-new){position:absolute;right:0;top:-5px;width:auto}.kaki-app .mentor-directory-card .mentor-person-heading:has(.mentor-new) h2{padding-right:45px}.kaki-app .mentor-paths{margin-top:14px}.kaki-app .mentor-filter-sheet{padding-inline:14px}}
+.kaki-app.mobile-app .mentor-card-bio{display:none}
+.kaki-app.mobile-app .mentor-directory-card .mentor-person-heading{position:relative}
+.kaki-app.mobile-app .mentor-directory-card .mentor-badges:has(.mentor-new){position:absolute;right:0;top:-5px;width:auto}
+.kaki-app.mobile-app .mentor-directory-card .mentor-person-heading:has(.mentor-new) h2{padding-right:45px}
+.kaki-app.mobile-app .mentor-directory .page-heading{margin-bottom:14px}
+.kaki-app.mobile-app .mentor-paths{margin-top:12px}
+.kaki-app.mobile-app .mentor-results-heading{margin:10px 1px 8px}
+.kaki-app.mobile-app .mentor-results-heading .results-count{padding:0}

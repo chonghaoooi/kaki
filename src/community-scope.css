@@ -1,0 +1,34 @@
+.community-badge.community-scope-trigger{display:inline-flex;align-items:center;gap:7px;justify-self:start;min-height:30px;max-width:100%;padding:4px 5px 4px 0;border:0;border-radius:8px;background:transparent;color:#353291;font-family:inherit;cursor:pointer;text-align:left;line-height:1.2}
+.community-scope-trigger strong{font-weight:750;letter-spacing:.35px}
+.community-badge.community-scope-compact{min-height:44px;padding:8px 5px;gap:4px;min-width:0;color:#49496b;font-size:11px;align-self:center}
+.community-scope-compact strong{font-weight:600;letter-spacing:-.15px;overflow:hidden;text-overflow:ellipsis;white-space:nowrap}
+.community-scope-compact strong span{margin:0 2px;color:#aaa8bb}
+.community-scope-trigger>.community-scope-caret{flex-shrink:0;width:13px;height:13px;color:#5e6790;transition:transform .18s ease}
+.community-scope-trigger[aria-expanded=true]>.community-scope-caret{transform:rotate(180deg)}
+.community-scope-trigger:hover{background:#edf1ff}
+.community-scope-trigger:focus-visible{outline:3px solid #7896ec;outline-offset:3px}
+.community-scope-menu,.community-scope-sheet{font-family:"Inter Variable",Inter,Arial,sans-serif;color:#263455;-webkit-font-smoothing:antialiased}
+.community-scope-menu{z-index:80;width:350px;max-width:calc(100vw - 32px);padding:17px 13px 13px;background:#fff;border:1px solid #e3e9f5;border-radius:22px;box-shadow:0 16px 52px #253d6426,0 3px 9px #253d640a;outline:none;transform-origin:var(--radix-dropdown-menu-content-transform-origin);animation:community-scope-appear .15s ease-out}
+.community-scope-menu-heading{padding:3px 7px 15px;font-size:15px;font-weight:750;letter-spacing:-.2px}
+.community-scope-menu-arrow{fill:#fff}
+.community-scope-options{display:grid;gap:11px}
+.community-scope-choice{box-sizing:border-box;display:flex;align-items:center;gap:12px;width:100%;min-height:91px;margin:0;padding:15px 13px;border:1px solid #e2e8f3;border-radius:18px;background:#fff;color:#293657;font-family:inherit;text-align:left;cursor:pointer;outline:none}
+.community-scope-menu .community-scope-choice+.community-scope-choice{margin-top:9px}
+.community-scope-choice.is-selected,.community-scope-choice[data-state=checked]{background:#f0f4ff;border-color:#b8c9f4}
+.community-scope-choice:hover,.community-scope-choice[data-highlighted]{background:#f5f7ff;border-color:#9eb5ee}
+.community-scope-choice:focus-visible{outline:3px solid #7896ec;outline-offset:2px}
+.community-scope-choice-icon{display:flex;align-items:center;justify-content:center;flex-shrink:0;width:45px;height:45px;border-radius:14px;background:#e7efff;color:#4e72db}
+.community-scope-choice-icon.is-neighbourhood{background:#efeafd;color:#8160bf}
+.community-scope-choice-copy{display:flex;flex:1;flex-direction:column;gap:5px;min-width:0}
+.community-scope-choice-copy strong{font-size:15px;font-weight:750;line-height:1.3;letter-spacing:-.2px}
+.community-scope-choice-copy>span{font-size:12px;line-height:1.5;color:#626f85;overflow-wrap:anywhere}
+.community-scope-selection{display:flex;align-items:center;justify-content:center;flex-shrink:0;width:21px;color:#5177dc}
+.community-scope-privacy{display:flex;align-items:flex-start;gap:9px;padding:15px 5px 4px;color:#62738c}
+.community-scope-privacy>svg{flex-shrink:0;margin-top:1px;color:#6580ad}
+.community-scope-privacy p{margin:0;font-size:11px;line-height:1.6}
+.community-scope-sheet .community-scope-privacy{padding:17px 4px 7px}
+.community-scope-dismiss{display:block;min-height:44px;width:100%;padding:12px;border:0;border-radius:13px;background:#f4f6fb;color:#566780;font:650 13px/1.3 "Inter Variable",Inter,Arial,sans-serif;margin-top:11px;cursor:pointer}
+.community-scope-dismiss:focus-visible{outline:3px solid #7896ec;outline-offset:3px}
+.community-scope-dismiss:hover{background:#eaf0fc}
+@keyframes community-scope-appear{from{opacity:0;transform:translateY(-4px) scale(.98)}to{opacity:1;transform:translateY(0) scale(1)}}
+@media(prefers-reduced-motion:reduce){.community-scope-menu{animation:none}.community-scope-trigger>.community-scope-caret{transition:none}}

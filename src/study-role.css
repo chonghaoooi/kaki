@@ -1,0 +1,59 @@
+.kaki-app .study-role-page{max-width:830px;margin:auto}
+.kaki-app .study-role-preview{padding:14px;display:flex;gap:13px;margin:22px 0 24px;align-items:center}
+.kaki-app .study-role-preview>img{width:86px;height:112px;border-radius:14px;object-fit:cover;flex:none}
+.kaki-app .study-role-preview>div{min-width:0;flex:1}
+.kaki-app .study-role-preview h2{font-size:17px;line-height:1.3;margin:8px 0;letter-spacing:-.4px}
+.kaki-app .study-role-preview small{font-size:11px;color:var(--muted);display:flex;align-items:center;gap:5px}
+.kaki-app .study-role-options{display:grid;gap:14px}
+.kaki-app .study-role-option{text-align:left;padding:22px;position:relative;border:1.5px solid #e3e4ef;border-radius:24px;background:white;transition:border-color .15s,background .15s;min-width:0}
+.kaki-app .study-role-option .role-icon{display:grid;place-items:center;width:54px;height:54px;border-radius:17px;background:#e9f0ff;color:#537ada;margin-bottom:16px}
+.kaki-app .study-role-option.mentor .role-icon{background:#eee8ff;color:#8054d3}
+.kaki-app .study-role-option.selected{background:#f3f5ff;border-color:#6458e5;box-shadow:0 0 0 2px #6458e50a}
+.kaki-app .study-role-option.mentor.selected{background:#f7f2ff}
+.kaki-app .role-selection{position:absolute;right:21px;top:23px;width:24px;height:24px;border:1.5px solid #d4d7e5;border-radius:50%;color:#6554d7}
+.kaki-app .selected .role-selection{border:0}
+.kaki-app .study-role-option>.eyebrow{font-size:9px;color:#7a78a1;letter-spacing:1.5px}
+.kaki-app .study-role-option h2{font-size:22px;letter-spacing:-.7px;margin:7px 0 12px}
+.kaki-app .study-role-option>strong{font-size:12px;font-weight:600;color:#545c78}
+.kaki-app .study-role-option>p{color:#747c92;line-height:1.6;font-size:12px;margin:7px 0 18px}
+.kaki-app .role-current-count{font-size:11px;font-weight:600;color:#696285;border-top:1px solid #e5e2f2;padding-top:12px;display:block}
+.kaki-app .study-role-note,.kaki-app .study-mentor-note{display:flex;align-items:flex-start;gap:10px;color:#7b7790;font-size:12px;line-height:1.65;margin:21px 2px}
+.kaki-app .study-role-note svg,.kaki-app .study-mentor-note svg{flex:none;margin-top:3px;color:#9b82c1}
+.kaki-app .study-mentor-note{padding:14px;background:#eeeaff;border-radius:14px;color:#695993}
+.kaki-app .study-detail-summary{display:flex;gap:10px;align-items:center;background:#efedfb;padding:16px;border-radius:16px;margin:0 0 24px;color:#6752a1;font-size:12px}
+.kaki-app .study-detail-summary>span{flex:1;line-height:1.6}
+.kaki-app .study-detail-summary strong{display:block;color:#3f3863;font-size:14px}
+.kaki-app .study-detail-summary .btn{padding:6px 0;min-height:38px}
+.kaki-app .mentor-member-role{color:#8361bd;font-size:10px;font-weight:650}
+.kaki-app.desktop-app .study-role-options{grid-template-columns:1fr 1fr}
+.kaki-app.desktop-app .study-role-option{padding:28px}
+.kaki-app.desktop-app .study-role-preview>img{width:120px}
+.kaki-app.desktop-app .study-role-page>.btn{max-width:390px;display:flex;margin-left:auto}
+.kaki-app.mobile-app .study-role-option{padding:18px}
+.kaki-app.mobile-app .study-role-option .role-icon{position:absolute;left:18px;top:18px;width:40px;height:40px;border-radius:12px;margin:0}
+.kaki-app.mobile-app .study-role-option .role-icon svg{width:25px;height:25px}
+.kaki-app.mobile-app .study-role-option>.eyebrow{display:block;padding-left:53px;padding-right:20px;font-size:8px}
+.kaki-app.mobile-app .study-role-option h2{padding-left:53px;font-size:20px;margin:4px 0 17px}
+.kaki-app.mobile-app .study-role-option>p{margin-bottom:12px}
+.kaki-app.mobile-app .study-role-option .role-selection{right:16px;top:16px;width:20px;height:20px}
+.kaki-app.mobile-app .study-role-option .role-selection svg{width:20px;height:20px}
+.kaki-app.mobile-app .study-role-preview{margin:18px 0;padding:12px}
+.kaki-app.mobile-app .study-role-preview>img{width:72px;height:91px}
+.kaki-app.mobile-app .study-role-preview h2{font-size:15px;margin:5px 0}
+.kaki-app.mobile-app .study-role-preview .badge{font-size:9px;padding:2px 7px}
+.kaki-app.mobile-app .study-role-preview .location-link{min-height:22px;font-size:10px}
+.kaki-app.mobile-app .study-role-option>strong{display:none}
+.kaki-app.mobile-app .study-role-option h2{margin-bottom:12px}
+.kaki-app.mobile-app .study-role-option>p{margin-top:0;line-height:1.5}
+.kaki-app .map-filters .mobile-carousel-content{gap:8px}
+.kaki-app .study-mentor-discovery{display:flex;align-items:center;gap:14px;width:100%;text-align:left;background:#efedff;border:1px solid #e2dcf7;color:#6852af;padding:17px 18px;border-radius:20px;margin:22px 0}
+.kaki-app .study-mentor-discovery>span{flex:1;min-width:0}
+.kaki-app .study-mentor-discovery strong{font-size:15px;display:block}
+.kaki-app .study-mentor-discovery small{display:block;font-size:11px;color:#756c91;line-height:1.5;margin-top:4px}
+.kaki-app .study-event-mentors{margin:22px 0 28px}
+.kaki-app .study-mentor-grid{display:grid;gap:14px}
+.kaki-app .study-event-mentor{padding:18px}
+.kaki-app .study-event-mentor>.row{gap:12px}
+.kaki-app .study-event-mentor>.row small{font-size:10px;margin-top:4px}
+.kaki-app.desktop-app .study-mentor-grid{grid-template-columns:repeat(2,minmax(0,1fr))}
+@media(max-width:760px){.kaki-app.desktop-app .study-mentor-grid{grid-template-columns:1fr}}

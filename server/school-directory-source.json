@@ -1,0 +1,1687 @@
+[
+  {
+    "school_name": "ADMIRALTY PRIMARY SCHOOL",
+    "url_address": "https://admiraltypri.moe.edu.sg/",
+    "mainlevel_code": "PRIMARY"
+  },
+  {
+    "school_name": "ADMIRALTY SECONDARY SCHOOL",
+    "url_address": "http://www.admiraltysec.moe.edu.sg",
+    "mainlevel_code": "SECONDARY (S1-S5)"
+  },
+  {
+    "school_name": "AHMAD IBRAHIM PRIMARY SCHOOL",
+    "url_address": "http://www.ahmadibrahimpri.moe.edu.sg",
+    "mainlevel_code": "PRIMARY"
+  },
+  {
+    "school_name": "AHMAD IBRAHIM SECONDARY SCHOOL",
+    "url_address": "http://www.ahmadibrahimsec.moe.edu.sg",
+    "mainlevel_code": "SECONDARY (S1-S5)"
+  },
+  {
+    "school_name": "AI TONG SCHOOL",
+    "url_address": "http://www.aitong.moe.edu.sg",
+    "mainlevel_code": "PRIMARY"
+  },
+  {
+    "school_name": "ALEXANDRA PRIMARY SCHOOL",
+    "url_address": "http://alexandrapri.moe.edu.sg",
+    "mainlevel_code": "PRIMARY"
+  },
+  {
+    "school_name": "ANCHOR GREEN PRIMARY SCHOOL",
+    "url_address": "http://www.anchorgreenpri.moe.edu.sg",
+    "mainlevel_code": "PRIMARY"
+  },
+  {
+    "school_name": "ANDERSON PRIMARY SCHOOL",
+    "url_address": "http://www.andersonpri.moe.edu.sg",
+    "mainlevel_code": "PRIMARY"
+  },
+  {
+    "school_name": "ANDERSON SECONDARY SCHOOL",
+    "url_address": "http://www.andersonsec.moe.edu.sg",
+    "mainlevel_code": "SECONDARY (S1-S5)"
+  },
+  {
+    "school_name": "ANDERSON SERANGOON JUNIOR COLLEGE",
+    "url_address": "www.asrjc.moe.edu.sg",
+    "mainlevel_code": "JUNIOR COLLEGE"
+  },
+  {
+    "school_name": "ANG MO KIO PRIMARY SCHOOL",
+    "url_address": "http://www.angmokiopri.moe.edu.sg",
+    "mainlevel_code": "PRIMARY"
+  },
+  {
+    "school_name": "ANG MO KIO SECONDARY SCHOOL",
+    "url_address": "http://www.angmokiosec.moe.edu.sg",
+    "mainlevel_code": "SECONDARY (S1-S5)"
+  },
+  {
+    "school_name": "ANGLICAN HIGH SCHOOL",
+    "url_address": "http://www.anglicanhigh.moe.edu.sg",
+    "mainlevel_code": "SECONDARY (S1-S4)"
+  },
+  {
+    "school_name": "ANGLO-CHINESE JUNIOR COLLEGE",
+    "url_address": "https://acjc.moe.edu.sg",
+    "mainlevel_code": "JUNIOR COLLEGE"
+  },
+  {
+    "school_name": "ANGLO-CHINESE SCHOOL (BARKER ROAD)",
+    "url_address": "http://www.acsbr.moe.edu.sg",
+    "mainlevel_code": "SECONDARY (S1-S5)"
+  },
+  {
+    "school_name": "ANGLO-CHINESE SCHOOL (INDEPENDENT)",
+    "url_address": "https://www.acsindep.moe.edu.sg",
+    "mainlevel_code": "MIXED LEVEL (S1-JC2)"
+  },
+  {
+    "school_name": "ANGLO-CHINESE SCHOOL (JUNIOR)",
+    "url_address": "www.acsj.moe.edu.sg",
+    "mainlevel_code": "PRIMARY"
+  },
+  {
+    "school_name": "ANGLO-CHINESE SCHOOL (PRIMARY)",
+    "url_address": "http://www.acspri.moe.edu.sg/",
+    "mainlevel_code": "PRIMARY"
+  },
+  {
+    "school_name": "ANGSANA PRIMARY SCHOOL",
+    "url_address": "https://angsanapri.moe.edu.sg/",
+    "mainlevel_code": "PRIMARY"
+  },
+  {
+    "school_name": "ASSUMPTION ENGLISH SCHOOL",
+    "url_address": "http://www.assumptionenglish.moe.edu.sg",
+    "mainlevel_code": "SECONDARY (S1-S5)"
+  },
+  {
+    "school_name": "ASSUMPTION PATHWAY SCHOOL",
+    "url_address": "http://www.aps.edu.sg",
+    "mainlevel_code": "SECONDARY (S1-S4)"
+  },
+  {
+    "school_name": "BARTLEY SECONDARY SCHOOL",
+    "url_address": "http://www.bartleysec.moe.edu.sg",
+    "mainlevel_code": "SECONDARY (S1-S5)"
+  },
+  {
+    "school_name": "BEACON PRIMARY SCHOOL",
+    "url_address": "https://beaconpri.moe.edu.sg/",
+    "mainlevel_code": "PRIMARY"
+  },
+  {
+    "school_name": "BEATTY SECONDARY SCHOOL",
+    "url_address": "http://www.beattysec.moe.edu.sg",
+    "mainlevel_code": "SECONDARY (S1-S5)"
+  },
+  {
+    "school_name": "BEDOK GREEN PRIMARY SCHOOL",
+    "url_address": "http://www.bedokgreenpri.moe.edu.sg",
+    "mainlevel_code": "PRIMARY"
+  },
+  {
+    "school_name": "BEDOK GREEN SECONDARY SCHOOL",
+    "url_address": "http://www.bedokgreensec.moe.edu.sg",
+    "mainlevel_code": "SECONDARY (S1-S5)"
+  },
+  {
+    "school_name": "BEDOK SOUTH SECONDARY SCHOOL",
+    "url_address": "https://www.bedoksouthsec.moe.edu.sg/",
+    "mainlevel_code": "SECONDARY (S1-S5)"
+  },
+  {
+    "school_name": "BEDOK VIEW SECONDARY SCHOOL",
+    "url_address": "http://www.bedokviewsec.moe.edu.sg",
+    "mainlevel_code": "SECONDARY (S1-S5)"
+  },
+  {
+    "school_name": "BENDEMEER PRIMARY SCHOOL",
+    "url_address": "http://www.bendemeerpri.moe.edu.sg/",
+    "mainlevel_code": "PRIMARY"
+  },
+  {
+    "school_name": "BENDEMEER SECONDARY SCHOOL",
+    "url_address": "http://www.bendemeersec.moe.edu.sg",
+    "mainlevel_code": "SECONDARY (S1-S5)"
+  },
+  {
+    "school_name": "BLANGAH RISE PRIMARY SCHOOL",
+    "url_address": "http://www.blangahrisepri.moe.edu.sg/",
+    "mainlevel_code": "PRIMARY"
+  },
+  {
+    "school_name": "BOON LAY GARDEN PRIMARY SCHOOL",
+    "url_address": "www.boonlaygardenpri.moe.edu.sg",
+    "mainlevel_code": "PRIMARY"
+  },
+  {
+    "school_name": "BOON LAY SECONDARY SCHOOL",
+    "url_address": "https://www.boonlaysec.moe.edu.sg",
+    "mainlevel_code": "SECONDARY (S1-S5)"
+  },
+  {
+    "school_name": "BOWEN SECONDARY SCHOOL",
+    "url_address": "http://www.bowensec.moe.edu.sg",
+    "mainlevel_code": "SECONDARY (S1-S5)"
+  },
+  {
+    "school_name": "BROADRICK SECONDARY SCHOOL",
+    "url_address": "http://www.broadricksec.moe.edu.sg",
+    "mainlevel_code": "SECONDARY (S1-S5)"
+  },
+  {
+    "school_name": "BUKIT BATOK SECONDARY SCHOOL",
+    "url_address": "http://www.bukitbatoksec.moe.edu.sg",
+    "mainlevel_code": "SECONDARY (S1-S5)"
+  },
+  {
+    "school_name": "BUKIT MERAH SECONDARY SCHOOL",
+    "url_address": "http://www.bukitmerahsec.moe.edu.sg",
+    "mainlevel_code": "SECONDARY (S1-S5)"
+  },
+  {
+    "school_name": "BUKIT PANJANG GOVT. HIGH SCHOOL",
+    "url_address": "http://www.bpghs.moe.edu.sg",
+    "mainlevel_code": "SECONDARY (S1-S5)"
+  },
+  {
+    "school_name": "BUKIT PANJANG PRIMARY SCHOOL",
+    "url_address": "http://www.bukitpanjangpri.moe.edu.sg",
+    "mainlevel_code": "PRIMARY"
+  },
+  {
+    "school_name": "BUKIT TIMAH PRIMARY SCHOOL",
+    "url_address": "http://www.bukittimahpri.moe.edu.sg",
+    "mainlevel_code": "PRIMARY"
+  },
+  {
+    "school_name": "BUKIT VIEW PRIMARY SCHOOL",
+    "url_address": "http://www.bukitviewpri.moe.edu.sg",
+    "mainlevel_code": "PRIMARY"
+  },
+  {
+    "school_name": "BUKIT VIEW SECONDARY SCHOOL",
+    "url_address": "https://www.bukitviewsec.moe.edu.sg",
+    "mainlevel_code": "SECONDARY (S1-S5)"
+  },
+  {
+    "school_name": "CANBERRA PRIMARY SCHOOL",
+    "url_address": "http://www.canberrapri.moe.edu.sg",
+    "mainlevel_code": "PRIMARY"
+  },
+  {
+    "school_name": "CANBERRA SECONDARY SCHOOL",
+    "url_address": "https://canberrasec.moe.edu.sg",
+    "mainlevel_code": "SECONDARY (S1-S5)"
+  },
+  {
+    "school_name": "CANOSSA CATHOLIC PRIMARY SCHOOL",
+    "url_address": "https://canossacatholicpri.moe.edu.sg/",
+    "mainlevel_code": "PRIMARY"
+  },
+  {
+    "school_name": "CANTONMENT PRIMARY SCHOOL",
+    "url_address": "http://www.cantonmentpri.moe.edu.sg",
+    "mainlevel_code": "PRIMARY"
+  },
+  {
+    "school_name": "CASUARINA PRIMARY SCHOOL",
+    "url_address": "http://www.casuarinapri.moe.edu.sg/",
+    "mainlevel_code": "PRIMARY"
+  },
+  {
+    "school_name": "CATHOLIC HIGH SCHOOL",
+    "url_address": "http://www.catholichigh.moe.edu.sg",
+    "mainlevel_code": "MIXED LEVEL (P1-S4)"
+  },
+  {
+    "school_name": "CATHOLIC JUNIOR COLLEGE",
+    "url_address": "https://cjc.moe.edu.sg/",
+    "mainlevel_code": "JUNIOR COLLEGE"
+  },
+  {
+    "school_name": "CEDAR GIRLS' SECONDARY SCHOOL",
+    "url_address": "http://www.cedargirlssec.moe.edu.sg",
+    "mainlevel_code": "SECONDARY (S1-S4)"
+  },
+  {
+    "school_name": "CEDAR PRIMARY SCHOOL",
+    "url_address": "http://www.cedarpri.moe.edu.sg",
+    "mainlevel_code": "PRIMARY"
+  },
+  {
+    "school_name": "CHANGKAT CHANGI SECONDARY SCHOOL",
+    "url_address": "http://www.changkatchangisec.moe.edu.sg",
+    "mainlevel_code": "SECONDARY (S1-S5)"
+  },
+  {
+    "school_name": "CHANGKAT PRIMARY SCHOOL",
+    "url_address": "http://www.changkatpri.moe.edu.sg/",
+    "mainlevel_code": "PRIMARY"
+  },
+  {
+    "school_name": "CHIJ (KATONG) PRIMARY",
+    "url_address": "http://chijkcp.moe.edu.sg/",
+    "mainlevel_code": "PRIMARY"
+  },
+  {
+    "school_name": "CHIJ (KELLOCK)",
+    "url_address": "http://www.chijkellock.moe.edu.sg/",
+    "mainlevel_code": "PRIMARY"
+  },
+  {
+    "school_name": "CHIJ KATONG CONVENT",
+    "url_address": "http://www.chijkatongconvent.moe.edu.sg",
+    "mainlevel_code": "SECONDARY (S1-S5)"
+  },
+  {
+    "school_name": "CHIJ OUR LADY OF GOOD COUNSEL",
+    "url_address": "http://www.chijourladyofgoodcounsel.moe.edu.sg",
+    "mainlevel_code": "PRIMARY"
+  },
+  {
+    "school_name": "CHIJ OUR LADY OF THE NATIVITY",
+    "url_address": "http://www.chijourladyofthenativity.moe.edu.sg/",
+    "mainlevel_code": "PRIMARY"
+  },
+  {
+    "school_name": "CHIJ OUR LADY QUEEN OF PEACE",
+    "url_address": "http://www.chijourladyqueenofpeace.moe.edu.sg/",
+    "mainlevel_code": "PRIMARY"
+  },
+  {
+    "school_name": "CHIJ PRIMARY (TOA PAYOH)",
+    "url_address": "http://www.chijpritoapayoh.moe.edu.sg",
+    "mainlevel_code": "PRIMARY"
+  },
+  {
+    "school_name": "CHIJ SECONDARY (TOA PAYOH)",
+    "url_address": "http://www.chijsec.edu.sg",
+    "mainlevel_code": "SECONDARY (S1-S5)"
+  },
+  {
+    "school_name": "CHIJ ST. JOSEPH'S CONVENT",
+    "url_address": "http://www.chijstjosephsconvent.moe.edu.sg",
+    "mainlevel_code": "SECONDARY (S1-S5)"
+  },
+  {
+    "school_name": "CHIJ ST. NICHOLAS GIRLS' SCHOOL",
+    "url_address": "http://www.chijstnicholasgirls.moe.edu.sg",
+    "mainlevel_code": "MIXED LEVEL (P1-S4)"
+  },
+  {
+    "school_name": "CHIJ ST. THERESA'S CONVENT",
+    "url_address": "http://www.chijsttheresasconvent.moe.edu.sg",
+    "mainlevel_code": "SECONDARY (S1-S5)"
+  },
+  {
+    "school_name": "CHONGFU SCHOOL",
+    "url_address": "http://www.chongfu.moe.edu.sg/",
+    "mainlevel_code": "PRIMARY"
+  },
+  {
+    "school_name": "CHONGZHENG PRIMARY SCHOOL",
+    "url_address": "http://www.chongzhengpri.moe.edu.sg",
+    "mainlevel_code": "PRIMARY"
+  },
+  {
+    "school_name": "CHRIST CHURCH SECONDARY SCHOOL",
+    "url_address": "http://www.christchurchsec.moe.edu.sg",
+    "mainlevel_code": "SECONDARY (S1-S5)"
+  },
+  {
+    "school_name": "CHUA CHU KANG PRIMARY SCHOOL",
+    "url_address": "http://www.chuachukangpri.moe.edu.sg",
+    "mainlevel_code": "PRIMARY"
+  },
+  {
+    "school_name": "CHUA CHU KANG SECONDARY SCHOOL",
+    "url_address": "http://www.chuachukangsec.moe.edu.sg",
+    "mainlevel_code": "SECONDARY (S1-S5)"
+  },
+  {
+    "school_name": "CHUNG CHENG HIGH SCHOOL (MAIN)",
+    "url_address": "http://www.chungchenghighmain.moe.edu.sg",
+    "mainlevel_code": "SECONDARY (S1-S4)"
+  },
+  {
+    "school_name": "CHUNG CHENG HIGH SCHOOL (YISHUN)",
+    "url_address": "http://www.chungchenghighyishun.moe.edu.sg",
+    "mainlevel_code": "SECONDARY (S1-S5)"
+  },
+  {
+    "school_name": "CLEMENTI PRIMARY SCHOOL",
+    "url_address": "http://www.clementipri.moe.edu.sg",
+    "mainlevel_code": "PRIMARY"
+  },
+  {
+    "school_name": "CLEMENTI TOWN SECONDARY SCHOOL",
+    "url_address": "http://www.clementitownsec.moe.edu.sg",
+    "mainlevel_code": "SECONDARY (S1-S5)"
+  },
+  {
+    "school_name": "COMMONWEALTH SECONDARY SCHOOL",
+    "url_address": "http://www.commonwealthsec.moe.edu.sg",
+    "mainlevel_code": "SECONDARY (S1-S5)"
+  },
+  {
+    "school_name": "COMPASSVALE PRIMARY SCHOOL",
+    "url_address": "http://www.compassvalepri.moe.edu.sg/",
+    "mainlevel_code": "PRIMARY"
+  },
+  {
+    "school_name": "COMPASSVALE SECONDARY SCHOOL",
+    "url_address": "http://www.compassvalesec.moe.edu.sg",
+    "mainlevel_code": "SECONDARY (S1-S5)"
+  },
+  {
+    "school_name": "CONCORD PRIMARY SCHOOL",
+    "url_address": "http://www.concordpri.moe.edu.sg/",
+    "mainlevel_code": "PRIMARY"
+  },
+  {
+    "school_name": "CORPORATION PRIMARY SCHOOL",
+    "url_address": "http://www.corporationpri.moe.edu.sg",
+    "mainlevel_code": "PRIMARY"
+  },
+  {
+    "school_name": "CRESCENT GIRLS' SCHOOL",
+    "url_address": "http://www.crescent.edu.sg",
+    "mainlevel_code": "SECONDARY (S1-S4)"
+  },
+  {
+    "school_name": "CREST SECONDARY SCHOOL",
+    "url_address": "http://www.crestsec.edu.sg",
+    "mainlevel_code": "SECONDARY (S1-S4)"
+  },
+  {
+    "school_name": "DAMAI PRIMARY SCHOOL",
+    "url_address": "http://www.damaipri.moe.edu.sg",
+    "mainlevel_code": "PRIMARY"
+  },
+  {
+    "school_name": "DAMAI SECONDARY SCHOOL",
+    "url_address": "http://www.damaisec.moe.edu.sg",
+    "mainlevel_code": "SECONDARY (S1-S5)"
+  },
+  {
+    "school_name": "DAZHONG PRIMARY SCHOOL",
+    "url_address": "http://www.dazhongpri.moe.edu.sg",
+    "mainlevel_code": "PRIMARY"
+  },
+  {
+    "school_name": "DE LA SALLE SCHOOL",
+    "url_address": "http://www.delasalle.moe.edu.sg",
+    "mainlevel_code": "PRIMARY"
+  },
+  {
+    "school_name": "DEYI SECONDARY SCHOOL",
+    "url_address": "http://www.deyisec.moe.edu.sg",
+    "mainlevel_code": "SECONDARY (S1-S5)"
+  },
+  {
+    "school_name": "DUNEARN SECONDARY SCHOOL",
+    "url_address": "http://www.dunearnsec.moe.edu.sg",
+    "mainlevel_code": "SECONDARY (S1-S5)"
+  },
+  {
+    "school_name": "DUNMAN HIGH SCHOOL",
+    "url_address": "http://www.dunmanhigh.moe.edu.sg",
+    "mainlevel_code": "MIXED LEVEL (S1-JC2)"
+  },
+  {
+    "school_name": "DUNMAN SECONDARY SCHOOL",
+    "url_address": "http://www.dunmansec.moe.edu.sg",
+    "mainlevel_code": "SECONDARY (S1-S5)"
+  },
+  {
+    "school_name": "EAST SPRING PRIMARY SCHOOL",
+    "url_address": "http://www.eastspringpri.moe.edu.sg",
+    "mainlevel_code": "PRIMARY"
+  },
+  {
+    "school_name": "EAST SPRING SECONDARY SCHOOL",
+    "url_address": "http://www.eastspringsec.moe.edu.sg",
+    "mainlevel_code": "SECONDARY (S1-S5)"
+  },
+  {
+    "school_name": "EDGEFIELD PRIMARY SCHOOL",
+    "url_address": "http://www.edgefieldpri.moe.edu.sg",
+    "mainlevel_code": "PRIMARY"
+  },
+  {
+    "school_name": "EDGEFIELD SECONDARY SCHOOL",
+    "url_address": "http://www.edgefieldsec.moe.edu.sg",
+    "mainlevel_code": "SECONDARY (S1-S5)"
+  },
+  {
+    "school_name": "ELIAS PARK PRIMARY SCHOOL",
+    "url_address": "http://www.eliasparkpri.moe.edu.sg",
+    "mainlevel_code": "PRIMARY"
+  },
+  {
+    "school_name": "ENDEAVOUR PRIMARY SCHOOL",
+    "url_address": "https://endeavourpri.moe.edu.sg/",
+    "mainlevel_code": "PRIMARY"
+  },
+  {
+    "school_name": "EUNOIA JUNIOR COLLEGE",
+    "url_address": "http://www.eunoiajc.moe.edu.sg",
+    "mainlevel_code": "JUNIOR COLLEGE"
+  },
+  {
+    "school_name": "EVERGREEN PRIMARY SCHOOL",
+    "url_address": "http://www.evergreenpri.moe.edu.sg/",
+    "mainlevel_code": "PRIMARY"
+  },
+  {
+    "school_name": "EVERGREEN SECONDARY SCHOOL",
+    "url_address": "http://www.evergreensec.moe.edu.sg",
+    "mainlevel_code": "SECONDARY (S1-S5)"
+  },
+  {
+    "school_name": "FAIRFIELD METHODIST SCHOOL (PRIMARY)",
+    "url_address": "http://www.fmsp.moe.edu.sg/",
+    "mainlevel_code": "PRIMARY"
+  },
+  {
+    "school_name": "FAIRFIELD METHODIST SCHOOL (SECONDARY)",
+    "url_address": "http://www.fairfieldmethodistsec.moe.edu.sg",
+    "mainlevel_code": "SECONDARY (S1-S5)"
+  },
+  {
+    "school_name": "FARRER PARK PRIMARY SCHOOL",
+    "url_address": "http://www.farrerparkpri.moe.edu.sg",
+    "mainlevel_code": "PRIMARY"
+  },
+  {
+    "school_name": "FENGSHAN PRIMARY SCHOOL",
+    "url_address": "http://www.fengshanpri.moe.edu.sg",
+    "mainlevel_code": "PRIMARY"
+  },
+  {
+    "school_name": "FERN GREEN PRIMARY SCHOOL",
+    "url_address": "www.ferngreenpri.moe.edu.sg",
+    "mainlevel_code": "PRIMARY"
+  },
+  {
+    "school_name": "FERNVALE PRIMARY SCHOOL",
+    "url_address": "www.fernvalepri.moe.edu.sg",
+    "mainlevel_code": "PRIMARY"
+  },
+  {
+    "school_name": "FIRST TOA PAYOH PRIMARY SCHOOL",
+    "url_address": "http://www.firsttoapayohpri.moe.edu.sg",
+    "mainlevel_code": "PRIMARY"
+  },
+  {
+    "school_name": "FRONTIER PRIMARY SCHOOL",
+    "url_address": "http://www.frontierpri.moe.edu.sg",
+    "mainlevel_code": "PRIMARY"
+  },
+  {
+    "school_name": "FUCHUN PRIMARY SCHOOL",
+    "url_address": "http://www.fuchunpri.moe.edu.sg",
+    "mainlevel_code": "PRIMARY"
+  },
+  {
+    "school_name": "FUHUA PRIMARY SCHOOL",
+    "url_address": "http://www.fuhuapri.moe.edu.sg",
+    "mainlevel_code": "PRIMARY"
+  },
+  {
+    "school_name": "FUHUA SECONDARY SCHOOL",
+    "url_address": "http://www.fuhuasec.moe.edu.sg",
+    "mainlevel_code": "SECONDARY (S1-S5)"
+  },
+  {
+    "school_name": "GAN ENG SENG PRIMARY SCHOOL",
+    "url_address": "http://www.ganengsengpri.moe.edu.sg",
+    "mainlevel_code": "PRIMARY"
+  },
+  {
+    "school_name": "GAN ENG SENG SCHOOL",
+    "url_address": "http://www.ganengsengsch.moe.edu.sg",
+    "mainlevel_code": "SECONDARY (S1-S5)"
+  },
+  {
+    "school_name": "GEYLANG METHODIST SCHOOL (PRIMARY)",
+    "url_address": "www.geylangmethodistpri.moe.edu.sg",
+    "mainlevel_code": "PRIMARY"
+  },
+  {
+    "school_name": "GEYLANG METHODIST SCHOOL (SECONDARY)",
+    "url_address": "http://www.geylangmethodistsec.moe.edu.sg",
+    "mainlevel_code": "SECONDARY (S1-S5)"
+  },
+  {
+    "school_name": "GONGSHANG PRIMARY SCHOOL",
+    "url_address": "http://www.gongshangpri.moe.edu.sg",
+    "mainlevel_code": "PRIMARY"
+  },
+  {
+    "school_name": "GREENDALE PRIMARY SCHOOL",
+    "url_address": "http://www.greendalepri.moe.edu.sg",
+    "mainlevel_code": "PRIMARY"
+  },
+  {
+    "school_name": "GREENDALE SECONDARY SCHOOL",
+    "url_address": "http://www.greendalesec.moe.edu.sg",
+    "mainlevel_code": "SECONDARY (S1-S5)"
+  },
+  {
+    "school_name": "GREENRIDGE PRIMARY SCHOOL",
+    "url_address": "http://www.greenridgepri.moe.edu.sg",
+    "mainlevel_code": "PRIMARY"
+  },
+  {
+    "school_name": "GREENRIDGE SECONDARY SCHOOL",
+    "url_address": "http://www.greenridgesec.moe.edu.sg",
+    "mainlevel_code": "SECONDARY (S1-S5)"
+  },
+  {
+    "school_name": "GREENWOOD PRIMARY SCHOOL",
+    "url_address": "http://www.greenwoodpri.moe.edu.sg",
+    "mainlevel_code": "PRIMARY"
+  },
+  {
+    "school_name": "GUANGYANG SECONDARY SCHOOL",
+    "url_address": "http://guangyangsec.moe.edu.sg",
+    "mainlevel_code": "SECONDARY (S1-S5)"
+  },
+  {
+    "school_name": "HAI SING CATHOLIC SCHOOL",
+    "url_address": "http://www.haisingcatholic.moe.edu.sg",
+    "mainlevel_code": "SECONDARY (S1-S5)"
+  },
+  {
+    "school_name": "HAIG GIRLS' SCHOOL",
+    "url_address": "http://www.haiggirls.moe.edu.sg",
+    "mainlevel_code": "PRIMARY"
+  },
+  {
+    "school_name": "HENRY PARK PRIMARY SCHOOL",
+    "url_address": "http://www.henryparkpri.moe.edu.sg",
+    "mainlevel_code": "PRIMARY"
+  },
+  {
+    "school_name": "HILLGROVE SECONDARY SCHOOL",
+    "url_address": "http://www.hillgrovesec.moe.edu.sg",
+    "mainlevel_code": "SECONDARY (S1-S5)"
+  },
+  {
+    "school_name": "HOLY INNOCENTS' HIGH SCHOOL",
+    "url_address": "http://www.holyinnocentshigh.moe.edu.sg",
+    "mainlevel_code": "SECONDARY (S1-S5)"
+  },
+  {
+    "school_name": "HOLY INNOCENTS' PRIMARY SCHOOL",
+    "url_address": "http://www.holyinnocentspri.moe.edu.sg/",
+    "mainlevel_code": "PRIMARY"
+  },
+  {
+    "school_name": "HONG WEN SCHOOL",
+    "url_address": "http://www.hongwen.moe.edu.sg",
+    "mainlevel_code": "PRIMARY"
+  },
+  {
+    "school_name": "HORIZON PRIMARY SCHOOL",
+    "url_address": "http://www.horizonpri.moe.edu.sg",
+    "mainlevel_code": "PRIMARY"
+  },
+  {
+    "school_name": "HOUGANG PRIMARY SCHOOL",
+    "url_address": "http://www.hougangpri.moe.edu.sg/",
+    "mainlevel_code": "PRIMARY"
+  },
+  {
+    "school_name": "HOUGANG SECONDARY SCHOOL",
+    "url_address": "http://www.hougangsec.moe.edu.sg",
+    "mainlevel_code": "SECONDARY (S1-S5)"
+  },
+  {
+    "school_name": "HUA YI SECONDARY SCHOOL",
+    "url_address": "http://www.huayisec.moe.edu.sg",
+    "mainlevel_code": "SECONDARY (S1-S5)"
+  },
+  {
+    "school_name": "HUAMIN PRIMARY SCHOOL",
+    "url_address": "http://www.huaminpri.moe.edu.sg",
+    "mainlevel_code": "PRIMARY"
+  },
+  {
+    "school_name": "HWA CHONG INSTITUTION",
+    "url_address": "https://www.hci.edu.sg/",
+    "mainlevel_code": "MIXED LEVEL (S1-JC2)"
+  },
+  {
+    "school_name": "INNOVA PRIMARY SCHOOL",
+    "url_address": "http://www.innovapri.moe.edu.sg/",
+    "mainlevel_code": "PRIMARY"
+  },
+  {
+    "school_name": "JIEMIN PRIMARY SCHOOL",
+    "url_address": "http://www.jieminpri.moe.edu.sg",
+    "mainlevel_code": "PRIMARY"
+  },
+  {
+    "school_name": "JING SHAN PRIMARY SCHOOL",
+    "url_address": "http://www.jingshanpri.moe.edu.sg",
+    "mainlevel_code": "PRIMARY"
+  },
+  {
+    "school_name": "JUNYUAN PRIMARY SCHOOL",
+    "url_address": "https://junyuanpri.moe.edu.sg",
+    "mainlevel_code": "PRIMARY"
+  },
+  {
+    "school_name": "JUNYUAN SECONDARY SCHOOL",
+    "url_address": "https://junyuansec.moe.edu.sg/",
+    "mainlevel_code": "SECONDARY (S1-S5)"
+  },
+  {
+    "school_name": "JURONG PIONEER JUNIOR COLLEGE",
+    "url_address": "http://jpjc.moe.edu.sg",
+    "mainlevel_code": "JUNIOR COLLEGE"
+  },
+  {
+    "school_name": "JURONG PRIMARY SCHOOL",
+    "url_address": "http://www.jurongpri.moe.edu.sg",
+    "mainlevel_code": "PRIMARY"
+  },
+  {
+    "school_name": "JURONG SECONDARY SCHOOL",
+    "url_address": "http://www.jurongsec.moe.edu.sg",
+    "mainlevel_code": "SECONDARY (S1-S5)"
+  },
+  {
+    "school_name": "JURONG WEST PRIMARY SCHOOL",
+    "url_address": "http://www.jurongwestpri.moe.edu.sg",
+    "mainlevel_code": "PRIMARY"
+  },
+  {
+    "school_name": "JURONG WEST SECONDARY SCHOOL",
+    "url_address": "https://www.jurongwestsec.moe.edu.sg",
+    "mainlevel_code": "SECONDARY (S1-S5)"
+  },
+  {
+    "school_name": "JURONGVILLE SECONDARY SCHOOL",
+    "url_address": "http://www.jurongvillesec.moe.edu.sg",
+    "mainlevel_code": "SECONDARY (S1-S5)"
+  },
+  {
+    "school_name": "JUYING SECONDARY SCHOOL",
+    "url_address": "http://juyingsec.moe.edu.sg",
+    "mainlevel_code": "SECONDARY (S1-S5)"
+  },
+  {
+    "school_name": "KEMING PRIMARY SCHOOL",
+    "url_address": "http://www.kemingpri.moe.edu.sg",
+    "mainlevel_code": "PRIMARY"
+  },
+  {
+    "school_name": "KENT RIDGE SECONDARY SCHOOL",
+    "url_address": "http://www.kentridgesec.moe.edu.sg",
+    "mainlevel_code": "SECONDARY (S1-S5)"
+  },
+  {
+    "school_name": "KHENG CHENG SCHOOL",
+    "url_address": "http://www.khengcheng.moe.edu.sg/",
+    "mainlevel_code": "PRIMARY"
+  },
+  {
+    "school_name": "KONG HWA SCHOOL",
+    "url_address": "http://www.konghwa.moe.edu.sg",
+    "mainlevel_code": "PRIMARY"
+  },
+  {
+    "school_name": "KRANJI PRIMARY SCHOOL",
+    "url_address": "http://kranjipri.moe.edu.sg",
+    "mainlevel_code": "PRIMARY"
+  },
+  {
+    "school_name": "KRANJI SECONDARY SCHOOL",
+    "url_address": "http://www.kranjisec.moe.edu.sg",
+    "mainlevel_code": "SECONDARY (S1-S5)"
+  },
+  {
+    "school_name": "KUO CHUAN PRESBYTERIAN PRIMARY SCHOOL",
+    "url_address": "http://www.kuochuanpresbyterianpri.moe.edu.sg",
+    "mainlevel_code": "PRIMARY"
+  },
+  {
+    "school_name": "KUO CHUAN PRESBYTERIAN SECONDARY SCHOOL",
+    "url_address": "http://www.kuochuanpresbyteriansec.moe.edu.sg",
+    "mainlevel_code": "SECONDARY (S1-S5)"
+  },
+  {
+    "school_name": "LAKESIDE PRIMARY SCHOOL",
+    "url_address": "http://www.lakesidepri.moe.edu.sg/",
+    "mainlevel_code": "PRIMARY"
+  },
+  {
+    "school_name": "LIANHUA PRIMARY SCHOOL",
+    "url_address": "http://www.lianhuapri.moe.edu.sg/",
+    "mainlevel_code": "PRIMARY"
+  },
+  {
+    "school_name": "LOYANG VIEW SECONDARY SCHOOL",
+    "url_address": "http://www.loyangviewsec.moe.edu.sg",
+    "mainlevel_code": "SECONDARY (S1-S5)"
+  },
+  {
+    "school_name": "MAHA BODHI SCHOOL",
+    "url_address": "http://www.mahabodhi.moe.edu.sg/",
+    "mainlevel_code": "PRIMARY"
+  },
+  {
+    "school_name": "MANJUSRI SECONDARY SCHOOL",
+    "url_address": "http://www.manjusrisec.moe.edu.sg",
+    "mainlevel_code": "SECONDARY (S1-S5)"
+  },
+  {
+    "school_name": "MARIS STELLA HIGH SCHOOL",
+    "url_address": "http://www.marisstellahigh.moe.edu.sg",
+    "mainlevel_code": "MIXED LEVEL (P1-S4)"
+  },
+  {
+    "school_name": "MARSILING PRIMARY SCHOOL",
+    "url_address": "http://www.marsilingpri.moe.edu.sg",
+    "mainlevel_code": "PRIMARY"
+  },
+  {
+    "school_name": "MARSILING SECONDARY SCHOOL",
+    "url_address": "http://www.marsilingsec.moe.edu.sg",
+    "mainlevel_code": "SECONDARY (S1-S5)"
+  },
+  {
+    "school_name": "MARYMOUNT CONVENT SCHOOL",
+    "url_address": "http://www.marymountconvent.moe.edu.sg",
+    "mainlevel_code": "PRIMARY"
+  },
+  {
+    "school_name": "MAYFLOWER PRIMARY SCHOOL",
+    "url_address": "http://www.mayflowerpri.moe.edu.sg",
+    "mainlevel_code": "PRIMARY"
+  },
+  {
+    "school_name": "MAYFLOWER SECONDARY SCHOOL",
+    "url_address": "http://www.mayflowersec.moe.edu.sg",
+    "mainlevel_code": "SECONDARY (S1-S5)"
+  },
+  {
+    "school_name": "MEE TOH SCHOOL",
+    "url_address": "http://www.meetoh.moe.edu.sg/",
+    "mainlevel_code": "PRIMARY"
+  },
+  {
+    "school_name": "MERIDIAN PRIMARY SCHOOL",
+    "url_address": "http://www.meridianpri.moe.edu.sg/",
+    "mainlevel_code": "PRIMARY"
+  },
+  {
+    "school_name": "MERIDIAN SECONDARY SCHOOL",
+    "url_address": "http://www.meridiansec.moe.edu.sg",
+    "mainlevel_code": "SECONDARY (S1-S5)"
+  },
+  {
+    "school_name": "METHODIST GIRLS' SCHOOL (PRIMARY)",
+    "url_address": "https://www.mgs.moe.edu.sg/",
+    "mainlevel_code": "PRIMARY"
+  },
+  {
+    "school_name": "METHODIST GIRLS' SCHOOL (SECONDARY)",
+    "url_address": "http://www.mgs.moe.edu.sg",
+    "mainlevel_code": "SECONDARY (S1-S4)"
+  },
+  {
+    "school_name": "MILLENNIA INSTITUTE",
+    "url_address": "http://www.millenniainstitute.moe.edu.sg",
+    "mainlevel_code": "CENTRALISED INSTITUTE"
+  },
+  {
+    "school_name": "MONTFORT JUNIOR SCHOOL",
+    "url_address": "http://www.montfortjunior.moe.edu.sg/",
+    "mainlevel_code": "PRIMARY"
+  },
+  {
+    "school_name": "MONTFORT SECONDARY SCHOOL",
+    "url_address": "https://montfortsec.moe.edu.sg/",
+    "mainlevel_code": "SECONDARY (S1-S5)"
+  },
+  {
+    "school_name": "NAN CHIAU HIGH SCHOOL",
+    "url_address": "http://www.nanchiauhigh.moe.edu.sg",
+    "mainlevel_code": "SECONDARY (S1-S5)"
+  },
+  {
+    "school_name": "NAN CHIAU PRIMARY SCHOOL",
+    "url_address": "http://www.ncps.moe.edu.sg",
+    "mainlevel_code": "PRIMARY"
+  },
+  {
+    "school_name": "NAN HUA HIGH SCHOOL",
+    "url_address": "http://www.nanhuahigh.moe.edu.sg",
+    "mainlevel_code": "SECONDARY (S1-S5)"
+  },
+  {
+    "school_name": "NAN HUA PRIMARY SCHOOL",
+    "url_address": "http://www.nanhuapri.moe.edu.sg",
+    "mainlevel_code": "PRIMARY"
+  },
+  {
+    "school_name": "NANYANG GIRLS' HIGH SCHOOL",
+    "url_address": "https://www.nygh.edu.sg",
+    "mainlevel_code": "SECONDARY (S1-S4)"
+  },
+  {
+    "school_name": "NANYANG JUNIOR COLLEGE",
+    "url_address": "http://www.nanyangjc.moe.edu.sg/",
+    "mainlevel_code": "JUNIOR COLLEGE"
+  },
+  {
+    "school_name": "NANYANG PRIMARY SCHOOL",
+    "url_address": "http://www.nyps.moe.edu.sg",
+    "mainlevel_code": "PRIMARY"
+  },
+  {
+    "school_name": "NATIONAL JUNIOR COLLEGE",
+    "url_address": "http://www.nationaljc.moe.edu.sg",
+    "mainlevel_code": "MIXED LEVEL (S1-JC2)"
+  },
+  {
+    "school_name": "NAVAL BASE PRIMARY SCHOOL",
+    "url_address": "http://www.navalbasepri.moe.edu.sg/",
+    "mainlevel_code": "PRIMARY"
+  },
+  {
+    "school_name": "NAVAL BASE SECONDARY SCHOOL",
+    "url_address": "http://www.navalbasesec.moe.edu.sg",
+    "mainlevel_code": "SECONDARY (S1-S5)"
+  },
+  {
+    "school_name": "NEW TOWN PRIMARY SCHOOL",
+    "url_address": "http://www.newtownpri.moe.edu.sg/",
+    "mainlevel_code": "PRIMARY"
+  },
+  {
+    "school_name": "NEW TOWN SECONDARY SCHOOL",
+    "url_address": "http://www.newtownsec.moe.edu.sg",
+    "mainlevel_code": "SECONDARY (S1-S5)"
+  },
+  {
+    "school_name": "NGEE ANN PRIMARY SCHOOL",
+    "url_address": "http://www.ngeeannpri.moe.edu.sg",
+    "mainlevel_code": "PRIMARY"
+  },
+  {
+    "school_name": "NGEE ANN SECONDARY SCHOOL",
+    "url_address": "http://www.ngeeannsec.moe.edu.sg",
+    "mainlevel_code": "SECONDARY (S1-S5)"
+  },
+  {
+    "school_name": "NORTH SPRING PRIMARY SCHOOL",
+    "url_address": "http://www.northspringpri.moe.edu.sg",
+    "mainlevel_code": "PRIMARY"
+  },
+  {
+    "school_name": "NORTH VIEW PRIMARY SCHOOL",
+    "url_address": "http://www.northviewpri.moe.edu.sg",
+    "mainlevel_code": "PRIMARY"
+  },
+  {
+    "school_name": "NORTH VISTA PRIMARY SCHOOL",
+    "url_address": "http://www.northvistapri.moe.edu.sg",
+    "mainlevel_code": "PRIMARY"
+  },
+  {
+    "school_name": "NORTH VISTA SECONDARY SCHOOL",
+    "url_address": "http://www.northvistasec.moe.edu.sg",
+    "mainlevel_code": "SECONDARY (S1-S5)"
+  },
+  {
+    "school_name": "NORTHBROOKS SECONDARY SCHOOL",
+    "url_address": "http://www.northbrookssec.moe.edu.sg",
+    "mainlevel_code": "SECONDARY (S1-S5)"
+  },
+  {
+    "school_name": "NORTHLAND PRIMARY SCHOOL",
+    "url_address": "http://www.northlandpri.moe.edu.sg",
+    "mainlevel_code": "PRIMARY"
+  },
+  {
+    "school_name": "NORTHLAND SECONDARY SCHOOL",
+    "url_address": "http://www.northlandsec.moe.edu.sg",
+    "mainlevel_code": "SECONDARY (S1-S5)"
+  },
+  {
+    "school_name": "NORTHLIGHT SCHOOL",
+    "url_address": "https://www.nls.edu.sg",
+    "mainlevel_code": "SECONDARY (S1-S4)"
+  },
+  {
+    "school_name": "NORTHOAKS PRIMARY SCHOOL",
+    "url_address": "http://www.northoakspri.moe.edu.sg",
+    "mainlevel_code": "PRIMARY"
+  },
+  {
+    "school_name": "NORTHSHORE PRIMARY SCHOOL",
+    "url_address": "https://northshorepri.moe.edu.sg/",
+    "mainlevel_code": "PRIMARY"
+  },
+  {
+    "school_name": "NUS HIGH SCHOOL OF MATHEMATICS AND SCIENCE",
+    "url_address": "www.nushigh.edu.sg",
+    "mainlevel_code": "MIXED LEVEL (S1-JC2)"
+  },
+  {
+    "school_name": "OASIS PRIMARY SCHOOL",
+    "url_address": "http://www.oasispri.moe.edu.sg/",
+    "mainlevel_code": "PRIMARY"
+  },
+  {
+    "school_name": "OPERA ESTATE PRIMARY SCHOOL",
+    "url_address": "http://www.operaestatepri.moe.edu.sg",
+    "mainlevel_code": "PRIMARY"
+  },
+  {
+    "school_name": "ORCHID PARK SECONDARY SCHOOL",
+    "url_address": "http://www.orchidparksec.moe.edu.sg",
+    "mainlevel_code": "SECONDARY (S1-S5)"
+  },
+  {
+    "school_name": "OUTRAM SECONDARY SCHOOL",
+    "url_address": "http://www.outramsec.moe.edu.sg",
+    "mainlevel_code": "SECONDARY (S1-S5)"
+  },
+  {
+    "school_name": "PALM VIEW PRIMARY SCHOOL",
+    "url_address": "http://www.palmviewpri.moe.edu.sg",
+    "mainlevel_code": "PRIMARY"
+  },
+  {
+    "school_name": "PARK VIEW PRIMARY SCHOOL",
+    "url_address": "http://www.parkviewpri.moe.edu.sg",
+    "mainlevel_code": "PRIMARY"
+  },
+  {
+    "school_name": "PASIR RIS CREST SECONDARY SCHOOL",
+    "url_address": "http://www.prcss.moe.edu.sg",
+    "mainlevel_code": "SECONDARY (S1-S5)"
+  },
+  {
+    "school_name": "PASIR RIS PRIMARY SCHOOL",
+    "url_address": "http://www.pasirrispri.moe.edu.sg",
+    "mainlevel_code": "PRIMARY"
+  },
+  {
+    "school_name": "PASIR RIS SECONDARY SCHOOL",
+    "url_address": "https://pasirrissec.moe.edu.sg",
+    "mainlevel_code": "SECONDARY (S1-S5)"
+  },
+  {
+    "school_name": "PAYA LEBAR METHODIST GIRLS' SCHOOL (PRIMARY)",
+    "url_address": "http://www.payalebarmethodistgirlspri.moe.edu.sg/",
+    "mainlevel_code": "PRIMARY"
+  },
+  {
+    "school_name": "PAYA LEBAR METHODIST GIRLS' SCHOOL (SECONDARY)",
+    "url_address": "http://www.plmgss.moe.edu.sg",
+    "mainlevel_code": "SECONDARY (S1-S5)"
+  },
+  {
+    "school_name": "PEI CHUN PUBLIC SCHOOL",
+    "url_address": "http://www.peichunpublic.moe.edu.sg",
+    "mainlevel_code": "PRIMARY"
+  },
+  {
+    "school_name": "PEI HWA PRESBYTERIAN PRIMARY SCHOOL",
+    "url_address": "http://www.peihwapresbyterianpri.moe.edu.sg/",
+    "mainlevel_code": "PRIMARY"
+  },
+  {
+    "school_name": "PEI HWA SECONDARY SCHOOL",
+    "url_address": "http://www.peihwasec.moe.edu.sg",
+    "mainlevel_code": "SECONDARY (S1-S5)"
+  },
+  {
+    "school_name": "PEI TONG PRIMARY SCHOOL",
+    "url_address": "http://www.peitongpri.moe.edu.sg/",
+    "mainlevel_code": "PRIMARY"
+  },
+  {
+    "school_name": "PEICAI SECONDARY SCHOOL",
+    "url_address": "http://www.peicaisec.moe.edu.sg",
+    "mainlevel_code": "SECONDARY (S1-S5)"
+  },
+  {
+    "school_name": "PEIRCE SECONDARY SCHOOL",
+    "url_address": "http://www.peircesec.moe.edu.sg",
+    "mainlevel_code": "SECONDARY (S1-S5)"
+  },
+  {
+    "school_name": "PEIYING PRIMARY SCHOOL",
+    "url_address": "http://www.peiyingpri.moe.edu.sg",
+    "mainlevel_code": "PRIMARY"
+  },
+  {
+    "school_name": "PIONEER PRIMARY SCHOOL",
+    "url_address": "http://www.pioneerpri.moe.edu.sg",
+    "mainlevel_code": "PRIMARY"
+  },
+  {
+    "school_name": "POI CHING SCHOOL",
+    "url_address": "http://www.poiching.moe.edu.sg",
+    "mainlevel_code": "PRIMARY"
+  },
+  {
+    "school_name": "PRESBYTERIAN HIGH SCHOOL",
+    "url_address": "http://www.presbyterian.moe.edu.sg",
+    "mainlevel_code": "SECONDARY (S1-S5)"
+  },
+  {
+    "school_name": "PRINCESS ELIZABETH PRIMARY SCHOOL",
+    "url_address": "http://www.princesselizabethpri.moe.edu.sg",
+    "mainlevel_code": "PRIMARY"
+  },
+  {
+    "school_name": "PUNGGOL COVE PRIMARY SCHOOL",
+    "url_address": "https://punggolcovepri.moe.edu.sg/",
+    "mainlevel_code": "PRIMARY"
+  },
+  {
+    "school_name": "PUNGGOL GREEN PRIMARY SCHOOL",
+    "url_address": "http://www.punggolgreenpri.moe.edu.sg",
+    "mainlevel_code": "PRIMARY"
+  },
+  {
+    "school_name": "PUNGGOL PRIMARY SCHOOL",
+    "url_address": "http://www.punggolpri.moe.edu.sg/",
+    "mainlevel_code": "PRIMARY"
+  },
+  {
+    "school_name": "PUNGGOL SECONDARY SCHOOL",
+    "url_address": "http://www.punggolsec.moe.edu.sg",
+    "mainlevel_code": "SECONDARY (S1-S5)"
+  },
+  {
+    "school_name": "PUNGGOL VIEW PRIMARY SCHOOL",
+    "url_address": "http://www.punggolviewpri.moe.edu.sg",
+    "mainlevel_code": "PRIMARY"
+  },
+  {
+    "school_name": "QIFA PRIMARY SCHOOL",
+    "url_address": "http://www.qifapri.moe.edu.sg",
+    "mainlevel_code": "PRIMARY"
+  },
+  {
+    "school_name": "QIHUA PRIMARY SCHOOL",
+    "url_address": "http://www.qihuapri.moe.edu.sg",
+    "mainlevel_code": "PRIMARY"
+  },
+  {
+    "school_name": "QUEENSTOWN PRIMARY SCHOOL",
+    "url_address": "http://www.queenstownpri.moe.edu.sg",
+    "mainlevel_code": "PRIMARY"
+  },
+  {
+    "school_name": "QUEENSTOWN SECONDARY SCHOOL",
+    "url_address": "http://www.queenstownsec.moe.edu.sg",
+    "mainlevel_code": "SECONDARY (S1-S5)"
+  },
+  {
+    "school_name": "QUEENSWAY SECONDARY SCHOOL",
+    "url_address": "http://www.queenswaysec.moe.edu.sg",
+    "mainlevel_code": "SECONDARY (S1-S5)"
+  },
+  {
+    "school_name": "RADIN MAS PRIMARY SCHOOL",
+    "url_address": "https://www.radinmaspri.moe.edu.sg/",
+    "mainlevel_code": "PRIMARY"
+  },
+  {
+    "school_name": "RAFFLES GIRLS' PRIMARY SCHOOL",
+    "url_address": "http://www.rafflesgirlspri.moe.edu.sg",
+    "mainlevel_code": "PRIMARY"
+  },
+  {
+    "school_name": "RAFFLES GIRLS' SCHOOL (SECONDARY)",
+    "url_address": "http://www.rgs.edu.sg",
+    "mainlevel_code": "SECONDARY (S1-S4)"
+  },
+  {
+    "school_name": "RAFFLES INSTITUTION",
+    "url_address": "http://www.ri.edu.sg",
+    "mainlevel_code": "MIXED LEVEL (S1-JC2)"
+  },
+  {
+    "school_name": "RED SWASTIKA SCHOOL",
+    "url_address": "http://www.redswastika.moe.edu.sg",
+    "mainlevel_code": "PRIMARY"
+  },
+  {
+    "school_name": "REGENT SECONDARY SCHOOL",
+    "url_address": "http://regentsec.moe.edu.sg",
+    "mainlevel_code": "SECONDARY (S1-S5)"
+  },
+  {
+    "school_name": "RIVER VALLEY HIGH SCHOOL",
+    "url_address": "https://rivervalleyhigh.moe.edu.sg/",
+    "mainlevel_code": "MIXED LEVEL (S1-JC2)"
+  },
+  {
+    "school_name": "RIVER VALLEY PRIMARY SCHOOL",
+    "url_address": "http://www.rivervalleypri.moe.edu.sg",
+    "mainlevel_code": "PRIMARY"
+  },
+  {
+    "school_name": "RIVERSIDE PRIMARY SCHOOL",
+    "url_address": "http://www.riversidepri.moe.edu.sg",
+    "mainlevel_code": "PRIMARY"
+  },
+  {
+    "school_name": "RIVERSIDE SECONDARY SCHOOL",
+    "url_address": "http://www.riversidesec.moe.edu.sg",
+    "mainlevel_code": "SECONDARY (S1-S5)"
+  },
+  {
+    "school_name": "RIVERVALE PRIMARY SCHOOL",
+    "url_address": "http://www.rivervalepri.moe.edu.sg/",
+    "mainlevel_code": "PRIMARY"
+  },
+  {
+    "school_name": "ROSYTH SCHOOL",
+    "url_address": "https://www.rosyth.moe.edu.sg",
+    "mainlevel_code": "PRIMARY"
+  },
+  {
+    "school_name": "RULANG PRIMARY SCHOOL",
+    "url_address": "http://www.rulangpri.moe.edu.sg/",
+    "mainlevel_code": "PRIMARY"
+  },
+  {
+    "school_name": "SCHOOL OF SCIENCE AND TECHNOLOGY, SINGAPORE",
+    "url_address": "http://www.sst.edu.sg",
+    "mainlevel_code": "SECONDARY (S1-S4)"
+  },
+  {
+    "school_name": "SCHOOL OF THE ARTS, SINGAPORE",
+    "url_address": "http://www.sota.edu.sg/",
+    "mainlevel_code": "MIXED LEVEL (S1-JC2)"
+  },
+  {
+    "school_name": "SEMBAWANG PRIMARY SCHOOL",
+    "url_address": "http://www.sembawangpri.moe.edu.sg",
+    "mainlevel_code": "PRIMARY"
+  },
+  {
+    "school_name": "SEMBAWANG SECONDARY SCHOOL",
+    "url_address": "http://www.sembawangsec.moe.edu.sg",
+    "mainlevel_code": "SECONDARY (S1-S5)"
+  },
+  {
+    "school_name": "SENG KANG PRIMARY SCHOOL",
+    "url_address": "http://www.sengkangpri.moe.edu.sg/",
+    "mainlevel_code": "PRIMARY"
+  },
+  {
+    "school_name": "SENG KANG SECONDARY SCHOOL",
+    "url_address": "http://www.sengkangsec.moe.edu.sg",
+    "mainlevel_code": "SECONDARY (S1-S5)"
+  },
+  {
+    "school_name": "SENGKANG GREEN PRIMARY SCHOOL",
+    "url_address": "https://sengkanggreenpri.moe.edu.sg/",
+    "mainlevel_code": "PRIMARY"
+  },
+  {
+    "school_name": "SERANGOON GARDEN SECONDARY SCHOOL",
+    "url_address": "https://www.sgs.moe.edu.sg",
+    "mainlevel_code": "SECONDARY (S1-S5)"
+  },
+  {
+    "school_name": "SERANGOON SECONDARY SCHOOL",
+    "url_address": "http://www.serangoonsec.moe.edu.sg",
+    "mainlevel_code": "SECONDARY (S1-S5)"
+  },
+  {
+    "school_name": "SHUQUN PRIMARY SCHOOL",
+    "url_address": "http://www.shuqunpri.moe.edu.sg",
+    "mainlevel_code": "PRIMARY"
+  },
+  {
+    "school_name": "SI LING PRIMARY SCHOOL",
+    "url_address": "http://www.silingpri.moe.edu.sg",
+    "mainlevel_code": "PRIMARY"
+  },
+  {
+    "school_name": "SINGAPORE CHINESE GIRLS' PRIMARY SCHOOL",
+    "url_address": "www.scgs.moe.edu.sg",
+    "mainlevel_code": "PRIMARY"
+  },
+  {
+    "school_name": "SINGAPORE CHINESE GIRLS' SCHOOL",
+    "url_address": "http://www.scgs.moe.edu.sg",
+    "mainlevel_code": "SECONDARY (S1-S4)"
+  },
+  {
+    "school_name": "SINGAPORE SPORTS SCHOOL",
+    "url_address": "http://www.sportsschool.edu.sg",
+    "mainlevel_code": "MIXED LEVEL (S1-S5, JC1-JC2)"
+  },
+  {
+    "school_name": "SOUTH VIEW PRIMARY SCHOOL",
+    "url_address": "http://www.southviewpri.moe.edu.sg",
+    "mainlevel_code": "PRIMARY"
+  },
+  {
+    "school_name": "SPECTRA SECONDARY SCHOOL",
+    "url_address": "https://www.spectra.edu.sg",
+    "mainlevel_code": "SECONDARY (S1-S4)"
+  },
+  {
+    "school_name": "SPRINGDALE PRIMARY SCHOOL",
+    "url_address": "http://springdalepri.moe.edu.sg/",
+    "mainlevel_code": "PRIMARY"
+  },
+  {
+    "school_name": "SPRINGFIELD SECONDARY SCHOOL",
+    "url_address": "http://www.springfieldsec.moe.edu.sg",
+    "mainlevel_code": "SECONDARY (S1-S5)"
+  },
+  {
+    "school_name": "ST ANDREW'S JUNIOR COLLEGE",
+    "url_address": "http://www.standrewsjc.moe.edu.sg/",
+    "mainlevel_code": "JUNIOR COLLEGE"
+  },
+  {
+    "school_name": "ST ANDREW'S SCHOOL (JUNIOR)",
+    "url_address": "http://www.saintandrewsjunior.moe.edu.sg",
+    "mainlevel_code": "PRIMARY"
+  },
+  {
+    "school_name": "ST ANDREW'S SCHOOL (SECONDARY)",
+    "url_address": "http://www.standrewssec.moe.edu.sg",
+    "mainlevel_code": "SECONDARY (S1-S5)"
+  },
+  {
+    "school_name": "ST. ANTHONY'S CANOSSIAN PRIMARY SCHOOL",
+    "url_address": "http://www.stanthonyscanossianpri.moe.edu.sg",
+    "mainlevel_code": "PRIMARY"
+  },
+  {
+    "school_name": "ST. ANTHONY'S CANOSSIAN SECONDARY SCHOOL",
+    "url_address": "https://stanthonyscanossiansec.moe.edu.sg",
+    "mainlevel_code": "SECONDARY (S1-S5)"
+  },
+  {
+    "school_name": "ST. ANTHONY'S PRIMARY SCHOOL",
+    "url_address": "http://www.stanthonyspri.moe.edu.sg",
+    "mainlevel_code": "PRIMARY"
+  },
+  {
+    "school_name": "ST. GABRIEL'S PRIMARY SCHOOL",
+    "url_address": "http://www.stgabrielspri.moe.edu.sg",
+    "mainlevel_code": "PRIMARY"
+  },
+  {
+    "school_name": "ST. GABRIEL'S SECONDARY SCHOOL",
+    "url_address": "http://www.stgabrielssec.moe.edu.sg",
+    "mainlevel_code": "SECONDARY (S1-S5)"
+  },
+  {
+    "school_name": "ST. HILDA'S PRIMARY SCHOOL",
+    "url_address": "http://www.shps.moe.edu.sg",
+    "mainlevel_code": "PRIMARY"
+  },
+  {
+    "school_name": "ST. HILDA'S SECONDARY SCHOOL",
+    "url_address": "http://www.sthildassec.moe.edu.sg",
+    "mainlevel_code": "SECONDARY (S1-S5)"
+  },
+  {
+    "school_name": "ST. JOSEPH'S INSTITUTION",
+    "url_address": "http://www.sji.edu.sg",
+    "mainlevel_code": "MIXED LEVEL (S1-JC2)"
+  },
+  {
+    "school_name": "ST. JOSEPH'S INSTITUTION JUNIOR",
+    "url_address": "https://sjijunior.moe.edu.sg",
+    "mainlevel_code": "PRIMARY"
+  },
+  {
+    "school_name": "ST. MARGARET'S SCHOOL (PRIMARY)",
+    "url_address": "http://www.stmargaretspri.moe.edu.sg",
+    "mainlevel_code": "PRIMARY"
+  },
+  {
+    "school_name": "ST. MARGARET'S SCHOOL (SECONDARY)",
+    "url_address": "http://www.stmargaretssec.moe.edu.sg",
+    "mainlevel_code": "SECONDARY (S1-S5)"
+  },
+  {
+    "school_name": "ST. PATRICK'S SCHOOL",
+    "url_address": "http://www.stpatricks.moe.edu.sg",
+    "mainlevel_code": "SECONDARY (S1-S5)"
+  },
+  {
+    "school_name": "ST. STEPHEN'S SCHOOL",
+    "url_address": "http://www.ststephens.moe.edu.sg",
+    "mainlevel_code": "PRIMARY"
+  },
+  {
+    "school_name": "SWISS COTTAGE SECONDARY SCHOOL",
+    "url_address": "http://www.swisscottagesec.moe.edu.sg",
+    "mainlevel_code": "SECONDARY (S1-S5)"
+  },
+  {
+    "school_name": "TAMPINES MERIDIAN JUNIOR COLLEGE",
+    "url_address": "http://www.tmjc.moe.edu.sg",
+    "mainlevel_code": "JUNIOR COLLEGE"
+  },
+  {
+    "school_name": "TAMPINES NORTH PRIMARY SCHOOL",
+    "url_address": "http://www.tampinesnorthpri.moe.edu.sg",
+    "mainlevel_code": "PRIMARY"
+  },
+  {
+    "school_name": "TAMPINES PRIMARY SCHOOL",
+    "url_address": "http://www.tampinespri.moe.edu.sg",
+    "mainlevel_code": "PRIMARY"
+  },
+  {
+    "school_name": "TAMPINES SECONDARY SCHOOL",
+    "url_address": "https://www.tampinessec.moe.edu.sg",
+    "mainlevel_code": "SECONDARY (S1-S5)"
+  },
+  {
+    "school_name": "TANJONG KATONG GIRLS' SCHOOL",
+    "url_address": "http://www.tkgs.moe.edu.sg",
+    "mainlevel_code": "SECONDARY (S1-S4)"
+  },
+  {
+    "school_name": "TANJONG KATONG PRIMARY SCHOOL",
+    "url_address": "http://www.tanjongkatongpri.moe.edu.sg/",
+    "mainlevel_code": "PRIMARY"
+  },
+  {
+    "school_name": "TANJONG KATONG SECONDARY SCHOOL",
+    "url_address": "http://www.tanjongkatongsec.moe.edu.sg",
+    "mainlevel_code": "SECONDARY (S1-S4)"
+  },
+  {
+    "school_name": "TAO NAN SCHOOL",
+    "url_address": "http://www.taonan.moe.edu.sg",
+    "mainlevel_code": "PRIMARY"
+  },
+  {
+    "school_name": "TECK GHEE PRIMARY SCHOOL",
+    "url_address": "http://www.teckgheepri.moe.edu.sg",
+    "mainlevel_code": "PRIMARY"
+  },
+  {
+    "school_name": "TECK WHYE PRIMARY SCHOOL",
+    "url_address": "http://www.teckwhyepri.moe.edu.sg",
+    "mainlevel_code": "PRIMARY"
+  },
+  {
+    "school_name": "TELOK KURAU PRIMARY SCHOOL",
+    "url_address": "http://www.telokkuraupri.moe.edu.sg",
+    "mainlevel_code": "PRIMARY"
+  },
+  {
+    "school_name": "TEMASEK JUNIOR COLLEGE",
+    "url_address": "http://www.temasekjc.moe.edu.sg",
+    "mainlevel_code": "MIXED LEVEL (S1-JC2)"
+  },
+  {
+    "school_name": "TEMASEK PRIMARY SCHOOL",
+    "url_address": "http://www.temasekpri.moe.edu.sg",
+    "mainlevel_code": "PRIMARY"
+  },
+  {
+    "school_name": "TEMASEK SECONDARY SCHOOL",
+    "url_address": "https://temaseksec.moe.edu.sg",
+    "mainlevel_code": "SECONDARY (S1-S5)"
+  },
+  {
+    "school_name": "TOWNSVILLE PRIMARY SCHOOL",
+    "url_address": "http://www.townsvillepri.moe.edu.sg/",
+    "mainlevel_code": "PRIMARY"
+  },
+  {
+    "school_name": "UNITY PRIMARY SCHOOL",
+    "url_address": "http://www.unitypri.moe.edu.sg",
+    "mainlevel_code": "PRIMARY"
+  },
+  {
+    "school_name": "UNITY SECONDARY SCHOOL",
+    "url_address": "http://www.unitysec.moe.edu.sg",
+    "mainlevel_code": "SECONDARY (S1-S5)"
+  },
+  {
+    "school_name": "VALOUR PRIMARY SCHOOL",
+    "url_address": "valourpri.moe.edu.sg",
+    "mainlevel_code": "PRIMARY"
+  },
+  {
+    "school_name": "VICTORIA JUNIOR COLLEGE",
+    "url_address": "https://www.victoriajc.moe.edu.sg/",
+    "mainlevel_code": "JUNIOR COLLEGE"
+  },
+  {
+    "school_name": "VICTORIA SCHOOL",
+    "url_address": "http://www.victoria.moe.edu.sg",
+    "mainlevel_code": "SECONDARY (S1-S4)"
+  },
+  {
+    "school_name": "WATERWAY PRIMARY SCHOOL",
+    "url_address": "https://waterwaypri.moe.edu.sg",
+    "mainlevel_code": "PRIMARY"
+  },
+  {
+    "school_name": "WELLINGTON PRIMARY SCHOOL",
+    "url_address": "http://www.wellingtonpri.moe.edu.sg",
+    "mainlevel_code": "PRIMARY"
+  },
+  {
+    "school_name": "WEST GROVE PRIMARY SCHOOL",
+    "url_address": "http://www.westgrovepri.moe.edu.sg/",
+    "mainlevel_code": "PRIMARY"
+  },
+  {
+    "school_name": "WEST SPRING PRIMARY SCHOOL",
+    "url_address": "http://www.westspringpri.moe.edu.sg",
+    "mainlevel_code": "PRIMARY"
+  },
+  {
+    "school_name": "WEST SPRING SECONDARY SCHOOL",
+    "url_address": "http://www.westspringsec.moe.edu.sg",
+    "mainlevel_code": "SECONDARY (S1-S5)"
+  },
+  {
+    "school_name": "WEST VIEW PRIMARY SCHOOL",
+    "url_address": "http://www.westviewpri.moe.edu.sg",
+    "mainlevel_code": "PRIMARY"
+  },
+  {
+    "school_name": "WESTWOOD PRIMARY SCHOOL",
+    "url_address": "http://www.westwoodpri.moe.edu.sg",
+    "mainlevel_code": "PRIMARY"
+  },
+  {
+    "school_name": "WESTWOOD SECONDARY SCHOOL",
+    "url_address": "https://www.westwoodsec.moe.edu.sg",
+    "mainlevel_code": "SECONDARY (S1-S5)"
+  },
+  {
+    "school_name": "WHITE SANDS PRIMARY SCHOOL",
+    "url_address": "http://www.whitesandspri.moe.edu.sg",
+    "mainlevel_code": "PRIMARY"
+  },
+  {
+    "school_name": "WHITLEY SECONDARY SCHOOL",
+    "url_address": "http://www.whitleysec.moe.edu.sg",
+    "mainlevel_code": "SECONDARY (S1-S5)"
+  },
+  {
+    "school_name": "WOODGROVE PRIMARY SCHOOL",
+    "url_address": "http://www.woodgrovepri.moe.edu.sg/",
+    "mainlevel_code": "PRIMARY"
+  },
+  {
+    "school_name": "WOODGROVE SECONDARY SCHOOL",
+    "url_address": "https://www.woodgrovesec.moe.edu.sg",
+    "mainlevel_code": "SECONDARY (S1-S5)"
+  },
+  {
+    "school_name": "WOODLANDS PRIMARY SCHOOL",
+    "url_address": "http://www.woodlandspri.moe.edu.sg",
+    "mainlevel_code": "PRIMARY"
+  },
+  {
+    "school_name": "WOODLANDS RING PRIMARY SCHOOL",
+    "url_address": "http://www.woodlandsringpri.moe.edu.sg",
+    "mainlevel_code": "PRIMARY"
+  },
+  {
+    "school_name": "WOODLANDS RING SECONDARY SCHOOL",
+    "url_address": "http://www.woodlandsringsec.moe.edu.sg",
+    "mainlevel_code": "SECONDARY (S1-S5)"
+  },
+  {
+    "school_name": "WOODLANDS SECONDARY SCHOOL",
+    "url_address": "http://www.woodlandssec.moe.edu.sg",
+    "mainlevel_code": "SECONDARY (S1-S5)"
+  },
+  {
+    "school_name": "XINGHUA PRIMARY SCHOOL",
+    "url_address": "http://www.xinghuapri.moe.edu.sg",
+    "mainlevel_code": "PRIMARY"
+  },
+  {
+    "school_name": "XINGNAN PRIMARY SCHOOL",
+    "url_address": "http://www.xingnanpri.moe.edu.sg",
+    "mainlevel_code": "PRIMARY"
+  },
+  {
+    "school_name": "XINMIN PRIMARY SCHOOL",
+    "url_address": "https://xinminpri.moe.edu.sg/",
+    "mainlevel_code": "PRIMARY"
+  },
+  {
+    "school_name": "XINMIN SECONDARY SCHOOL",
+    "url_address": "https://www.xinminsec.moe.edu.sg/",
+    "mainlevel_code": "SECONDARY (S1-S5)"
+  },
+  {
+    "school_name": "XISHAN PRIMARY SCHOOL",
+    "url_address": "https://www.xishanpri.moe.edu.sg/",
+    "mainlevel_code": "PRIMARY"
+  },
+  {
+    "school_name": "YANGZHENG PRIMARY SCHOOL",
+    "url_address": "http://www.yangzhengpri.moe.edu.sg/",
+    "mainlevel_code": "PRIMARY"
+  },
+  {
+    "school_name": "YEW TEE PRIMARY SCHOOL",
+    "url_address": "http://www.yewteepri.moe.edu.sg",
+    "mainlevel_code": "PRIMARY"
+  },
+  {
+    "school_name": "YIO CHU KANG PRIMARY SCHOOL",
+    "url_address": "http://www.yiochukangpri.moe.edu.sg",
+    "mainlevel_code": "PRIMARY"
+  },
+  {
+    "school_name": "YIO CHU KANG SECONDARY SCHOOL",
+    "url_address": "http://www.yiochukangsec.moe.edu.sg",
+    "mainlevel_code": "SECONDARY (S1-S5)"
+  },
+  {
+    "school_name": "YISHUN INNOVA JUNIOR COLLEGE",
+    "url_address": "https://yijc.moe.edu.sg/",
+    "mainlevel_code": "JUNIOR COLLEGE"
+  },
+  {
+    "school_name": "YISHUN PRIMARY SCHOOL",
+    "url_address": "http://www.yishunpri.moe.edu.sg",
+    "mainlevel_code": "PRIMARY"
+  },
+  {
+    "school_name": "YISHUN SECONDARY SCHOOL",
+    "url_address": "http://www.yishunsec.moe.edu.sg",
+    "mainlevel_code": "SECONDARY (S1-S5)"
+  },
+  {
+    "school_name": "YISHUN TOWN SECONDARY SCHOOL",
+    "url_address": "http://www.yishuntownsec.moe.edu.sg",
+    "mainlevel_code": "SECONDARY (S1-S5)"
+  },
+  {
+    "school_name": "YU NENG PRIMARY SCHOOL",
+    "url_address": "http://www.ynps.moe.edu.sg/",
+    "mainlevel_code": "PRIMARY"
+  },
+  {
+    "school_name": "YUAN CHING SECONDARY SCHOOL",
+    "url_address": "https://yuanchingsec.moe.edu.sg/",
+    "mainlevel_code": "SECONDARY (S1-S5)"
+  },
+  {
+    "school_name": "YUHUA PRIMARY SCHOOL",
+    "url_address": "http://www.yuhuapri.moe.edu.sg",
+    "mainlevel_code": "PRIMARY"
+  },
+  {
+    "school_name": "YUHUA SECONDARY SCHOOL",
+    "url_address": "http://www.yuhuasec.moe.edu.sg",
+    "mainlevel_code": "SECONDARY (S1-S5)"
+  },
+  {
+    "school_name": "YUMIN PRIMARY SCHOOL",
+    "url_address": "http://www.yuminpri.moe.edu.sg",
+    "mainlevel_code": "PRIMARY"
+  },
+  {
+    "school_name": "YUSOF ISHAK SECONDARY SCHOOL",
+    "url_address": "http://www.yusofishaksec.moe.edu.sg",
+    "mainlevel_code": "SECONDARY (S1-S5)"
+  },
+  {
+    "school_name": "YUYING SECONDARY SCHOOL",
+    "url_address": "http://www.yuyingsec.moe.edu.sg",
+    "mainlevel_code": "SECONDARY (S1-S5)"
+  },
+  {
+    "school_name": "ZHANGDE PRIMARY SCHOOL",
+    "url_address": "http://www.zhangdepri.moe.edu.sg/",
+    "mainlevel_code": "PRIMARY"
+  },
+  {
+    "school_name": "ZHENGHUA PRIMARY SCHOOL",
+    "url_address": "http://www.zhenghuapri.moe.edu.sg",
+    "mainlevel_code": "PRIMARY"
+  },
+  {
+    "school_name": "ZHENGHUA SECONDARY SCHOOL",
+    "url_address": "http://www.zhenghuasec.moe.edu.sg",
+    "mainlevel_code": "SECONDARY (S1-S5)"
+  },
+  {
+    "school_name": "ZHONGHUA PRIMARY SCHOOL",
+    "url_address": "http://www.zhonghuapri.moe.edu.sg",
+    "mainlevel_code": "PRIMARY"
+  },
+  {
+    "school_name": "ZHONGHUA SECONDARY SCHOOL",
+    "url_address": "https://www.zhonghuasec.moe.edu.sg",
+    "mainlevel_code": "SECONDARY (S1-S5)"
+  }
+]

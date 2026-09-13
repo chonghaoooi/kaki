@@ -1,0 +1,74 @@
+.kaki-app .venue-map{position:relative;isolation:isolate;border-radius:24px;overflow:hidden;background:#eaf1f0;border:1px solid #dce4ec;width:100%;margin:12px 0 22px}
+.kaki-app .venue-map-canvas{height:100%;width:100%;z-index:0;font-family:inherit}
+.kaki-app .leaflet-container img.leaflet-tile{max-width:none!important;object-fit:initial}
+.kaki-app .leaflet-container a{color:#3158aa}
+.kaki-app .leaflet-control-attribution{font-size:8px;line-height:1.5;background:#ffffffdf;max-width:85%;text-align:right;padding:2px 5px}
+.kaki-app .leaflet-bar{border:0;box-shadow:0 2px 12px #11162d20;border-radius:12px;overflow:hidden}
+.kaki-app .leaflet-bar a{color:var(--ink);width:32px;height:32px;line-height:32px}
+.kaki-app .kaki-map-pin{width:48px;height:48px;border:3px solid white;background:#7465e9;border-radius:16px;box-shadow:0 3px 10px #223e6045;position:relative;display:grid;place-items:center;transition:transform .15s,border-color .15s}
+.kaki-app .kaki-map-pin:after{content:"";width:10px;height:10px;background:white;position:absolute;bottom:-7px;left:16px;transform:rotate(45deg);z-index:-1}
+.kaki-app .venue-map .kaki-map-pin img{width:42px;height:42px;max-width:42px!important;max-height:42px!important;min-width:0;object-fit:cover;border-radius:12px}
+.kaki-app .kaki-map-pin>span{font-size:28px;color:white}
+.kaki-app .kaki-map-pin b{position:absolute;right:-8px;top:-9px;background:#24254d;color:white;border:2px solid white;border-radius:12px;min-width:21px;height:21px;text-align:center;line-height:17px;font-size:11px}
+.kaki-app .kaki-map-pin.selected{border-color:#594ae7;transform:translateY(-4px) scale(1.13);box-shadow:0 5px 18px #5547e94d}
+.kaki-app .kaki-map-pin.selected:after{background:#594ae7}
+.kaki-app .kaki-map-cluster{width:48px;height:48px;display:grid;place-items:center;border-radius:50%;background:#e4e4f0;color:#454166;border:4px solid #fffffff0;box-shadow:0 3px 13px #30345335;font-size:17px;font-weight:800;letter-spacing:-.5px}
+.kaki-app .kaki-map-cluster.selected{background:#6857cf;color:#fff;border-color:#e6e1ff}
+.kaki-app .kaki-cluster-marker:focus-visible{outline:3px solid #7764da;outline-offset:3px;border-radius:50%}
+.kaki-app .map-loading,.kaki-app .map-fallback{position:absolute;z-index:2;background:#ffffffee;inset:0;display:grid;place-content:center;text-align:center;padding:24px;font-size:13px;pointer-events:none}
+.kaki-app .map-fallback{inset:auto 12px 26px;border-radius:12px;padding:12px;box-shadow:0 2px 12px #17203e15}
+.kaki-app .map-search-row{display:flex;gap:9px;align-items:stretch;margin:18px 0 12px}
+.kaki-app .map-search-row .search-bar{flex:1;min-width:0;margin:0}
+.kaki-app .map-search-row>.btn{padding:0 15px;flex:none}
+.kaki-app .map-filters{margin:12px 0 18px}
+.kaki-app .map-filters .chip{white-space:nowrap;padding:9px 15px;background:white;border:1px solid #e5e6ef;color:var(--muted);font-weight:600}
+.kaki-app .map-filters .chip.active{background:#292a4b;color:white;border-color:#292a4b}
+.kaki-app .map-results-heading{display:flex;align-items:center;justify-content:space-between;gap:10px;margin:24px 0 14px}
+.kaki-app .map-results-heading h2{font-size:21px;margin:7px 0 0;letter-spacing:-.6px}
+.kaki-app .map-event-list{display:grid;gap:12px}
+.kaki-app .map-event-card{display:flex;align-items:center;gap:13px;padding:13px;border:1px solid #e6e8f0;border-radius:21px;background:white;min-width:0}
+.kaki-app .map-event-card>div{flex:1;min-width:0}
+.kaki-app .map-event-image{width:74px;height:100px;flex:none;overflow:hidden;border-radius:13px;padding:0;background:#eeecf8}
+.kaki-app .map-event-image img{width:100%;height:100%;object-fit:cover}
+.kaki-app .map-event-card h3{font-size:15px;line-height:1.35;margin:7px 0 5px;letter-spacing:-.3px}
+.kaki-app .map-event-date{display:flex;gap:4px;align-items:center;font-size:10px;font-weight:650;color:#6957bd}
+.kaki-app .location-link{display:flex;gap:5px;align-items:center;font-size:11px;color:#626b85;text-align:left;padding:0;line-height:1.4;max-width:100%;min-height:30px}
+.kaki-app .location-link svg{flex:none}
+.kaki-app .location-link span{min-width:0;overflow-wrap:anywhere}
+.kaki-app .map-event-card .title-button{min-width:0;max-width:100%;overflow-wrap:anywhere}
+.kaki-app .map-event-card small{font-size:10px}
+.kaki-app .map-card-arrow{width:26px;flex:none;color:#6c65a2;padding:0}
+.kaki-app .map-note{font-size:12px;color:#71778d;line-height:1.65}
+.kaki-app .location-address{padding:22px;margin:0 0 18px}
+.kaki-app .location-address h2{margin:14px 0 8px;font-size:25px}
+.kaki-app .location-address>p{color:var(--muted);line-height:1.6;margin-bottom:18px}
+.kaki-app .location-address a{display:flex;justify-content:center;align-items:center;text-decoration:none;gap:10px}
+.kaki-app .location-plan-row{display:flex;align-items:center;gap:12px;padding:13px 0}
+.kaki-app .location-plan-row>img{width:64px;height:64px;border-radius:14px}
+.kaki-app .location-plan-row>div{flex:1;min-width:0}
+.kaki-app .location-plan-row strong{font-size:14px;line-height:1.4;display:block}
+.kaki-app .location-plan-row small{display:block;color:var(--muted);font-size:11px;margin-top:7px}
+.kaki-app .map-unavailable{padding:36px 24px;text-align:center;margin-bottom:20px}
+.kaki-app .discovery-search-row{display:flex;align-items:stretch;gap:10px}
+.kaki-app .discovery-search-row .search-bar{flex:1;min-width:0}
+.kaki-app .discover-map-button{align-self:center;width:52px;height:52px;border-radius:16px;background:#ebe9ff;color:#5849c6;display:grid;place-items:center;flex:none;box-shadow:inset 0 0 0 1px #ded9fc}
+.kaki-app .discover-shortcuts{display:flex;gap:8px;margin:12px 0 22px}
+.kaki-app .discover-shortcuts .all-activities{flex:1;margin:0;padding:12px;font-size:12px;gap:7px;justify-content:center}
+.kaki-app .detail-location-button{display:flex;align-items:center;gap:14px;width:100%;text-align:left;padding:12px 0;color:var(--ink)}
+.kaki-app .detail-location-button>span{flex:1}
+.kaki-app .detail-location-button strong{display:block;font-weight:650}
+.kaki-app .detail-location-button small{display:block;color:#6455ce;margin-top:5px;font-size:12px}
+.kaki-app .activity-card .metadata .location-link{font-size:11px;color:var(--muted);min-height:23px}
+.kaki-app.desktop-app .event-map-page{max-width:1000px;margin:auto}
+.kaki-app.desktop-app .map-event-list{grid-template-columns:repeat(2,minmax(0,1fr))}
+.kaki-app.desktop-app .map-event-card h3{font-size:17px}
+.kaki-app.desktop-app .map-event-date{font-size:12px}
+.kaki-app.desktop-app .activity-location-page{max-width:850px;margin:auto}
+@media(max-width:760px){.kaki-app.desktop-app .map-event-list{grid-template-columns:minmax(0,1fr)}.kaki-app .map-event-card{min-width:0}.kaki-app .map-event-card h3{overflow-wrap:anywhere}}
+@media(prefers-reduced-motion:reduce){.kaki-app .kaki-map-pin{transition:none}}
+.kaki-app button.location-link,.kaki-app button.detail-location-button,.kaki-app button.map-card-arrow{border:0;background:transparent}
+.kaki-app button.map-event-image,.kaki-app button.discover-map-button{border:0}
+.kaki-app .venue-map .leaflet-control-attribution img.onemap-credit-logo{width:14px;height:14px;max-width:14px!important;max-height:14px!important;display:inline-block;vertical-align:middle;object-fit:contain}
+.kaki-app.desktop-app .map-filters{position:relative;overflow-x:auto;overflow-y:hidden;scrollbar-width:none;touch-action:pan-y}
+.kaki-app.desktop-app .map-filters .mobile-carousel-content{display:flex;width:max-content;min-width:100%;gap:8px}
+.map-source-filters{margin-bottom:5px!important}.map-source-filters .chip{font-size:11px}.map-coverage{font-size:11px;color:#546282;line-height:1.6;margin:10px 0 0}.map-demo-note{font-size:10px;color:#6b7386;line-height:1.6;margin:6px 0 0}.map-official-image{background:#ebedff;color:#5c59c4;display:grid;place-items:center}.map-official-image>span{display:grid;justify-items:center;gap:6px}.map-official-image small{font-size:9px;font-weight:800;letter-spacing:.5px}
