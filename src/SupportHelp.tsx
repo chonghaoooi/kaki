@@ -9,16 +9,17 @@ const resources = [
 
 export default function SupportHelp() {
   const { go } = useKaki();
+  const publicDemo = Boolean((window as any).__KAKI_PUBLIC_DEMO__);
   return <div className="support-help-page">
-    <PageHeading eyebrow="SOMEONE TO TURN TO" title="Support when you need it." subtitle="You can reach these Singapore services directly, whenever you need a conversation." />
+    <PageHeading eyebrow="SOMEONE TO TURN TO" title="Support when you need it." subtitle={publicDemo ? "Find a real support service in your own country." : "You can reach these Singapore services directly, whenever you need a conversation."} />
     <div className="support-help-note"><Heart size={23} weight="duotone"/><p>Listening ears on kaki offer peer support. For counselling or urgent support, the services below can help you find the right next step.</p></div>
-    {resources.map(resource => <article className="card support-resource" key={resource.phone}>
+    {publicDemo ? <article className="card support-resource"><h2>Find a local helpline</h2><p>Choose your country and topic to find a real support service. Kaki’s Northstar Campus and support groups are fictional.</p><a className="support-official-link" href="https://findahelpline.com/" target="_blank" rel="noopener noreferrer">Search Find A Helpline<ArrowUpRight size={15}/></a></article> : resources.map(resource => <article className="card support-resource" key={resource.phone}>
       <span className="support-resource-hours">24/7 support</span><h2>{resource.name}</h2><p>{resource.text}</p>
       <div className="support-resource-actions"><a href={`tel:${resource.phone}`}><Phone size={18}/>Call {resource.phone}</a><a href={resource.chat} target="_blank" rel="noopener noreferrer"><ChatCircle size={18}/>{resource.chatLabel}<ArrowUpRight size={15}/></a></div>
       <p className="support-resource-detail">{resource.detail}</p><a className="support-official-link" href={resource.url} target="_blank" rel="noopener noreferrer">Official service website<ArrowUpRight size={15}/></a>
     </article>)}
-    <section className="support-emergency"><h2>Urgent medical help</h2><p>If someone is in immediate danger and needs an emergency ambulance, call <a href="tel:995">995</a>.</p><a href="https://www.scdf.gov.sg/home/about-scdf/emergency-medical-services" target="_blank" rel="noopener noreferrer">SCDF emergency guidance<ArrowUpRight size={14}/></a></section>
-    <p className="support-resource-source">These are external services. Their teams handle your calls and messages. Contact details checked against official sources on 13 September 2026.</p>
+    <section className="support-emergency"><h2>Urgent medical help</h2>{publicDemo ? <p>If someone is in immediate danger, contact the emergency services in your location now.</p> : <><p>If someone is in immediate danger and needs an emergency ambulance, call <a href="tel:995">995</a>.</p><a href="https://www.scdf.gov.sg/home/about-scdf/emergency-medical-services" target="_blank" rel="noopener noreferrer">SCDF emergency guidance<ArrowUpRight size={14}/></a></>}</section>
+    {!publicDemo && <p className="support-resource-source">These are external services. Their teams handle your calls and messages. Contact details checked against official sources on 13 September 2026.</p>}
     <Button variant="secondary" className="full" onClick={() => go("support")}>Explore support groups<ArrowRight size={17}/></Button>
   </div>;
 }

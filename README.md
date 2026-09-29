@@ -4,13 +4,17 @@
 
 kaki is a mobile-first web app that helps students find belonging through shared activities, study sessions, and peer support. The school-life problem is universal; our first working pilot uses Singapore schools and venues, with polytechnic students as the initial audience. It brings campus plans, neighbourhood meetups, mentors, clubs, and support spaces into one place.
 
-[Try the live browser demo](https://kaki-orcin.vercel.app/). Its sample students, events, and conversations are fictional and saved in your browser; the local version below uses a Node.js API and persistent SQLite. Maps, school choices, postal-code suggestions, and partner listings currently cover Singapore. They are an example of how the model could be adapted to other places, not a claim that kaki already supports them.
+[Try the live browser demo](https://kaki-orcin.vercel.app/). It opens directly into **Northstar Campus**, an imaginary campus populated with fictional students, mentors, plans, and conversations. Joins, saves, and sample DM replies stay in your browser. The separate local version below uses a Node.js API and persistent SQLite for the Singapore pilot; its maps, school choices, postal-code suggestions, and partner listings cover Singapore. Northstar map pins are illustrative and provide no real directions.
 
 This repository contains a working local demo with a React frontend, a Node.js API and persistent SQLite storage. It includes an interactive iPhone/Pixel preview and a responsive desktop view.
 
 ## A look inside
 
 Screenshots of the running mobile interface, using fictional demo profiles and activities.
+
+The [live Northstar Campus demo](https://kaki-orcin.vercel.app/) currently opens like this:
+
+<img src="docs/screenshots/northstar-demo.jpg" width="390" alt="Northstar Campus demo showing a fictional coding study session in the mobile preview"> <img src="docs/screenshots/northstar-mentors.jpg" width="390" alt="Northstar Campus mentor directory with a study banner and fictional mentor profiles">
 
 <table>
   <tr>
@@ -68,7 +72,7 @@ The build type-checks the frontend, generates its static assets and prepares Bro
 
 ### Browser-only Vercel demo
 
-The public [Vercel demo](https://kaki-orcin.vercel.app/) uses a bundled browser worker and WebAssembly database so visitors can try interactions without a server or real accounts. To reproduce its static deployment files after a build, run `node scripts/prepare-vercel-demo.mjs`; the output is `dist/vercel-demo`. Demo changes stay in the visitor's browser and can be reset there. The browser worker and WebAssembly files are built from this project's demo implementation; generated student photos are fictional OpenAI ImageGen assets. The worker bundle is included so static hosting retains the same demo behaviour.
+The public [Vercel demo](https://kaki-orcin.vercel.app/) uses a bundled browser worker and WebAssembly database so visitors can try interactions without a server or real accounts. A Vercel-only fixture layer renames the setting to imaginary Northstar Campus and adds 15 upcoming activities, 6 populated DM threads, varied student portraits and activity/mentor photos. These records illustrate a used product; they are **not real users, adoption, attendance, or live services**. To reproduce its static deployment files after a build, run `node scripts/prepare-vercel-demo.mjs`; the output is `dist/vercel-demo`. Demo changes stay in the visitor's browser and can be reset there. The browser worker and WebAssembly files are built from this project's demo implementation; generated student photos are fictional OpenAI ImageGen assets. The worker bundle is included so static hosting retains the same demo behaviour.
 
 ## Checks
 

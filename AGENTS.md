@@ -93,3 +93,5 @@ The user selected Discover visual option 2 on 13 September 2026: `qa/discover-de
 
 
 The user requested more demo events in every genre. `server/activity-catalogue.mjs` adds a balanced 54 records per education network (36 campus, 18 opted-in Neighbourhood), using existing profiles/venues and the six existing event categories. Its additive demo-only migration inserts missing stable IDs and stores a one-time Singapore-date anchor. Never reset or shift existing event records to refresh the catalogue, auto-enrol the current user, invent mentor credentials, or mix fictional events into the separately sourced official listings.
+
+The public Vercel site is now a browser-only showcase at the imaginary Northstar Campus. Keep its extra activity and DM fixtures, generated portraits and banners, fictional school names, and illustrative map labels confined to `kaki-demo-client.js`/`kaki-demo-fixtures.js` and UI gated by `meta.publicDemo` or `__KAKI_PUBLIC_DEMO__`. Do not describe its populated conversations, participant counts, mentor history, or group sessions as real adoption. The local Singapore pilot and real-resource boundaries remain separate.

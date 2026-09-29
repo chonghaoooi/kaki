@@ -1,4 +1,4 @@
-import { useEffect, useState } from "react";
+import { useEffect, useRef, useState } from "react";
 import {
   ArrowLeft,
   ArrowRight,
@@ -82,6 +82,8 @@ const intentions = [
 ];
 
 export default function Onboarding() {
+  const publicDemo = Boolean((window as any).__KAKI_PUBLIC_DEMO__);
+  const demoStarted = useRef(false);
   const keyboard = useKeyboard();
   const { api, refresh, go, toast, desktop, user } = useKaki();
   const [step, setStep] = useState(user ? "profile" : "welcome"),
@@ -149,6 +151,12 @@ export default function Onboarding() {
       go("discover");
       toast("Welcome, Jamie. You’re exploring the demo community.");
     });
+  useEffect(() => {
+    if (publicDemo && !user && !demoStarted.current) {
+      demoStarted.current = true;
+      void demo();
+    }
+  }, [publicDemo, user]);
   const send = () =>
     run(async () => {
       const result = await api("/auth/start", "POST", {
@@ -237,12 +245,12 @@ export default function Onboarding() {
             />
           </div>
           <div className="section-heading">
-            <h2>Where are you studying?</h2>
+            <h2>{publicDemo ? "Welcome to Northstar Campus" : "Where are you studying?"}</h2>
           </div>
           <p className="muted welcome-help">
-            Connect with students at your stage of education.
+            {publicDemo ? "An imaginary campus with sample people, plans and conversations." : "Connect with students at your stage of education."}
           </p>
-          <div className="stage-grid">
+          {!publicDemo && <div className="stage-grid">
             {stages.map((s) => (
               <button
                 className={`stage-card tone-${s.color}`}
@@ -266,22 +274,22 @@ export default function Onboarding() {
                 <ArrowRight size={18} />
               </button>
             ))}
-          </div>
+          </div>}
           <div className="demo-invitation">
             <UsersThree size={22} weight="duotone" />
             <div>
-              <strong>Take a look around first</strong>
-              <p>Explore kaki with a sample student profile.</p>
+              <strong>{publicDemo ? "Opening your campus demo" : "Take a look around first"}</strong>
+              <p>{publicDemo ? "Everything you see here is fictional. Try a real flow with sample data." : "Explore kaki with a sample student profile."}</p>
             </div>
             <Button variant="secondary" disabled={busy} onClick={demo}>
-              {busy ? "Opening…" : "Try demo"}
+              {busy ? "Opening…" : publicDemo ? "Explore Northstar" : "Try demo"}
               <ArrowRight size={16} />
             </Button>
           </div>
-          <p className="privacy-note">
+          {!publicDemo && <p className="privacy-note">
             <ShieldCheck size={16} /> Four separate communities. One shared
             spirit.
-          </p>
+          </p>}
         </>
       )}
       {step === "school" && (

@@ -111,6 +111,7 @@ export function VenueMap({ locations, selectedId, onSelect, height = 300, intera
 
 export default function EventsMap({ neighbourhood = false }: { neighbourhood?: boolean }) {
   const { data, go, user, desktop, api, route, setRouteParams } = useKaki();
+  const publicDemo = Boolean(data.meta?.publicDemo);
   const category = route.params?.category || "all", source = route.params?.source || "all", query = route.params?.q || "";
   const setCategory = (value: string) => setRouteParams({category: value === "all" ? undefined : value});
   const setSource = (value: string) => setRouteParams({source: value === "all" ? undefined : value});
@@ -126,7 +127,7 @@ export default function EventsMap({ neighbourhood = false }: { neighbourhood?: b
   const referenceTime = useDiscoveryClock();
   const search = query.trim().toLowerCase();
   const activities = (neighbourhood ? nearby : data.activities || []).filter((a: any) => isDiscoverableActivity(a, referenceTime) && (neighbourhood || a.institutionId === user.institutionId) && (source === "all" || source === "schools") && (category === "all" || a.category === category) && matchesActivitySearch(a, search));
-  const partners = neighbourhood ? getVisiblePartnerEvents(referenceTime).filter(e => (source === "all" || source === e.source) && (category === "all" || category === e.category) && matchesPartnerSearch(e, search)) : [];
+  const partners = neighbourhood && !publicDemo ? getVisiblePartnerEvents(referenceTime).filter(e => (source === "all" || source === e.source) && (category === "all" || category === e.category) && matchesPartnerSearch(e, search)) : [];
   const events: any[] = [
     ...activities,
     ...partners.map(event => ({ ...event, partner: true, date: event.startsAt.slice(0,10), time: event.startsAt.slice(11,16), locationDetails: event.locationDetails ? { ...event.locationDetails, venueName: event.location } : null })),
@@ -148,15 +149,15 @@ export default function EventsMap({ neighbourhood = false }: { neighbourhood?: b
   const unmapped = events.filter(event => !event.locationDetails || !hasPoint(event.locationDetails)).length;
   const openEvent = (event: any) => go(event.partner ? "partner-event" : "activity", event.id);
   return <div className="event-map-page">
-    <PageHeading eyebrow={neighbourhood ? "YOUR NEIGHBOURHOOD" : networkNames[user.network]} title="Good plans, all around." subtitle={neighbourhood ? "Student meetups, culture and new possibilities." : "Find a little adventure on your campus."} />
+    <PageHeading eyebrow={neighbourhood ? "YOUR NEIGHBOURHOOD" : networkNames[user.network]} title="Good plans, all around." subtitle={publicDemo ? "Fictional campus plans on an illustrative map." : neighbourhood ? "Student meetups, culture and new possibilities." : "Find a little adventure on your campus."} />
     <div className="map-search-row"><div className="search-bar"><MagnifyingGlass size={21} /><Input aria-label="Search the event map" placeholder="Activity, school or place" value={query} onChange={e => { setQuery(e.target.value); setSelectedId(undefined); }} />{query && <IconButton label="Clear map search" onClick={() => { setQuery(""); setSelectedId(undefined); }}><X size={18}/></IconButton>}</div><Button variant="secondary" onClick={() => go(neighbourhood ? "neighbourhood" : "browse", undefined, {q: query, category, ...(neighbourhood ? {source} : {})})}><ListBullets size={20} /> List</Button></div>
-    {neighbourhood && <Carousel className="map-filters map-source-filters" ariaLabel="Map event sources">{[{id:"all",label:"All sources"},{id:"schools",label:"Student plans"},{id:"mccy",label:"MCCY & partners"},{id:"nyc",label:"NYC"}].map(item => <button key={item.id} className={`chip ${source === item.id ? "active" : ""}`} aria-pressed={source === item.id} onClick={() => { setSource(item.id); setSelectedId(undefined); }}>{item.label}</button>)}</Carousel>}
+    {neighbourhood && <Carousel className="map-filters map-source-filters" ariaLabel="Map event sources">{(publicDemo ? [{id:"all",label:"All plans"},{id:"schools",label:"Student plans"}] : [{id:"all",label:"All sources"},{id:"schools",label:"Student plans"},{id:"mccy",label:"MCCY & partners"},{id:"nyc",label:"NYC"}]).map(item => <button key={item.id} className={`chip ${source === item.id ? "active" : ""}`} aria-pressed={source === item.id} onClick={() => { setSource(item.id); setSelectedId(undefined); }}>{item.label}</button>)}</Carousel>}
     <Carousel className="map-filters" ariaLabel="Event categories">{[{ id: "all", label: "All plans" }, ...categories.filter(c => !["people", "tutoring"].includes(c.id))].map(item => <button key={item.id} className={`chip ${category === item.id ? "active" : ""}`} aria-pressed={category === item.id} onClick={() => { setCategory(item.id); setSelectedId(undefined); }}>{item.label}</button>)}</Carousel>
     {loading && <Busy text="Finding shared events…" />}
     {error && <div><ErrorText>{error}</ErrorText><Button variant="secondary" onClick={() => setAttempt(a => a + 1)}>Try again</Button></div>}
     <VenueMap locations={locations} selectedId={selectedId} onSelect={setSelectedId} height={desktop ? 430 : 315} />
-    <p className="map-coverage">{events.length - unmapped} mapped {events.length - unmapped === 1 ? "plan" : "plans"} · {locations.length} public {locations.length === 1 ? "location" : "locations"}{unmapped > 0 ? ` · ${unmapped} address-only listings` : ""}</p>
-    {neighbourhood && data.meta?.demoMode && (source === "all" || source === "schools") && <p className="map-demo-note">Student meetups are fictional demo plans at real public venues. Official programmes link to their organisers.</p>}
+    <p className="map-coverage">{events.length - unmapped} mapped {events.length - unmapped === 1 ? "plan" : "plans"} · {locations.length} {publicDemo ? "illustrative" : "public"} {locations.length === 1 ? "location" : "locations"}{unmapped > 0 ? ` · ${unmapped} address-only listings` : ""}</p>
+    {publicDemo ? <p className="map-demo-note">Northstar Campus, these activities and their map pins are fictional. Do not use this map for travel.</p> : neighbourhood && data.meta?.demoMode && (source === "all" || source === "schools") && <p className="map-demo-note">Student meetups are fictional demo plans at real public venues. Official programmes link to their organisers.</p>}
     <div className="map-results-heading"><div><span className="eyebrow">{selection ? "AT THIS SPOT" : "PICK YOUR NEXT PLAN"}</span><h2>{selection ? selection.name : `${events.length} ${events.length === 1 ? "plan" : "plans"} to explore`}</h2></div>{selection && <Button variant="ghost" onClick={() => setSelectedId(undefined)}>Show all</Button>}</div>
     <div className="map-event-list">{shown.map(event => <article key={event.id} className="map-event-card">
       <button className={`map-event-image ${event.partner ? "map-official-image" : ""}`} aria-label={`View ${event.title}`} onClick={() => openEvent(event)}>{event.partner ? <span><CalendarBlank size={28} weight="duotone"/><small>{event.source === "mccy" ? "MCCY" : "NYC"}</small></span> : <img src={imageFor(event)} alt="" loading="lazy" />}</button>
@@ -171,17 +172,18 @@ export default function EventsMap({ neighbourhood = false }: { neighbourhood?: b
 
 export function ActivityLocation({ id }: { id: string }) {
   const { data, api, go, desktop } = useKaki();
+  const publicDemo = Boolean(data.meta?.publicDemo);
   const [activity, setActivity] = useState<any>(() => (data.activities || []).find((a: any) => a.id === id));
   const [error, setError] = useState("");
   useEffect(() => { let live = true; api(`/activities/${id}`).then((r) => { if (live) setActivity(r.activity || r); }).catch((e) => { if (live) setError(e.message); }); return () => { live = false; }; }, [api, id]);
   if (!activity) return error ? <Empty title="This location isn’t available." text={error} /> : <Busy />;
   const l = activity.locationDetails;
   const mapped = l && hasPoint(l);
-  const address = [l?.address, l?.postalCode && !l?.address?.includes(l.postalCode) ? `Singapore ${l.postalCode}` : ""].filter(Boolean).join(", ");
+  const address = [l?.address, !publicDemo && l?.postalCode && !l?.address?.includes(l.postalCode) ? `Singapore ${l.postalCode}` : ""].filter(Boolean).join(", ");
   const destination = mapped ? `${l.lat},${l.lng}` : (address || activity.location);
   return <div className="activity-location-page"><PageHeading eyebrow="THE MEETING SPOT" title="See you here." subtitle={activity.title} />
     {mapped ? <VenueMap locations={[{ ...l, id: activity.id, name: l.venueName || activity.location, image: imageFor(activity) }]} height={desktop ? 440 : 350} selectedId={activity.id} /> : <div className="map-unavailable card"><MapPin size={38} weight="duotone" /><h2>Meeting details</h2><p>A precise map pin isn’t available for this location yet.</p></div>}
-    <div className="location-address card"><Badge tone="blue"><MapPin size={14} /> {l?.precision === "campus" ? "Campus location" : "Public meeting spot"}</Badge><h2>{l?.venueName || activity.location}</h2><p>{address || activity.location}</p>{l?.precision === "campus" && <p className="map-note">The pin shows the campus. Check the activity details with your host for the exact room or entrance.</p>}{l?.locationNote && <p className="map-note">{l.locationNote}</p>}{l?.meetingPoint && <p className="map-note">{l.meetingPoint}</p>}<a className="btn btn-primary full" href={`https://www.google.com/maps/dir/?api=1&destination=${encodeURIComponent(destination)}&travelmode=transit`} target="_blank" rel="noopener noreferrer"><NavigationArrow size={20} /> Get directions <ArrowUpRight size={17} /></a></div>
+    <div className="location-address card"><Badge tone="blue"><MapPin size={14} /> {publicDemo ? "Fictional campus spot" : l?.precision === "campus" ? "Campus location" : "Public meeting spot"}</Badge><h2>{l?.venueName || activity.location}</h2><p>{address || activity.location}</p>{l?.precision === "campus" && !publicDemo && <p className="map-note">The pin shows the campus. Check the activity details with your host for the exact room or entrance.</p>}{l?.locationNote && <p className="map-note">{l.locationNote}</p>}{l?.meetingPoint && !publicDemo && <p className="map-note">{l.meetingPoint}</p>}{!publicDemo && <a className="btn btn-primary full" href={`https://www.google.com/maps/dir/?api=1&destination=${encodeURIComponent(destination)}&travelmode=transit`} target="_blank" rel="noopener noreferrer"><NavigationArrow size={20} /> Get directions <ArrowUpRight size={17} /></a>}</div>
     <div className="location-plan-row"><img src={imageFor(activity)} alt="" /><div><strong>{activity.title}</strong><small>{dateLabel(activity)} · {displayTime(activity.time)}</small></div><Button variant="ghost" aria-label="Return to activity" onClick={() => go("activity", id)}><ArrowRight size={20} /></Button></div>
   </div>;
 }

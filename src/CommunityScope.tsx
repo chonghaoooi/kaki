@@ -14,8 +14,8 @@ function ChoiceCopy({ scope, institution }: { scope: CommunityView; institution:
     <>
       <span className={`community-scope-choice-icon ${scope === "neighbourhood" ? "is-neighbourhood" : ""}`}><Icon size={24} weight="duotone" aria-hidden="true" /></span>
       <span className="community-scope-choice-copy">
-        <strong>{scope === "campus" ? "Campus" : "Neighbourhood"}</strong>
-        <span>{scope === "campus" ? institution : "Other schools, MCCY & NYC"}</span>
+        <strong>{scope === "campus" ? "Campus" : (window as any).__KAKI_PUBLIC_DEMO__ ? "Nearby campuses" : "Neighbourhood"}</strong>
+        <span>{scope === "campus" ? institution : (window as any).__KAKI_PUBLIC_DEMO__ ? "Other fictional campus communities" : "Other schools, MCCY & NYC"}</span>
       </span>
     </>
   );
@@ -29,7 +29,7 @@ export function CommunityScope({ scope, compact = false }: { scope: CommunityVie
   const wasOpen = useRef(false);
   const institution = user?.institution || "Your campus";
   const shortInstitution = institution.replace(/ Polytechnic$/i, " Poly");
-  const label = scope === "campus" ? (networkNames[user?.network] || "CAMPUS COMMUNITY") : "NEIGHBOURHOOD";
+  const label = scope === "campus" ? (networkNames[user?.network] || "CAMPUS COMMUNITY") : (window as any).__KAKI_PUBLIC_DEMO__ ? "NEARBY CAMPUSES" : "NEIGHBOURHOOD";
 
   // BottomSheet's internal Dialog has no Trigger slot. Restore focus explicitly
   // after dismissal; the desktop Radix menu handles its own focus lifecycle.
@@ -53,13 +53,13 @@ export function CommunityScope({ scope, compact = false }: { scope: CommunityVie
       ref={triggerRef}
       type="button"
       className={`community-badge community-scope-trigger${compact ? " community-scope-compact" : ""}`}
-      aria-label={`Change community view, currently ${scope === "campus" ? "Campus" : "Neighbourhood"}`}
+      aria-label={`Change community view, currently ${scope === "campus" ? "Campus" : (window as any).__KAKI_PUBLIC_DEMO__ ? "Nearby campuses" : "Neighbourhood"}`}
       aria-expanded={open}
       aria-haspopup={desktop ? "menu" : "dialog"}
       onClick={desktop ? undefined : () => changeOpen(!open)}
     >
       {!compact && (scope === "campus" ? <CheckCircle weight="fill" size={19} aria-hidden="true" /> : <MapTrifold weight="duotone" size={19} aria-hidden="true" />)}
-      <strong>{compact ? (scope === "campus" ? <>Campus <span aria-hidden="true">·</span> {shortInstitution}</> : "Neighbourhood") : label}</strong>
+      <strong>{compact ? (scope === "campus" ? <>Campus <span aria-hidden="true">·</span> {shortInstitution}</> : (window as any).__KAKI_PUBLIC_DEMO__ ? "Nearby campuses" : "Neighbourhood") : label}</strong>
       <CaretDown className="community-scope-caret" size={14} weight="bold" aria-hidden="true" />
     </button>
   );

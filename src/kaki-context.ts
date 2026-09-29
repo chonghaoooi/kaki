@@ -48,6 +48,6 @@ export async function api(path: string, method = "GET", body?: any) {
 export const networkNames: Record<string, string> = {
   secondary: "SECONDARY COMMUNITY",
   jc_mi: "JC / MI COMMUNITY",
-  polytechnic: "POLY COMMUNITY",
+  polytechnic: (window as any).__KAKI_PUBLIC_DEMO__ ? "CAMPUS COMMUNITY" : "POLY COMMUNITY",
   university: "UNI COMMUNITY",
 };

@@ -69,6 +69,7 @@ const activityPhotos: Record<string, string[]> = {
 
 export const imageFor = (a: any) => {
   // Demo plans get a stable mix of photos; hosts' own uploads always remain theirs.
+  if (a.demoVisual && a.image) return a.image;
   if (!a.demoSample && a.image) return a.image;
   if ((a.category === "sports" || a.category === "sport") && /badminton/i.test(`${a.title || ""} ${(a.tags || []).join(" ")}`)) {
     return "/assets/kaki/badminton.webp";
@@ -258,7 +259,7 @@ export function Discover() {
   const query = search.trim();
   const results = (data.activities || []).filter((activity: any) => activity.institutionId === user.institutionId && isDiscoverableActivity(activity, now) && matchesActivitySearch(activity, search)).sort(compareActivities);
   const available = results.filter((activity: any) => total(activity) < activity.capacity && !joined(activity, user.id) && activity.hostId !== user.id);
-  const preferred = query ? results[0] : available.find((activity: any) => activity.category === "sports" || activity.category === "sport") || available[0] || results[0];
+  const preferred = query ? results[0] : (data.meta?.publicDemo ? available.find((activity: any) => activity.demoFixture) : available.find((activity: any) => activity.category === "sports" || activity.category === "sport")) || available[0] || results[0];
   const [heroSelection, setHeroSelection] = useState<{ key: string; id: string } | null>(null);
   const heroKey = `${user.id}:${query}`;
   const featured = heroSelection?.key === heroKey ? results.find((activity: any) => activity.id === heroSelection.id) || preferred : preferred;
@@ -267,7 +268,7 @@ export function Discover() {
   }, [featured?.id, heroKey, heroSelection]);
   const otherPlans = results.filter((activity: any) => activity.id !== featured?.id);
   const futurePlans = otherPlans.filter((activity: any) => compareActivities(activity, { startsAt: now.toISOString() }) >= 0);
-  const comingUp = (query ? otherPlans : futurePlans.length ? futurePlans : otherPlans).slice(0, query ? 8 : 1);
+  const comingUp = (query ? otherPlans : futurePlans.length ? futurePlans : otherPlans).slice(0, query ? 8 : data.meta?.publicDemo ? 3 : 1);
   const hour = Number(new Intl.DateTimeFormat("en-SG", { hour: "numeric", hourCycle: "h23", timeZone: "Asia/Singapore" }).format(now));
   const greeting = hour < 12 ? "Good morning" : hour < 18 ? "Good afternoon" : "Good evening";
   const nextParams: Record<string, string> = search ? { q: search } : {};
@@ -628,14 +629,14 @@ export function ActivityDetail({ id }: { id: string }) {
               <strong>
                 {dateLabel(a)} · {displayTime(a.time)}
               </strong>
-              <small>Singapore time · SGT</small>
+              <small>{data.meta?.publicDemo ? "Sample campus schedule" : "Singapore time · SGT"}</small>
             </span>
           </div>
           <button className="detail-location-button" onClick={() => go("activity-location", id)}>
             <MapPin size={23} weight="duotone" />
             <span>
               <strong>{a.location}</strong>
-              <small>View location & directions</small>
+              <small>{data.meta?.publicDemo ? "View illustrative location" : "View location & directions"}</small>
             </span>
             <ArrowRight size={19} />
           </button>
