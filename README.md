@@ -2,7 +2,9 @@
 
 **Find your people. Make a small plan.**
 
-kaki is a mobile-first web app that helps students in Singapore meet through shared activities, study together, and find peer support. Designed with polytechnic students as the initial audience, it brings campus plans, neighbourhood meetups, mentors, clubs and support spaces into one place.
+kaki is a mobile-first web app that helps students find belonging through shared activities, study sessions, and peer support. The school-life problem is universal; our first working pilot uses Singapore schools and venues, with polytechnic students as the initial audience. It brings campus plans, neighbourhood meetups, mentors, clubs, and support spaces into one place.
+
+[Try the live browser demo](https://kaki-orcin.vercel.app/). Its sample students, events, and conversations are fictional and saved in your browser; the local version below uses a Node.js API and persistent SQLite. Maps, school choices, postal-code suggestions, and partner listings currently cover Singapore. They are an example of how the model could be adapted to other places, not a claim that kaki already supports them.
 
 This repository contains a working local demo with a React frontend, a Node.js API and persistent SQLite storage. It includes an interactive iPhone/Pixel preview and a responsive desktop view.
 
@@ -12,7 +14,7 @@ Screenshots of the running mobile interface, using fictional demo profiles and a
 
 <table>
   <tr>
-    <td align="center"><strong>Discover</strong><br><img src="docs/screenshots/discover.png" width="230" alt="kaki Discover screen with campus selection, activity categories and a featured plan"></td>
+    <td align="center"><strong>Discover</strong><br><img src="docs/screenshots/discover-refreshed.png" width="230" alt="kaki Discover screen with campus selection, activity categories and a featured plan"></td>
     <td align="center"><strong>Event map</strong><br><img src="docs/screenshots/event-map.png" width="230" alt="Neighbourhood event map showing public meeting venues and nearby student plans"></td>
     <td align="center"><strong>Mentors</strong><br><img src="docs/screenshots/mentors.png" width="230" alt="Public mentor information with hearts, sessions and mentoring experience"></td>
   </tr>
@@ -63,6 +65,10 @@ npm start
 ```
 
 The build type-checks the frontend, generates its static assets and prepares Brotli/gzip compression. The Node server serves both the compiled app and API.
+
+### Browser-only Vercel demo
+
+The public [Vercel demo](https://kaki-orcin.vercel.app/) uses a bundled browser worker and WebAssembly database so visitors can try interactions without a server or real accounts. To reproduce its static deployment files after a build, run `node scripts/prepare-vercel-demo.mjs`; the output is `dist/vercel-demo`. Demo changes stay in the visitor's browser and can be reset there. The browser worker and WebAssembly files are built from this project's demo implementation; generated student photos are fictional OpenAI ImageGen assets. The worker bundle is included so static hosting retains the same demo behaviour.
 
 ## Checks
 

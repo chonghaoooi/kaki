@@ -57,9 +57,30 @@ export const categories = [
   { id: "tutoring", label: "Tutoring", icon: GraduationCap, tone: "blue" },
   { id: "events", label: "Events", icon: CalendarBlank, tone: "purple" },
 ];
-export const imageFor = (a: any) =>
-  a.image ||
-  `/assets/kaki/${({ sports: "badminton", sport: "badminton", study: "study", games: "games", lunch: "lunch", interests: "photography", events: "games" } as any)[a.category] || "study"}.webp`;
+const activityPhotos: Record<string, string[]> = {
+  sports: ["badminton", "global-sports"],
+  sport: ["badminton", "global-sports"],
+  study: ["study", "global-study"],
+  games: ["games", "global-games"],
+  lunch: ["lunch", "global-lunch"],
+  interests: ["photography", "global-creative"],
+  events: ["games", "global-creative", "global-study"],
+};
+
+export const imageFor = (a: any) => {
+  // Demo plans get a stable mix of photos; hosts' own uploads always remain theirs.
+  if (!a.demoSample && a.image) return a.image;
+  if ((a.category === "sports" || a.category === "sport") && /badminton/i.test(`${a.title || ""} ${(a.tags || []).join(" ")}`)) {
+    return "/assets/kaki/badminton.webp";
+  }
+  if ((a.category === "sports" || a.category === "sport") && /walk|hike|trail|run|jog/i.test(`${a.title || ""} ${(a.tags || []).join(" ")}`)) {
+    return "/assets/kaki/global-outdoors.webp";
+  }
+  const options = activityPhotos[a.category] || ["study", "global-study"];
+  const key = String(a.title || a.id || a.category || "study");
+  const hash = [...key].reduce((value, char) => (value * 31 + char.charCodeAt(0)) >>> 0, 0);
+  return `/assets/kaki/${options[hash % options.length]}.webp`;
+};
 export function dateLabel(a: any) {
   return dateLabelFor(String(a.date || ""));
 }

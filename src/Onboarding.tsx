@@ -232,7 +232,7 @@ export default function Onboarding() {
               </p>
             </div>
             <img
-              src="/assets/kaki/games.webp"
+              src="/assets/kaki/global-games.webp"
               alt="Students getting to know each other over a board game"
             />
           </div>
