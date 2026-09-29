@@ -10,24 +10,29 @@ This repository contains a working local demo with a React frontend, a Node.js A
 
 ## A look inside
 
-Screenshots of the running mobile interface, using fictional demo profiles and activities.
+These are current, tightly cropped captures of the [live Northstar Campus demo](https://kaki-orcin.vercel.app/) on 29 September 2026. The campus, people, conversations and support spaces are fictional.
 
-The [live Northstar Campus demo](https://kaki-orcin.vercel.app/) currently opens like this:
-
-<img src="docs/screenshots/northstar-demo.jpg" width="320" alt="Northstar Campus demo showing a fictional coding study session in the mobile preview"> <img src="docs/screenshots/northstar-mentors.jpg" width="320" alt="Northstar Campus mentor directory with a study banner and fictional mentor profiles"> <img src="docs/screenshots/northstar-support.jpg" width="320" alt="Northstar Campus Support page with upcoming fictional support spaces">
+<img src="docs/screenshots/devpost-gallery.jpg" width="900" alt="kaki Discover, Clubs and Support screens from the Northstar Campus demo">
 
 <table>
   <tr>
-    <td align="center"><strong>Discover</strong><br><img src="docs/screenshots/discover-refreshed.png" width="230" alt="kaki Discover screen with campus selection, activity categories and a featured plan"></td>
-    <td align="center"><strong>Event map</strong><br><img src="docs/screenshots/event-map.png" width="230" alt="Neighbourhood event map showing public meeting venues and nearby student plans"></td>
-    <td align="center"><strong>Mentors</strong><br><img src="docs/screenshots/mentors.png" width="230" alt="Public mentor information with hearts, sessions and mentoring experience"></td>
+    <td align="center"><strong>Discover</strong><br><img src="docs/screenshots/demo-discover.png" width="230" alt="Northstar Campus Discover screen with a coding session"></td>
+    <td align="center"><strong>Activities</strong><br><img src="docs/screenshots/demo-activities.jpg" width="230" alt="Joined activities in the kaki mobile demo"></td>
+    <td align="center"><strong>Clubs</strong><br><img src="docs/screenshots/demo-clubs.jpg" width="230" alt="Northstar Campus club directory"></td>
   </tr>
   <tr>
-    <td align="center"><strong>Clubs</strong><br><img src="docs/screenshots/clubs.png" width="230" alt="Student clubs for shared interests, group discussions and recurring plans"></td>
-    <td align="center"><strong>Support</strong><br><img src="docs/screenshots/support.png" width="230" alt="Support directory with a welcoming introduction and student-led support spaces"></td>
-    <td align="center"><strong>A listening ear</strong><br><img src="docs/screenshots/listening-ear.png" width="230" alt="Listening-ear application for students who want to offer peer support"></td>
+    <td align="center"><strong>Club chat</strong><br><img src="docs/screenshots/demo-club-chat.png" width="230" alt="Code and Coffee public club chat and event planning action"></td>
+    <td align="center"><strong>Messages</strong><br><img src="docs/screenshots/demo-messages.jpg" width="230" alt="Populated private message threads in the fictional demo"></td>
+    <td align="center"><strong>Mentor profile</strong><br><img src="docs/screenshots/demo-mentor-profile.png" width="230" alt="Public mentor profile with hearts, sessions and days mentoring"></td>
+  </tr>
+  <tr>
+    <td align="center"><strong>Support</strong><br><img src="docs/screenshots/demo-support.jpg" width="230" alt="Upcoming fictional student and professional-led support spaces"></td>
+    <td align="center"><strong>Journey</strong><br><img src="docs/screenshots/demo-journey.jpg" width="230" alt="Private journey and reflection screen"></td>
+    <td align="center"><strong>Listening ear</strong><br><img src="docs/screenshots/demo-listening-ear.jpg" width="230" alt="Application screen for student peer listeners"></td>
   </tr>
 </table>
+
+The local Singapore pilot also includes an [event map screenshot](docs/screenshots/event-map.png). The [connection](docs/screenshots/devpost-connect.jpg) and [growth](docs/screenshots/devpost-grow.jpg) gallery images are sized for Devpost's 3:2 media display.
 
 ## What you can do
 
