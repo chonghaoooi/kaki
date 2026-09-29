@@ -10,7 +10,7 @@ The app includes an interactive iPhone/Pixel preview and a responsive desktop vi
 
 ## The problem and the idea
 
-Finding people at school is often harder than finding an event. Opportunities are scattered across feeds and chats, and a large event can be an awkward first step when you do not know anyone. kaki starts with a shared activity that is small, specific and easy to say yes to. One plan can lead to a conversation, a recurring club, mentorship or a support space.
+Finding people at school is often harder than finding an event. Opportunities are scattered across feeds and chats, and a large event can be an awkward first step when you do not know anyone. kaki starts with a shared activity that is small, specific and easy to say yes to. One plan can lead to a conversation, a recurring club, mentorship, a private reflection or a support space. The product explores belonging and interpersonal growth outside the classroom without claiming to deliver clinical care.
 
 **Who it is for:** students building a new circle at school, especially newcomers and students who prefer an activity as the starting point for connection. Peers can host plans; students can help in study sessions or apply to be a listening ear. Campus and age-community boundaries keep discovery relevant to eligible students.
 
@@ -21,6 +21,7 @@ Finding people at school is often harder than finding an event. Opportunities ar
 - **Mentorship is reciprocal and visible.** Students can join a study session as a peer or mentor. Public profiles show days mentoring, completed sessions and hearts from eligible past peers, without star ratings or invented credentials.
 - **Groups can choose a fair meeting place.** Club members privately contribute starting postal codes; the group sees suggested public venues rather than each person's exact starting point.
 - **Belonging includes support.** Student-led groups, illustrative facilitated groups, one-to-one requests and a listening-ear pathway sit alongside ordinary activities. Support participation stays private, and peer listening is clearly distinguished from professional care.
+- **Growth stays personal.** Students can keep private Journey reflections after participating, making room to notice what helped and what they want to try next without turning self-development into a public score.
 
 These are product design choices demonstrated in a prototype, not evidence of measured social or wellbeing outcomes.
 
