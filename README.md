@@ -14,7 +14,7 @@ Screenshots of the running mobile interface, using fictional demo profiles and a
 
 The [live Northstar Campus demo](https://kaki-orcin.vercel.app/) currently opens like this:
 
-<img src="docs/screenshots/northstar-demo.jpg" width="390" alt="Northstar Campus demo showing a fictional coding study session in the mobile preview"> <img src="docs/screenshots/northstar-mentors.jpg" width="390" alt="Northstar Campus mentor directory with a study banner and fictional mentor profiles">
+<img src="docs/screenshots/northstar-demo.jpg" width="320" alt="Northstar Campus demo showing a fictional coding study session in the mobile preview"> <img src="docs/screenshots/northstar-mentors.jpg" width="320" alt="Northstar Campus mentor directory with a study banner and fictional mentor profiles"> <img src="docs/screenshots/northstar-support.jpg" width="320" alt="Northstar Campus Support page with upcoming fictional support spaces">
 
 <table>
   <tr>
@@ -72,7 +72,7 @@ The build type-checks the frontend, generates its static assets and prepares Bro
 
 ### Browser-only Vercel demo
 
-The public [Vercel demo](https://kaki-orcin.vercel.app/) uses a bundled browser worker and WebAssembly database so visitors can try interactions without a server or real accounts. A Vercel-only fixture layer renames the setting to imaginary Northstar Campus and adds 15 upcoming activities, 6 populated DM threads, varied student portraits and activity/mentor photos. These records illustrate a used product; they are **not real users, adoption, attendance, or live services**. To reproduce its static deployment files after a build, run `node scripts/prepare-vercel-demo.mjs`; the output is `dist/vercel-demo`. Demo changes stay in the visitor's browser and can be reset there. The browser worker and WebAssembly files are built from this project's demo implementation; generated student photos are fictional OpenAI ImageGen assets. The worker bundle is included so static hosting retains the same demo behaviour.
+The public [Vercel demo](https://kaki-orcin.vercel.app/) uses a bundled browser worker and WebAssembly database so visitors can try interactions without a server or real accounts. A Vercel-only fixture layer renames the setting to imaginary Northstar Campus and adds 15 upcoming activities, 6 populated DM threads, 12 upcoming support spaces, richer club conversations, 3 sample private reflections, varied student portraits and activity/mentor photos. Support spaces cover small and large groups, one-to-one requests, student and illustrative professional facilitators, and full/waitlist states; demo joins and group messages work in the visitor's browser. These records illustrate a used product; they are **not real users, adoption, attendance, or live services**. To reproduce its static deployment files after a build, run `node scripts/prepare-vercel-demo.mjs`; the output is `dist/vercel-demo`. Demo changes stay in the visitor's browser and can be reset there. The browser worker and WebAssembly files are built from this project's demo implementation; generated student photos are fictional OpenAI ImageGen assets. The worker bundle is included so static hosting retains the same demo behaviour.
 
 ## Checks
 

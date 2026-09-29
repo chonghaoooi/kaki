@@ -46,6 +46,27 @@ const messageSets = {
   "polytechnic-p5": ["Thanks for listening after the welcome mixer.", "Of course. It was good to talk.", "There’s a low-pressure lunch table tomorrow if you’d like company."],
   "polytechnic-p6": ["Hey, your idea for a weekly maker club sounded great.", "Thanks! I’m hoping to get a small group together.", "Count me in. I can help plan the first meetup."],
 };
+const supportSpaces = [
+  ["A softer start", "settling-in", "student", "small-group", "in-person", 7, 4, "A small circle for finding your feet and familiar faces.", "Laila Morgan"],
+  ["Room to breathe", "study-pressure", "professional", "small-group", "online", 8, 5, "Talk through study pressure and everyday ways to pause.", "Avery Chen"],
+  ["Friends, at your pace", "friendships", "student", "small-group", "in-person", 7, 3, "For the awkward, hopeful first steps of making friends.", "Priya Shah"],
+  ["Finding your voice", "confidence", "professional", "large-group", "online", 18, 9, "A guided discussion about confidence and boundaries.", "Morgan Ellis"],
+  ["One change at a time", "life-changes", "student", "small-group", "online", 6, 2, "Share the changes you are navigating, or simply listen.", "Sam Rivera"],
+  ["A quiet check-in", "study-pressure", "professional", "one-to-one", "online", 1, 0, "Request a private sample conversation about study pressure.", "Jordan Lee"],
+  ["A listening ear", "friendships", "student", "one-to-one", "in-person", 1, 0, "A gentle one-to-one conversation with a student listener.", "Amira Hassan"],
+  ["You belong here", "settling-in", "professional", "large-group", "in-person", 20, 12, "A welcoming discussion about belonging on a new campus.", "Harper Reed"],
+  ["Before the next deadline", "study-pressure", "student", "small-group", "online", 6, 5, "A practical check-in for students juggling several deadlines.", "Leo Park"],
+  ["Small steps, more confidence", "confidence", "student", "small-group", "in-person", 6, 6, "Make space to practise speaking up with kind peers.", "Ava Brooks"],
+  ["Moving through change", "life-changes", "professional", "one-to-one", "online", 1, 1, "A sample individual conversation about changing routines.", "Renee Brooks"],
+  ["New friends, no pressure", "friendships", "student", "large-group", "in-person", 16, 10, "Come as you are and meet other students in small breakout circles.", "Sofia Chen"],
+];
+const supportLabels = { "settling-in": "Settling in", "study-pressure": "Study pressure", friendships: "Friendships", confidence: "Confidence", "life-changes": "Life changes" };
+const clubConversation = {
+  "polytechnic-c1": ["A phone camera is enough for the next photo walk.", "I tried the reflections idea from last time. It made the campus look new.", "Should we pick one tiny theme for our next meetup?"],
+  "polytechnic-c2": ["I finally got my project running after our last study table.", "Could we keep the next one beginner friendly? I can bring a few notes.", "Yes please. A calm hour and a coffee break sounds perfect."],
+  "polytechnic-c3": ["We can teach the rules before each game, so new people can join easily.", "I can bring a short co-op game and a deck of cards.", "Great. Let’s keep a seat open for anyone coming solo."],
+  "polytechnic-c4": ["Thanks for rotating partners last time—it made joining much easier.", "I can bring two spare rackets again.", "All levels welcome. We can play doubles and take plenty of breaks."],
+};
 
 function readStore() { try { return JSON.parse(localStorage.getItem(STORE) || "{}"); } catch { return {}; } }
 function writeStore(value) { localStorage.setItem(STORE, JSON.stringify(value)); }
@@ -113,7 +134,47 @@ function fixtureMessages(personId, userId) {
   const scripted = lines.map((text,i) => ({ id: `demo-dm-${personId}-${i}`, personId, senderId: i === 1 ? userId : personId, text, createdAt: stamp((lines.length - i) * 60 + Object.keys(messageSets).indexOf(personId) * 40), read: i !== 2 }));
   return [...scripted, ...(readStore().messages?.[personId] || [])];
 }
-export function decorate(path, method, payload) {
+function supportFixtures() {
+  const saved = readStore();
+  return supportSpaces.map(([title,need,leaderType,format,mode,capacity,occupied,summary,hostName],index) => {
+    const id = `northstar-support-${String(index+1).padStart(2,"0")}`;
+    const change = saved.support?.[id] || {};
+    const memberCount = occupied + (change.membership === "joined" || change.membership === "requested" ? 1 : 0);
+    const full = memberCount >= capacity;
+    const professional = leaderType === "professional";
+    return { id, title, summary,
+      description: `${summary} This is a fictional kaki demonstration. No live facilitator, appointment or clinical service is provided. Participation is always voluntary.`,
+      need, needLabel: supportLabels[need], leaderType, format, mode, capacity, memberCount,
+      spotsLeft: Math.max(0, capacity - memberCount), status: full ? "full" : "open",
+      date: day(2 + index * 2), time: index % 3 === 0 ? "16:00" : "17:00", durationMinutes: format === "one-to-one" ? 30 : 60,
+      location: mode === "online" ? "Online · no live meeting link in this demo" : `${CAMPUS} · Student commons (illustrative)`,
+      host: { name: hostName, role: professional ? "Professional facilitator · fictional sample" : "Student listener · fictional sample",
+        credentials: professional ? "Fictional sample facilitator; credentials have not been verified." : "Fictional peer listener; not a counsellor or clinician.",
+        bio: "A fictional host used to demonstrate how this support space could work. No real support session is provided.", verification: "demo" },
+      topics: [supportLabels[need], "Listening without judgement"],
+      expectations: ["Share only what you feel comfortable sharing.", "Respect privacy and do not share other members’ messages.", "Listen without diagnosing or pressuring anyone.", "Peer support is not emergency or clinical care."],
+      myMembership: change.membership || null, demoSample: true, isHost: false, isEnded: false,
+    };
+  });
+}
+function supportMessages(id) {
+  const group = supportFixtures().find(g => g.id === id);
+  if (!group) return [];
+  return [
+    { id: `${id}-welcome`, text: "Welcome to this fictional demo space. You can introduce yourself, share a small hope for the session, or simply listen.", senderName: group.host.name, mine: false, createdAt: stamp(260) },
+    { id: `${id}-hello`, text: "I like that listening first is okay here.", senderName: "Demo student", mine: false, createdAt: stamp(215) },
+    { id: `${id}-reply`, text: "Absolutely. There is no pressure to have the perfect words.", senderName: group.host.name, mine: false, createdAt: stamp(200) },
+    ...(readStore().supportMessages?.[id] || []),
+  ];
+}
+function sampleReflections() {
+  return [
+    { id: "northstar-reflection-1", text: "I went to a study table even though I almost turned back. It helped to start with one question.", tags: ["Tried something new", "Learned something"], createdAt: stamp(6 * 1440) },
+    { id: "northstar-reflection-2", text: "The board game group made it easy to talk without needing a big introduction.", tags: ["Met someone new", "Enjoyed it"], createdAt: stamp(3 * 1440) },
+    { id: "northstar-reflection-3", text: "A short walk after class was a better reset than scrolling alone.", tags: ["Had a good conversation", "Would do it again"], createdAt: stamp(1440) },
+  ];
+}
+export function decorate(path, method, payload, currentState) {
   const data = replaceLabels(payload);
   if (method !== "GET" || !data || typeof data !== "object") return data;
   if (path === "/api/state" && data.user?.network === "polytechnic") {
@@ -127,7 +188,20 @@ export function decorate(path, method, payload) {
     }).filter(Boolean);
     state.conversations = [...demoConversations, ...(state.conversations || []).filter(c => !messageSets[c.personId])];
     state.user.savedActivityIds = [...new Set([...(state.user.savedActivityIds || []), ...Object.entries(readStore().activities || {}).filter(([,v]) => v.saved).map(([id]) => id)])];
+    if (state.user.id === "polytechnic-p0" && state.user.name === "Jamie Tan") state.journey.reflections = [...sampleReflections(), ...(state.journey?.reflections || [])];
     return state;
+  }
+  if (path === "/api/support/groups" && Array.isArray(data.groups)) {
+    const fixtures = supportFixtures();
+    const fixtureTitles = new Set(fixtures.map(group => group.title.toLowerCase()));
+    data.groups = [...fixtures, ...data.groups.filter(group => !fixtureTitles.has(group.title.toLowerCase()))];
+  }
+  const club = path.match(/^\/api\/circles\/(polytechnic-c[1-4])\/messages$/);
+  if (club && currentState?.user?.network === "polytechnic" && Array.isArray(data.messages)) {
+    const lines = clubConversation[club[1]] || [];
+    const authors = ["polytechnic-p3", "polytechnic-p4", "polytechnic-p2"].map(id => currentState.people?.find(p => p.id === id));
+    const scripted = lines.map((text,i) => ({ id: `${club[1]}-demo-chat-${i}`, senderId: authors[i]?.id, author: authors[i], type: "message", text, createdAt: stamp((lines.length-i)*35) }));
+    data.messages = [...data.messages, ...scripted].sort((a,b) => String(a.createdAt).localeCompare(String(b.createdAt)));
   }
   if (path === "/api/neighbourhood/events" && Array.isArray(data.activities)) data.activities = data.activities.map(a => ({ ...a, demoVisual: true, image: photoFor(a) }));
   if (path.startsWith("/api/activities/") && data.activity) data.activity = { ...data.activity, demoVisual: true, image: photoFor(data.activity) };
@@ -148,6 +222,39 @@ function photoFor(activity) {
 }
 export function fixtureRequest(path, method, body, state) {
   if (!state?.user || state.user.network !== "polytechnic") return null;
+  const support = path.match(/^\/api\/support\/groups\/(northstar-support-\d+)(?:\/(join|membership|messages))?$/);
+  if (support) {
+    const id = support[1], action = support[2], group = supportFixtures().find(g => g.id === id);
+    if (!group) return { status: 404, body: { error: "Support space unavailable" } };
+    if (method === "GET" && !action) return { status: 200, body: { group } };
+    if (action === "join" && method === "POST") {
+      if (body?.acceptGuidelines !== true) return { status: 400, body: { error: "Please accept the group guidelines first." } };
+      const saved = readStore(); saved.support ||= {};
+      const change = saved.support[id] ||= {};
+      if (change.membership && change.membership !== "waitlisted") return { status: 200, body: { group } };
+      if (group.status === "full" && !body.waitlist) return { status: 409, body: { error: "This space is full. You can join its waitlist." } };
+      if (group.status === "open" && body.waitlist) return { status: 422, body: { error: "A spot is available. Choose the open place." } };
+      change.membership = group.status === "full" ? "waitlisted" : group.format === "one-to-one" ? "requested" : "joined";
+      writeStore(saved);
+      return { status: 200, body: { group: supportFixtures().find(g => g.id === id) } };
+    }
+    if (action === "membership" && method === "DELETE") {
+      const saved = readStore(); if (saved.support?.[id]) delete saved.support[id]; writeStore(saved);
+      return { status: 200, body: { group: supportFixtures().find(g => g.id === id) } };
+    }
+    if (action === "messages") {
+      if (group.myMembership !== "joined") return { status: 403, body: { error: "Join this group before reading its discussion." } };
+      if (method === "GET") return { status: 200, body: { messages: supportMessages(id) } };
+      if (method === "POST") {
+        const text = String(body?.text || "").trim();
+        if (!text || text.length > 1200) return { status: 400, body: { error: "Write a message of up to 1200 characters." } };
+        const saved = readStore(); saved.supportMessages ||= {};
+        (saved.supportMessages[id] ||= []).push({ id: `northstar-support-message-${Date.now()}`, text, senderName: state.user.name, mine: true, createdAt: new Date().toISOString() });
+        writeStore(saved);
+        return { status: 201, body: { messages: supportMessages(id) } };
+      }
+    }
+  }
   const match = path.match(/^\/api\/activities\/(northstar-demo-\d+)(?:\/(join|leave|save))?$/);
   if (match) {
     const activity = fixtureActivities(state).find(a => a.id === match[1]);

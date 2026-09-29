@@ -48,7 +48,7 @@ window.fetch = async (input, options = {}) => {
     if (fixture) return new Response(JSON.stringify(fixture.body), { status: fixture.status, headers: { "Content-Type": "application/json" } });
     const response = await send({ path: input, method, body: options.body });
     if (!response.ok || !response.headers.get("Content-Type")?.includes("json")) return response;
-    const payload = decorate(input, method, await response.json());
+    const payload = decorate(input, method, await response.json(), latestState);
     if (input === "/api/state") latestState = payload;
     return new Response(JSON.stringify(payload), { status: response.status, headers: { "Content-Type": "application/json" } });
   }
